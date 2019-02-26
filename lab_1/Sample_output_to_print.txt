@@ -1,0 +1,2586 @@
+3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 17:26:49) [MSC v.1900 32 bit (Intel)]
+Python Type "help", "copyright", "credits" or "license" for more information.
+[evaluate LA1_imcomplete_solution.py]
+enqueue 0 a 1 packet enqueued, QueueSize 1
+enqueue 0 a 2 packet enqueued, QueueSize 2
+enqueue 0 a 3 packet enqueued, QueueSize 3
+enqueue 0 a 4 packet enqueued, QueueSize 4
+enqueue 0 a 5 packet enqueued, QueueSize 5
+enqueue 0 a 6 packet enqueued, QueueSize 6
+enqueue 0 a 7 packet enqueued, QueueSize 7
+enqueue 0 a 8 packet enqueued, QueueSize 8
+enqueue 0 a 9 packet enqueued, QueueSize 9
+enqueue 0 a 10 packet enqueued, QueueSize 10
+enqueue 0 a 11 packet enqueued, QueueSize 11
+enqueue 0 a 12 packet enqueued, QueueSize 12
+enqueue 0 a 13 packet enqueued, QueueSize 13
+enqueue 0 a 14 packet enqueued, QueueSize 14
+enqueue 0 a 15 packet enqueued, QueueSize 15
+enqueue 0 a 16 packet enqueued, QueueSize 16
+enqueue 0 a 17 packet enqueued, QueueSize 17
+enqueue 0 a 18 packet enqueued, QueueSize 18
+enqueue 0 a 19 packet enqueued, QueueSize 19
+enqueue 0 a 20 packet enqueued, QueueSize 20
+enqueue 0 b 201 packet enqueued, QueueSize 1
+enqueue 0 b 202 packet enqueued, QueueSize 2
+enqueue 0 b 203 packet enqueued, QueueSize 3
+enqueue 0 b 204 packet enqueued, QueueSize 4
+enqueue 0 b 205 packet enqueued, QueueSize 5
+transmit 0 a False transmitting packet 1
+transmit 0 b False transmitting packet 201
+enqueue 11 c 1 packet enqueued, QueueSize 1
+enqueue 11 c 201 packet enqueued, QueueSize 2
+transmit 11 c False transmitting packet 1
+transmit 22 a True transmitting packet 2
+transmit 22 b True transmitting packet 202
+enqueue 22 d 1 packet enqueued, QueueSize 1
+transmit 22 d False transmitting packet 1
+enqueue 33 c 2 packet enqueued, QueueSize 3
+enqueue 33 c 202 packet enqueued, QueueSize 4
+transmit 33 c True transmitting packet 201
+transmit 44 a True transmitting packet 3
+transmit 44 b True transmitting packet 203
+enqueue 44 d 201 packet enqueued, QueueSize 2
+enqueue 47 e 1 packet enqueued, QueueSize 1
+enqueue 55 c 3 packet enqueued, QueueSize 4
+enqueue 55 c 203 packet enqueued, QueueSize 5
+transmit 55 c True transmitting packet 2
+transmit 66 a True transmitting packet 4
+transmit 66 b True transmitting packet 204
+enqueue 66 d 2 packet enqueued, QueueSize 3
+transmit 72 d True transmitting packet 201
+enqueue 77 c 4 packet enqueued, QueueSize 5
+enqueue 77 c 204 packet enqueued, QueueSize 6
+transmit 77 c True transmitting packet 202
+transmit 88 a True transmitting packet 5
+transmit 88 b True transmitting packet 205
+enqueue 88 d 202 packet enqueued, QueueSize 3
+enqueue 97 e 201 packet enqueued, QueueSize 2
+enqueue 99 c 5 packet enqueued, QueueSize 6
+enqueue 99 c 205 packet enqueued, QueueSize 7
+transmit 99 c True transmitting packet 3
+transmit 110 a True transmitting packet 6
+transmit 110 b True empty queue, no packet to transmit
+enqueue 110 d 3 packet enqueued, QueueSize 4
+enqueue 121 c 6 packet enqueued, QueueSize 7
+transmit 121 c True transmitting packet 203
+transmit 122 d True transmitting packet 2
+transmit 132 a True transmitting packet 7
+enqueue 132 d 203 packet enqueued, QueueSize 4
+enqueue 143 c 7 packet enqueued, QueueSize 7
+transmit 143 c True transmitting packet 4
+enqueue 147 e 2 packet enqueued, QueueSize 3
+transmit 154 a True transmitting packet 8
+enqueue 154 d 4 packet enqueued, QueueSize 5
+enqueue 165 c 8 packet enqueued, QueueSize 7
+transmit 165 c True transmitting packet 204
+transmit 172 d True transmitting packet 202
+transmit 176 a True transmitting packet 9
+enqueue 176 d 204 packet enqueued, QueueSize 5
+enqueue 187 c 9 packet enqueued, QueueSize 7
+transmit 187 c True transmitting packet 5
+enqueue 197 e 202 packet enqueued, QueueSize 4
+transmit 198 a True transmitting packet 10
+enqueue 198 d 5 packet enqueued, QueueSize 6
+enqueue 209 c 10 packet enqueued, QueueSize 7
+transmit 209 c True transmitting packet 205
+transmit 220 a True transmitting packet 11
+enqueue 220 d 205 packet enqueued, QueueSize 7
+transmit 222 d True transmitting packet 3
+enqueue 231 c 11 packet enqueued, QueueSize 7
+transmit 231 c True transmitting packet 6
+transmit 242 a True transmitting packet 12
+enqueue 242 d 6 packet enqueued, QueueSize 7
+enqueue 247 e 3 packet enqueued, QueueSize 5
+enqueue 253 c 12 packet enqueued, QueueSize 7
+transmit 253 c True transmitting packet 7
+transmit 264 a True transmitting packet 13
+enqueue 264 d 7 packet enqueued, QueueSize 8
+transmit 272 d True transmitting packet 203
+enqueue 275 c 13 packet enqueued, QueueSize 7
+transmit 275 c True transmitting packet 8
+transmit 286 a True transmitting packet 14
+enqueue 286 d 8 packet enqueued, QueueSize 8
+enqueue 297 e 203 packet enqueued, QueueSize 6
+enqueue 297 c 14 packet enqueued, QueueSize 7
+transmit 297 c True transmitting packet 9
+transmit 308 a True transmitting packet 15
+enqueue 308 d 9 packet enqueued, QueueSize 9
+enqueue 319 c 15 packet enqueued, QueueSize 7
+transmit 319 c True transmitting packet 10
+transmit 322 d True transmitting packet 4
+transmit 330 a True transmitting packet 16
+enqueue 330 d 10 packet enqueued, QueueSize 9
+enqueue 341 c 16 packet enqueued, QueueSize 7
+transmit 341 c True transmitting packet 11
+enqueue 347 e 4 packet enqueued, QueueSize 7
+transmit 352 a True transmitting packet 17
+enqueue 352 d 11 packet enqueued, QueueSize 10
+enqueue 363 c 17 packet enqueued, QueueSize 7
+transmit 363 c True transmitting packet 12
+transmit 372 d True transmitting packet 204
+transmit 374 a True transmitting packet 18
+enqueue 374 d 12 packet enqueued, QueueSize 10
+enqueue 385 c 18 packet enqueued, QueueSize 7
+transmit 385 c True transmitting packet 13
+transmit 396 a True transmitting packet 19
+enqueue 396 d 13 packet enqueued, QueueSize 11
+enqueue 397 e 204 packet enqueued, QueueSize 8
+enqueue 407 c 19 packet enqueued, QueueSize 7
+transmit 407 c True transmitting packet 14
+transmit 418 a True transmitting packet 20
+enqueue 418 d 14 packet enqueued, QueueSize 12
+transmit 422 d True transmitting packet 5
+enqueue 429 c 20 packet enqueued, QueueSize 7
+transmit 429 c True transmitting packet 15
+transmit 440 a True empty queue, no packet to transmit
+enqueue 440 d 15 packet enqueued, QueueSize 12
+enqueue 447 e 5 packet enqueued, QueueSize 9
+transmit 451 c True transmitting packet 16
+enqueue 462 d 16 packet enqueued, QueueSize 13
+transmit 472 d True transmitting packet 205
+transmit 473 c True transmitting packet 17
+enqueue 484 d 17 packet enqueued, QueueSize 13
+transmit 495 c True transmitting packet 18
+enqueue 497 e 205 packet enqueued, QueueSize 10
+enqueue 500 b 206 packet enqueued, QueueSize 1
+enqueue 500 b 207 packet enqueued, QueueSize 2
+enqueue 500 b 208 packet enqueued, QueueSize 3
+enqueue 500 b 209 packet enqueued, QueueSize 4
+enqueue 500 b 210 packet enqueued, QueueSize 5
+transmit 500 b False transmitting packet 206
+enqueue 506 d 18 packet enqueued, QueueSize 14
+enqueue 511 c 206 packet enqueued, QueueSize 4
+transmit 517 c True transmitting packet 19
+transmit 522 d True transmitting packet 6
+transmit 522 b True transmitting packet 207
+enqueue 528 d 19 packet enqueued, QueueSize 14
+enqueue 533 c 207 packet enqueued, QueueSize 4
+transmit 539 c True transmitting packet 20
+transmit 544 b True transmitting packet 208
+enqueue 547 e 6 packet enqueued, QueueSize 11
+enqueue 550 d 20 packet enqueued, QueueSize 15
+enqueue 555 c 208 packet enqueued, QueueSize 4
+transmit 561 c True transmitting packet 206
+transmit 566 b True transmitting packet 209
+transmit 572 d True transmitting packet 7
+enqueue 572 d 206 packet enqueued, QueueSize 15
+enqueue 577 c 209 packet enqueued, QueueSize 4
+transmit 583 c True transmitting packet 207
+transmit 588 b True transmitting packet 210
+enqueue 594 d 207 packet enqueued, QueueSize 16
+enqueue 597 e 7 packet enqueued, QueueSize 12
+enqueue 599 c 210 packet enqueued, QueueSize 4
+transmit 605 c True transmitting packet 208
+transmit 610 b True empty queue, no packet to transmit
+enqueue 616 d 208 packet enqueued, QueueSize 17
+transmit 622 d True transmitting packet 8
+transmit 627 c True transmitting packet 209
+enqueue 638 d 209 packet enqueued, QueueSize 17
+enqueue 647 e 8 packet enqueued, QueueSize 13
+transmit 649 c True transmitting packet 210
+enqueue 660 d 210 packet enqueued, QueueSize 18
+transmit 671 c True empty queue, no packet to transmit
+transmit 672 d True transmitting packet 9
+enqueue 697 e 9 packet enqueued, QueueSize 14
+transmit 722 d True transmitting packet 10
+enqueue 747 e 10 packet enqueued, QueueSize 15
+transmit 772 d True transmitting packet 11
+enqueue 797 e 11 packet enqueued, QueueSize 16
+transmit 822 d True transmitting packet 12
+enqueue 847 e 12 packet enqueued, QueueSize 17
+transmit 872 d True transmitting packet 13
+enqueue 897 e 13 packet enqueued, QueueSize 18
+transmit 922 d True transmitting packet 14
+enqueue 947 e 14 packet enqueued, QueueSize 19
+transmit 972 d True transmitting packet 15
+enqueue 997 e 15 packet enqueued, QueueSize 20
+enqueue 1000 a 21 packet enqueued, QueueSize 1
+enqueue 1000 a 22 packet enqueued, QueueSize 2
+enqueue 1000 a 23 packet enqueued, QueueSize 3
+enqueue 1000 a 24 packet enqueued, QueueSize 4
+enqueue 1000 a 25 packet enqueued, QueueSize 5
+enqueue 1000 a 26 packet enqueued, QueueSize 6
+enqueue 1000 a 27 packet enqueued, QueueSize 7
+enqueue 1000 a 28 packet enqueued, QueueSize 8
+enqueue 1000 a 29 packet enqueued, QueueSize 9
+enqueue 1000 a 30 packet enqueued, QueueSize 10
+enqueue 1000 a 31 packet enqueued, QueueSize 11
+enqueue 1000 a 32 packet enqueued, QueueSize 12
+enqueue 1000 a 33 packet enqueued, QueueSize 13
+enqueue 1000 a 34 packet enqueued, QueueSize 14
+enqueue 1000 a 35 packet enqueued, QueueSize 15
+enqueue 1000 a 36 packet enqueued, QueueSize 16
+enqueue 1000 a 37 packet enqueued, QueueSize 17
+enqueue 1000 a 38 packet enqueued, QueueSize 18
+enqueue 1000 a 39 packet enqueued, QueueSize 19
+enqueue 1000 a 40 packet enqueued, QueueSize 20
+enqueue 1000 b 211 packet enqueued, QueueSize 1
+enqueue 1000 b 212 packet enqueued, QueueSize 2
+enqueue 1000 b 213 packet enqueued, QueueSize 3
+enqueue 1000 b 214 packet enqueued, QueueSize 4
+enqueue 1000 b 215 packet enqueued, QueueSize 5
+transmit 1000 a False transmitting packet 21
+transmit 1000 b False transmitting packet 211
+enqueue 1011 c 21 packet enqueued, QueueSize 1
+enqueue 1011 c 211 packet enqueued, QueueSize 2
+transmit 1011 c False transmitting packet 21
+transmit 1022 d True transmitting packet 16
+transmit 1022 a True transmitting packet 22
+transmit 1022 b True transmitting packet 212
+enqueue 1022 d 21 packet enqueued, QueueSize 11
+enqueue 1033 c 22 packet enqueued, QueueSize 3
+enqueue 1033 c 212 packet enqueued, QueueSize 4
+transmit 1033 c True transmitting packet 211
+transmit 1044 a True transmitting packet 23
+transmit 1044 b True transmitting packet 213
+enqueue 1044 d 211 packet enqueued, QueueSize 12
+enqueue 1047 e 16 packet enqueued, QueueSize 21
+enqueue 1055 c 23 packet enqueued, QueueSize 4
+enqueue 1055 c 213 packet enqueued, QueueSize 5
+transmit 1055 c True transmitting packet 22
+transmit 1066 a True transmitting packet 24
+transmit 1066 b True transmitting packet 214
+enqueue 1066 d 22 packet enqueued, QueueSize 13
+transmit 1072 d True transmitting packet 17
+enqueue 1077 c 24 packet enqueued, QueueSize 5
+enqueue 1077 c 214 packet enqueued, QueueSize 6
+transmit 1077 c True transmitting packet 212
+transmit 1088 a True transmitting packet 25
+transmit 1088 b True transmitting packet 215
+enqueue 1088 d 212 packet enqueued, QueueSize 13
+enqueue 1097 e 17 packet enqueued, QueueSize 22
+enqueue 1099 c 25 packet enqueued, QueueSize 6
+enqueue 1099 c 215 packet enqueued, QueueSize 7
+transmit 1099 c True transmitting packet 23
+transmit 1110 a True transmitting packet 26
+transmit 1110 b True empty queue, no packet to transmit
+enqueue 1110 d 23 packet enqueued, QueueSize 14
+enqueue 1121 c 26 packet enqueued, QueueSize 7
+transmit 1121 c True transmitting packet 213
+transmit 1122 d True transmitting packet 18
+transmit 1132 a True transmitting packet 27
+enqueue 1132 d 213 packet enqueued, QueueSize 14
+enqueue 1143 c 27 packet enqueued, QueueSize 7
+transmit 1143 c True transmitting packet 24
+enqueue 1147 e 18 packet enqueued, QueueSize 23
+transmit 1154 a True transmitting packet 28
+enqueue 1154 d 24 packet enqueued, QueueSize 15
+enqueue 1165 c 28 packet enqueued, QueueSize 7
+transmit 1165 c True transmitting packet 214
+transmit 1172 d True transmitting packet 19
+transmit 1176 a True transmitting packet 29
+enqueue 1176 d 214 packet enqueued, QueueSize 15
+enqueue 1187 c 29 packet enqueued, QueueSize 7
+transmit 1187 c True transmitting packet 25
+enqueue 1197 e 19 packet enqueued, QueueSize 24
+transmit 1198 a True transmitting packet 30
+enqueue 1198 d 25 packet enqueued, QueueSize 16
+enqueue 1209 c 30 packet enqueued, QueueSize 7
+transmit 1209 c True transmitting packet 215
+transmit 1220 a True transmitting packet 31
+enqueue 1220 d 215 packet enqueued, QueueSize 17
+transmit 1222 d True transmitting packet 20
+enqueue 1231 c 31 packet enqueued, QueueSize 7
+transmit 1231 c True transmitting packet 26
+transmit 1242 a True transmitting packet 32
+enqueue 1242 d 26 packet enqueued, QueueSize 17
+enqueue 1247 e 20 packet enqueued, QueueSize 25
+enqueue 1253 c 32 packet enqueued, QueueSize 7
+transmit 1253 c True transmitting packet 27
+transmit 1264 a True transmitting packet 33
+enqueue 1264 d 27 packet enqueued, QueueSize 18
+transmit 1272 d True transmitting packet 206
+enqueue 1275 c 33 packet enqueued, QueueSize 7
+transmit 1275 c True transmitting packet 28
+transmit 1286 a True transmitting packet 34
+enqueue 1286 d 28 packet enqueued, QueueSize 18
+enqueue 1297 e 206 packet enqueued, QueueSize 26
+enqueue 1297 c 34 packet enqueued, QueueSize 7
+transmit 1297 c True transmitting packet 29
+transmit 1308 a True transmitting packet 35
+enqueue 1308 d 29 packet enqueued, QueueSize 19
+enqueue 1319 c 35 packet enqueued, QueueSize 7
+transmit 1319 c True transmitting packet 30
+transmit 1322 d True transmitting packet 207
+transmit 1330 a True transmitting packet 36
+enqueue 1330 d 30 packet enqueued, QueueSize 19
+enqueue 1341 c 36 packet enqueued, QueueSize 7
+transmit 1341 c True transmitting packet 31
+enqueue 1347 e 207 packet enqueued, QueueSize 27
+transmit 1352 a True transmitting packet 37
+enqueue 1352 d 31 packet enqueued, QueueSize 20
+enqueue 1363 c 37 packet enqueued, QueueSize 7
+transmit 1363 c True transmitting packet 32
+transmit 1372 d True transmitting packet 208
+transmit 1374 a True transmitting packet 38
+enqueue 1374 d 32 packet enqueued, QueueSize 20
+enqueue 1385 c 38 packet enqueued, QueueSize 7
+transmit 1385 c True transmitting packet 33
+transmit 1396 a True transmitting packet 39
+enqueue 1396 d 33 packet enqueued, QueueSize 21
+enqueue 1397 e 208 packet enqueued, QueueSize 28
+enqueue 1407 c 39 packet enqueued, QueueSize 7
+transmit 1407 c True transmitting packet 34
+transmit 1418 a True transmitting packet 40
+enqueue 1418 d 34 packet enqueued, QueueSize 22
+transmit 1422 d True transmitting packet 209
+enqueue 1429 c 40 packet enqueued, QueueSize 7
+transmit 1429 c True transmitting packet 35
+transmit 1440 a True empty queue, no packet to transmit
+enqueue 1440 d 35 packet enqueued, QueueSize 22
+enqueue 1447 e 209 packet enqueued, QueueSize 29
+transmit 1451 c True transmitting packet 36
+enqueue 1462 d 36 packet enqueued, QueueSize 23
+transmit 1472 d True transmitting packet 210
+transmit 1473 c True transmitting packet 37
+enqueue 1484 d 37 packet enqueued, QueueSize 23
+transmit 1495 c True transmitting packet 38
+enqueue 1497 e 210 packet enqueued, QueueSize 30
+enqueue 1500 b 216 packet enqueued, QueueSize 1
+enqueue 1500 b 217 packet enqueued, QueueSize 2
+enqueue 1500 b 218 packet enqueued, QueueSize 3
+enqueue 1500 b 219 packet enqueued, QueueSize 4
+enqueue 1500 b 220 packet enqueued, QueueSize 5
+transmit 1500 b False transmitting packet 216
+enqueue 1506 d 38 packet enqueued, QueueSize 24
+enqueue 1511 c 216 packet enqueued, QueueSize 4
+transmit 1517 c True transmitting packet 39
+transmit 1522 d True transmitting packet 21
+transmit 1522 b True transmitting packet 217
+enqueue 1528 d 39 packet enqueued, QueueSize 24
+enqueue 1533 c 217 packet enqueued, QueueSize 4
+transmit 1539 c True transmitting packet 40
+transmit 1544 b True transmitting packet 218
+enqueue 1547 e 21 packet enqueued, QueueSize 31
+enqueue 1550 d 40 packet enqueued, QueueSize 25
+enqueue 1555 c 218 packet enqueued, QueueSize 4
+transmit 1561 c True transmitting packet 216
+transmit 1566 b True transmitting packet 219
+transmit 1572 d True transmitting packet 211
+enqueue 1572 d 216 packet enqueued, QueueSize 25
+enqueue 1577 c 219 packet enqueued, QueueSize 4
+transmit 1583 c True transmitting packet 217
+transmit 1588 b True transmitting packet 220
+enqueue 1594 d 217 packet enqueued, QueueSize 26
+enqueue 1597 e 211 packet enqueued, QueueSize 32
+enqueue 1599 c 220 packet enqueued, QueueSize 4
+transmit 1605 c True transmitting packet 218
+transmit 1610 b True empty queue, no packet to transmit
+enqueue 1616 d 218 packet enqueued, QueueSize 27
+transmit 1622 d True transmitting packet 22
+transmit 1627 c True transmitting packet 219
+enqueue 1638 d 219 packet enqueued, QueueSize 27
+enqueue 1647 e 22 packet enqueued, QueueSize 33
+transmit 1649 c True transmitting packet 220
+enqueue 1660 d 220 packet enqueued, QueueSize 28
+transmit 1671 c True empty queue, no packet to transmit
+transmit 1672 d True transmitting packet 212
+enqueue 1697 e 212 packet enqueued, QueueSize 34
+transmit 1722 d True transmitting packet 23
+enqueue 1747 e 23 packet enqueued, QueueSize 35
+transmit 1772 d True transmitting packet 213
+enqueue 1797 e 213 packet enqueued, QueueSize 36
+transmit 1822 d True transmitting packet 24
+enqueue 1847 e 24 packet enqueued, QueueSize 37
+transmit 1872 d True transmitting packet 214
+enqueue 1897 e 214 packet enqueued, QueueSize 38
+transmit 1922 d True transmitting packet 25
+enqueue 1947 e 25 packet enqueued, QueueSize 39
+transmit 1972 d True transmitting packet 215
+enqueue 1997 e 215 packet enqueued, QueueSize 40
+enqueue 2000 a 41 packet enqueued, QueueSize 1
+enqueue 2000 a 42 packet enqueued, QueueSize 2
+enqueue 2000 a 43 packet enqueued, QueueSize 3
+enqueue 2000 a 44 packet enqueued, QueueSize 4
+enqueue 2000 a 45 packet enqueued, QueueSize 5
+enqueue 2000 a 46 packet enqueued, QueueSize 6
+enqueue 2000 a 47 packet enqueued, QueueSize 7
+enqueue 2000 a 48 packet enqueued, QueueSize 8
+enqueue 2000 a 49 packet enqueued, QueueSize 9
+enqueue 2000 a 50 packet enqueued, QueueSize 10
+enqueue 2000 a 51 packet enqueued, QueueSize 11
+enqueue 2000 a 52 packet enqueued, QueueSize 12
+enqueue 2000 a 53 packet enqueued, QueueSize 13
+enqueue 2000 a 54 packet enqueued, QueueSize 14
+enqueue 2000 a 55 packet enqueued, QueueSize 15
+enqueue 2000 a 56 packet enqueued, QueueSize 16
+enqueue 2000 a 57 packet enqueued, QueueSize 17
+enqueue 2000 a 58 packet enqueued, QueueSize 18
+enqueue 2000 a 59 packet enqueued, QueueSize 19
+enqueue 2000 a 60 packet enqueued, QueueSize 20
+enqueue 2000 b 221 packet enqueued, QueueSize 1
+enqueue 2000 b 222 packet enqueued, QueueSize 2
+enqueue 2000 b 223 packet enqueued, QueueSize 3
+enqueue 2000 b 224 packet enqueued, QueueSize 4
+enqueue 2000 b 225 packet enqueued, QueueSize 5
+transmit 2000 a False transmitting packet 41
+transmit 2000 b False transmitting packet 221
+enqueue 2011 c 41 packet enqueued, QueueSize 1
+enqueue 2011 c 221 packet enqueued, QueueSize 2
+transmit 2011 c False transmitting packet 41
+transmit 2022 d True transmitting packet 26
+transmit 2022 a True transmitting packet 42
+transmit 2022 b True transmitting packet 222
+enqueue 2022 d 41 packet enqueued, QueueSize 21
+enqueue 2033 c 42 packet enqueued, QueueSize 3
+enqueue 2033 c 222 packet enqueued, QueueSize 4
+transmit 2033 c True transmitting packet 221
+transmit 2044 a True transmitting packet 43
+transmit 2044 b True transmitting packet 223
+enqueue 2044 d 221 packet enqueued, QueueSize 22
+enqueue 2047 e 26 packet enqueued, QueueSize 41
+enqueue 2055 c 43 packet enqueued, QueueSize 4
+enqueue 2055 c 223 packet enqueued, QueueSize 5
+transmit 2055 c True transmitting packet 42
+transmit 2066 a True transmitting packet 44
+transmit 2066 b True transmitting packet 224
+enqueue 2066 d 42 packet enqueued, QueueSize 23
+transmit 2072 d True transmitting packet 27
+enqueue 2077 c 44 packet enqueued, QueueSize 5
+enqueue 2077 c 224 packet enqueued, QueueSize 6
+transmit 2077 c True transmitting packet 222
+transmit 2088 a True transmitting packet 45
+transmit 2088 b True transmitting packet 225
+enqueue 2088 d 222 packet enqueued, QueueSize 23
+enqueue 2097 e 27 packet enqueued, QueueSize 42
+enqueue 2099 c 45 packet enqueued, QueueSize 6
+enqueue 2099 c 225 packet enqueued, QueueSize 7
+transmit 2099 c True transmitting packet 43
+transmit 2110 a True transmitting packet 46
+transmit 2110 b True empty queue, no packet to transmit
+enqueue 2110 d 43 packet enqueued, QueueSize 24
+enqueue 2121 c 46 packet enqueued, QueueSize 7
+transmit 2121 c True transmitting packet 223
+transmit 2122 d True transmitting packet 28
+transmit 2132 a True transmitting packet 47
+enqueue 2132 d 223 packet enqueued, QueueSize 24
+enqueue 2143 c 47 packet enqueued, QueueSize 7
+transmit 2143 c True transmitting packet 44
+enqueue 2147 e 28 packet enqueued, QueueSize 43
+transmit 2154 a True transmitting packet 48
+enqueue 2154 d 44 packet enqueued, QueueSize 25
+enqueue 2165 c 48 packet enqueued, QueueSize 7
+transmit 2165 c True transmitting packet 224
+transmit 2172 d True transmitting packet 29
+transmit 2176 a True transmitting packet 49
+enqueue 2176 d 224 packet enqueued, QueueSize 25
+enqueue 2187 c 49 packet enqueued, QueueSize 7
+transmit 2187 c True transmitting packet 45
+enqueue 2197 e 29 packet enqueued, QueueSize 44
+transmit 2198 a True transmitting packet 50
+enqueue 2198 d 45 packet enqueued, QueueSize 26
+enqueue 2209 c 50 packet enqueued, QueueSize 7
+transmit 2209 c True transmitting packet 225
+transmit 2220 a True transmitting packet 51
+enqueue 2220 d 225 packet enqueued, QueueSize 27
+transmit 2222 d True transmitting packet 30
+enqueue 2231 c 51 packet enqueued, QueueSize 7
+transmit 2231 c True transmitting packet 46
+transmit 2242 a True transmitting packet 52
+enqueue 2242 d 46 packet enqueued, QueueSize 27
+enqueue 2247 e 30 packet enqueued, QueueSize 45
+enqueue 2253 c 52 packet enqueued, QueueSize 7
+transmit 2253 c True transmitting packet 47
+transmit 2264 a True transmitting packet 53
+enqueue 2264 d 47 packet enqueued, QueueSize 28
+transmit 2272 d True transmitting packet 31
+enqueue 2275 c 53 packet enqueued, QueueSize 7
+transmit 2275 c True transmitting packet 48
+transmit 2286 a True transmitting packet 54
+enqueue 2286 d 48 packet enqueued, QueueSize 28
+enqueue 2297 e 31 packet enqueued, QueueSize 46
+enqueue 2297 c 54 packet enqueued, QueueSize 7
+transmit 2297 c True transmitting packet 49
+transmit 2308 a True transmitting packet 55
+enqueue 2308 d 49 packet enqueued, QueueSize 29
+enqueue 2319 c 55 packet enqueued, QueueSize 7
+transmit 2319 c True transmitting packet 50
+transmit 2322 d True transmitting packet 32
+transmit 2330 a True transmitting packet 56
+enqueue 2330 d 50 packet enqueued, QueueSize 29
+enqueue 2341 c 56 packet enqueued, QueueSize 7
+transmit 2341 c True transmitting packet 51
+enqueue 2347 e 32 packet enqueued, QueueSize 47
+transmit 2352 a True transmitting packet 57
+enqueue 2352 d 51 packet enqueued, QueueSize 30
+enqueue 2363 c 57 packet enqueued, QueueSize 7
+transmit 2363 c True transmitting packet 52
+transmit 2372 d True transmitting packet 33
+transmit 2374 a True transmitting packet 58
+enqueue 2374 d 52 packet enqueued, QueueSize 30
+enqueue 2385 c 58 packet enqueued, QueueSize 7
+transmit 2385 c True transmitting packet 53
+transmit 2396 a True transmitting packet 59
+enqueue 2396 d 53 packet enqueued, QueueSize 31
+enqueue 2397 e 33 packet enqueued, QueueSize 48
+enqueue 2407 c 59 packet enqueued, QueueSize 7
+transmit 2407 c True transmitting packet 54
+transmit 2418 a True transmitting packet 60
+enqueue 2418 d 54 packet enqueued, QueueSize 32
+transmit 2422 d True transmitting packet 34
+enqueue 2429 c 60 packet enqueued, QueueSize 7
+transmit 2429 c True transmitting packet 55
+transmit 2440 a True empty queue, no packet to transmit
+enqueue 2440 d 55 packet enqueued, QueueSize 32
+enqueue 2447 e 34 packet enqueued, QueueSize 49
+transmit 2451 c True transmitting packet 56
+enqueue 2462 d 56 packet enqueued, QueueSize 33
+transmit 2472 d True transmitting packet 35
+transmit 2473 c True transmitting packet 57
+enqueue 2484 d 57 packet enqueued, QueueSize 33
+transmit 2495 c True transmitting packet 58
+enqueue 2497 e 35 packet enqueued, QueueSize 50
+enqueue 2500 b 226 packet enqueued, QueueSize 1
+enqueue 2500 b 227 packet enqueued, QueueSize 2
+enqueue 2500 b 228 packet enqueued, QueueSize 3
+enqueue 2500 b 229 packet enqueued, QueueSize 4
+enqueue 2500 b 230 packet enqueued, QueueSize 5
+transmit 2500 b False transmitting packet 226
+enqueue 2506 d 58 packet enqueued, QueueSize 34
+enqueue 2511 c 226 packet enqueued, QueueSize 4
+transmit 2517 c True transmitting packet 59
+transmit 2522 d True transmitting packet 36
+transmit 2522 b True transmitting packet 227
+enqueue 2528 d 59 packet enqueued, QueueSize 34
+enqueue 2533 c 227 packet enqueued, QueueSize 4
+transmit 2539 c True transmitting packet 60
+transmit 2544 b True transmitting packet 228
+enqueue 2547 e 36 packet enqueued, QueueSize 51
+enqueue 2550 d 60 packet enqueued, QueueSize 35
+enqueue 2555 c 228 packet enqueued, QueueSize 4
+transmit 2561 c True transmitting packet 226
+transmit 2566 b True transmitting packet 229
+transmit 2572 d True transmitting packet 37
+enqueue 2572 d 226 packet enqueued, QueueSize 35
+enqueue 2577 c 229 packet enqueued, QueueSize 4
+transmit 2583 c True transmitting packet 227
+transmit 2588 b True transmitting packet 230
+enqueue 2594 d 227 packet dropped, queue is full
+enqueue 2597 e 37 packet enqueued, QueueSize 52
+enqueue 2599 c 230 packet enqueued, QueueSize 4
+transmit 2605 c False transmitting packet 227
+transmit 2610 b True empty queue, no packet to transmit
+enqueue 2616 d 227 packet dropped, queue is full
+transmit 2622 d True transmitting packet 38
+transmit 2627 c False transmitting packet 227
+enqueue 2638 d 227 packet enqueued, QueueSize 35
+enqueue 2647 e 38 packet enqueued, QueueSize 53
+transmit 2649 c True transmitting packet 228
+enqueue 2660 d 228 packet dropped, queue is full
+transmit 2671 c False transmitting packet 228
+transmit 2672 d True transmitting packet 39
+enqueue 2682 d 228 packet enqueued, QueueSize 35
+transmit 2693 c True transmitting packet 229
+enqueue 2697 e 39 packet enqueued, QueueSize 54
+enqueue 2704 d 229 packet dropped, queue is full
+transmit 2715 c False transmitting packet 229
+transmit 2722 d True transmitting packet 40
+enqueue 2726 d 229 packet enqueued, QueueSize 35
+transmit 2737 c True transmitting packet 230
+enqueue 2747 e 40 packet enqueued, QueueSize 55
+enqueue 2748 d 230 packet dropped, queue is full
+transmit 2759 c False transmitting packet 230
+enqueue 2770 d 230 packet dropped, queue is full
+transmit 2772 d True transmitting packet 216
+transmit 2781 c False transmitting packet 230
+enqueue 2792 d 230 packet enqueued, QueueSize 35
+enqueue 2797 e 216 packet enqueued, QueueSize 56
+transmit 2803 c True empty queue, no packet to transmit
+transmit 2822 d True transmitting packet 217
+enqueue 2847 e 217 packet enqueued, QueueSize 57
+transmit 2872 d True transmitting packet 218
+enqueue 2897 e 218 packet enqueued, QueueSize 58
+transmit 2922 d True transmitting packet 219
+enqueue 2947 e 219 packet enqueued, QueueSize 59
+transmit 2972 d True transmitting packet 220
+enqueue 2997 e 220 packet enqueued, QueueSize 60
+enqueue 3000 a 61 packet enqueued, QueueSize 1
+enqueue 3000 a 62 packet enqueued, QueueSize 2
+enqueue 3000 a 63 packet enqueued, QueueSize 3
+enqueue 3000 a 64 packet enqueued, QueueSize 4
+enqueue 3000 a 65 packet enqueued, QueueSize 5
+enqueue 3000 a 66 packet enqueued, QueueSize 6
+enqueue 3000 a 67 packet enqueued, QueueSize 7
+enqueue 3000 a 68 packet enqueued, QueueSize 8
+enqueue 3000 a 69 packet enqueued, QueueSize 9
+enqueue 3000 a 70 packet enqueued, QueueSize 10
+enqueue 3000 a 71 packet enqueued, QueueSize 11
+enqueue 3000 a 72 packet enqueued, QueueSize 12
+enqueue 3000 a 73 packet enqueued, QueueSize 13
+enqueue 3000 a 74 packet enqueued, QueueSize 14
+enqueue 3000 a 75 packet enqueued, QueueSize 15
+enqueue 3000 a 76 packet enqueued, QueueSize 16
+enqueue 3000 a 77 packet enqueued, QueueSize 17
+enqueue 3000 a 78 packet enqueued, QueueSize 18
+enqueue 3000 a 79 packet enqueued, QueueSize 19
+enqueue 3000 a 80 packet enqueued, QueueSize 20
+enqueue 3000 b 231 packet enqueued, QueueSize 1
+enqueue 3000 b 232 packet enqueued, QueueSize 2
+enqueue 3000 b 233 packet enqueued, QueueSize 3
+enqueue 3000 b 234 packet enqueued, QueueSize 4
+enqueue 3000 b 235 packet enqueued, QueueSize 5
+transmit 3000 a False transmitting packet 61
+transmit 3000 b False transmitting packet 231
+enqueue 3011 c 61 packet enqueued, QueueSize 1
+enqueue 3011 c 231 packet enqueued, QueueSize 2
+transmit 3011 c False transmitting packet 61
+transmit 3022 d True transmitting packet 41
+transmit 3022 a True transmitting packet 62
+transmit 3022 b True transmitting packet 232
+enqueue 3022 d 61 packet enqueued, QueueSize 31
+enqueue 3033 c 62 packet enqueued, QueueSize 3
+enqueue 3033 c 232 packet enqueued, QueueSize 4
+transmit 3033 c True transmitting packet 231
+transmit 3044 a True transmitting packet 63
+transmit 3044 b True transmitting packet 233
+enqueue 3044 d 231 packet enqueued, QueueSize 32
+enqueue 3047 e 41 packet enqueued, QueueSize 61
+enqueue 3055 c 63 packet enqueued, QueueSize 4
+enqueue 3055 c 233 packet enqueued, QueueSize 5
+transmit 3055 c True transmitting packet 62
+transmit 3066 a True transmitting packet 64
+transmit 3066 b True transmitting packet 234
+enqueue 3066 d 62 packet enqueued, QueueSize 33
+transmit 3072 d True transmitting packet 221
+enqueue 3077 c 64 packet enqueued, QueueSize 5
+enqueue 3077 c 234 packet enqueued, QueueSize 6
+transmit 3077 c True transmitting packet 232
+transmit 3088 a True transmitting packet 65
+transmit 3088 b True transmitting packet 235
+enqueue 3088 d 232 packet enqueued, QueueSize 33
+enqueue 3097 e 221 packet enqueued, QueueSize 62
+enqueue 3099 c 65 packet enqueued, QueueSize 6
+enqueue 3099 c 235 packet enqueued, QueueSize 7
+transmit 3099 c True transmitting packet 63
+transmit 3110 a True transmitting packet 66
+transmit 3110 b True empty queue, no packet to transmit
+enqueue 3110 d 63 packet enqueued, QueueSize 34
+enqueue 3121 c 66 packet enqueued, QueueSize 7
+transmit 3121 c True transmitting packet 233
+transmit 3122 d True transmitting packet 42
+transmit 3132 a True transmitting packet 67
+enqueue 3132 d 233 packet enqueued, QueueSize 34
+enqueue 3143 c 67 packet enqueued, QueueSize 7
+transmit 3143 c True transmitting packet 64
+enqueue 3147 e 42 packet enqueued, QueueSize 63
+transmit 3154 a True transmitting packet 68
+enqueue 3154 d 64 packet enqueued, QueueSize 35
+enqueue 3165 c 68 packet enqueued, QueueSize 7
+transmit 3165 c True transmitting packet 234
+transmit 3172 d True transmitting packet 222
+transmit 3176 a True transmitting packet 69
+enqueue 3176 d 234 packet enqueued, QueueSize 35
+enqueue 3187 c 69 packet enqueued, QueueSize 7
+transmit 3187 c True transmitting packet 65
+enqueue 3197 e 222 packet enqueued, QueueSize 64
+transmit 3198 a True transmitting packet 70
+enqueue 3198 d 65 packet dropped, queue is full
+enqueue 3209 c 70 packet enqueued, QueueSize 7
+transmit 3209 c False transmitting packet 65
+transmit 3220 a True transmitting packet 71
+enqueue 3220 d 65 packet dropped, queue is full
+transmit 3222 d True transmitting packet 43
+enqueue 3231 c 71 packet enqueued, QueueSize 8
+transmit 3231 c False transmitting packet 65
+transmit 3242 a True transmitting packet 72
+enqueue 3242 d 65 packet enqueued, QueueSize 35
+enqueue 3247 e 43 packet enqueued, QueueSize 65
+enqueue 3253 c 72 packet enqueued, QueueSize 9
+transmit 3253 c True transmitting packet 235
+transmit 3264 a True transmitting packet 73
+enqueue 3264 d 235 packet dropped, queue is full
+transmit 3272 d True transmitting packet 223
+enqueue 3275 c 73 packet enqueued, QueueSize 9
+transmit 3275 c False transmitting packet 235
+transmit 3286 a True transmitting packet 74
+enqueue 3286 d 235 packet enqueued, QueueSize 35
+enqueue 3297 e 223 packet enqueued, QueueSize 66
+enqueue 3297 c 74 packet enqueued, QueueSize 10
+transmit 3297 c True transmitting packet 66
+transmit 3308 a True transmitting packet 75
+enqueue 3308 d 66 packet dropped, queue is full
+enqueue 3319 c 75 packet enqueued, QueueSize 10
+transmit 3319 c False transmitting packet 66
+transmit 3322 d True transmitting packet 44
+transmit 3330 a True transmitting packet 76
+enqueue 3330 d 66 packet enqueued, QueueSize 35
+enqueue 3341 c 76 packet enqueued, QueueSize 11
+transmit 3341 c True transmitting packet 67
+enqueue 3347 e 44 packet enqueued, QueueSize 67
+transmit 3352 a True transmitting packet 77
+enqueue 3352 d 67 packet dropped, queue is full
+enqueue 3363 c 77 packet enqueued, QueueSize 11
+transmit 3363 c False transmitting packet 67
+transmit 3372 d True transmitting packet 224
+transmit 3374 a True transmitting packet 78
+enqueue 3374 d 67 packet enqueued, QueueSize 35
+enqueue 3385 c 78 packet enqueued, QueueSize 12
+transmit 3385 c True transmitting packet 68
+transmit 3396 a True transmitting packet 79
+enqueue 3396 d 68 packet dropped, queue is full
+enqueue 3397 e 224 packet enqueued, QueueSize 68
+enqueue 3407 c 79 packet enqueued, QueueSize 12
+transmit 3407 c False transmitting packet 68
+transmit 3418 a True transmitting packet 80
+enqueue 3418 d 68 packet dropped, queue is full
+transmit 3422 d True transmitting packet 45
+enqueue 3429 c 80 packet enqueued, QueueSize 13
+transmit 3429 c False transmitting packet 68
+transmit 3440 a True empty queue, no packet to transmit
+enqueue 3440 d 68 packet enqueued, QueueSize 35
+enqueue 3447 e 45 packet enqueued, QueueSize 69
+transmit 3451 c True transmitting packet 69
+enqueue 3462 d 69 packet dropped, queue is full
+transmit 3472 d True transmitting packet 225
+transmit 3473 c False transmitting packet 69
+enqueue 3484 d 69 packet enqueued, QueueSize 35
+transmit 3495 c True transmitting packet 70
+enqueue 3497 e 225 packet enqueued, QueueSize 70
+enqueue 3500 b 236 packet enqueued, QueueSize 1
+enqueue 3500 b 237 packet enqueued, QueueSize 2
+enqueue 3500 b 238 packet enqueued, QueueSize 3
+enqueue 3500 b 239 packet enqueued, QueueSize 4
+enqueue 3500 b 240 packet enqueued, QueueSize 5
+transmit 3500 b False transmitting packet 236
+enqueue 3506 d 70 packet dropped, queue is full
+enqueue 3511 c 236 packet enqueued, QueueSize 12
+transmit 3517 c False transmitting packet 70
+transmit 3522 d True transmitting packet 46
+transmit 3522 b True transmitting packet 237
+enqueue 3528 d 70 packet enqueued, QueueSize 35
+enqueue 3533 c 237 packet enqueued, QueueSize 13
+transmit 3539 c True transmitting packet 71
+transmit 3544 b True transmitting packet 238
+enqueue 3547 e 46 packet enqueued, QueueSize 71
+enqueue 3550 d 71 packet dropped, queue is full
+enqueue 3555 c 238 packet enqueued, QueueSize 13
+transmit 3561 c False transmitting packet 71
+transmit 3566 b True transmitting packet 239
+transmit 3572 d True transmitting packet 47
+enqueue 3572 d 71 packet enqueued, QueueSize 35
+enqueue 3577 c 239 packet enqueued, QueueSize 14
+transmit 3583 c True transmitting packet 72
+transmit 3588 b True transmitting packet 240
+enqueue 3594 d 72 packet dropped, queue is full
+enqueue 3597 e 47 packet enqueued, QueueSize 72
+enqueue 3599 c 240 packet enqueued, QueueSize 14
+transmit 3605 c False transmitting packet 72
+transmit 3610 b True empty queue, no packet to transmit
+enqueue 3616 d 72 packet dropped, queue is full
+transmit 3622 d True transmitting packet 48
+transmit 3627 c False transmitting packet 72
+enqueue 3638 d 72 packet enqueued, QueueSize 35
+enqueue 3647 e 48 packet enqueued, QueueSize 73
+transmit 3649 c True transmitting packet 73
+enqueue 3660 d 73 packet dropped, queue is full
+transmit 3671 c False transmitting packet 73
+transmit 3672 d True transmitting packet 49
+enqueue 3682 d 73 packet enqueued, QueueSize 35
+transmit 3693 c True transmitting packet 74
+enqueue 3697 e 49 packet enqueued, QueueSize 74
+enqueue 3704 d 74 packet dropped, queue is full
+transmit 3715 c False transmitting packet 74
+transmit 3722 d True transmitting packet 50
+enqueue 3726 d 74 packet enqueued, QueueSize 35
+transmit 3737 c True transmitting packet 75
+enqueue 3747 e 50 packet enqueued, QueueSize 75
+enqueue 3748 d 75 packet dropped, queue is full
+transmit 3759 c False transmitting packet 75
+enqueue 3770 d 75 packet dropped, queue is full
+transmit 3772 d True transmitting packet 51
+transmit 3781 c False transmitting packet 75
+enqueue 3792 d 75 packet enqueued, QueueSize 35
+enqueue 3797 e 51 packet enqueued, QueueSize 76
+transmit 3803 c True transmitting packet 76
+enqueue 3814 d 76 packet dropped, queue is full
+transmit 3822 d True transmitting packet 52
+transmit 3825 c False transmitting packet 76
+enqueue 3836 d 76 packet enqueued, QueueSize 35
+enqueue 3847 e 52 packet enqueued, QueueSize 77
+transmit 3847 c True transmitting packet 77
+enqueue 3858 d 77 packet dropped, queue is full
+transmit 3869 c False transmitting packet 77
+transmit 3872 d True transmitting packet 53
+enqueue 3880 d 77 packet enqueued, QueueSize 35
+transmit 3891 c True transmitting packet 78
+enqueue 3897 e 53 packet enqueued, QueueSize 78
+enqueue 3902 d 78 packet dropped, queue is full
+transmit 3913 c False transmitting packet 78
+transmit 3922 d True transmitting packet 54
+enqueue 3924 d 78 packet enqueued, QueueSize 35
+transmit 3935 c True transmitting packet 79
+enqueue 3946 d 79 packet dropped, queue is full
+enqueue 3947 e 54 packet enqueued, QueueSize 79
+transmit 3957 c False transmitting packet 79
+enqueue 3968 d 79 packet dropped, queue is full
+transmit 3972 d True transmitting packet 55
+transmit 3979 c False transmitting packet 79
+enqueue 3990 d 79 packet enqueued, QueueSize 35
+enqueue 3997 e 55 packet enqueued, QueueSize 80
+enqueue 4000 a 81 packet enqueued, QueueSize 1
+enqueue 4000 a 82 packet enqueued, QueueSize 2
+enqueue 4000 a 83 packet enqueued, QueueSize 3
+enqueue 4000 a 84 packet enqueued, QueueSize 4
+enqueue 4000 a 85 packet enqueued, QueueSize 5
+enqueue 4000 a 86 packet enqueued, QueueSize 6
+enqueue 4000 a 87 packet enqueued, QueueSize 7
+enqueue 4000 a 88 packet enqueued, QueueSize 8
+enqueue 4000 a 89 packet enqueued, QueueSize 9
+enqueue 4000 a 90 packet enqueued, QueueSize 10
+enqueue 4000 a 91 packet enqueued, QueueSize 11
+enqueue 4000 a 92 packet enqueued, QueueSize 12
+enqueue 4000 a 93 packet enqueued, QueueSize 13
+enqueue 4000 a 94 packet enqueued, QueueSize 14
+enqueue 4000 a 95 packet enqueued, QueueSize 15
+enqueue 4000 a 96 packet enqueued, QueueSize 16
+enqueue 4000 a 97 packet enqueued, QueueSize 17
+enqueue 4000 a 98 packet enqueued, QueueSize 18
+enqueue 4000 a 99 packet enqueued, QueueSize 19
+enqueue 4000 a 100 packet enqueued, QueueSize 20
+enqueue 4000 b 241 packet enqueued, QueueSize 1
+enqueue 4000 b 242 packet enqueued, QueueSize 2
+enqueue 4000 b 243 packet enqueued, QueueSize 3
+enqueue 4000 b 244 packet enqueued, QueueSize 4
+enqueue 4000 b 245 packet enqueued, QueueSize 5
+transmit 4000 a False transmitting packet 81
+transmit 4000 b False transmitting packet 241
+transmit 4001 c True transmitting packet 80
+enqueue 4011 c 81 packet enqueued, QueueSize 7
+enqueue 4011 c 241 packet enqueued, QueueSize 8
+enqueue 4012 d 80 packet dropped, queue is full
+transmit 4022 d True transmitting packet 56
+transmit 4022 a True transmitting packet 82
+transmit 4022 b True transmitting packet 242
+transmit 4023 c False transmitting packet 80
+enqueue 4033 c 82 packet enqueued, QueueSize 9
+enqueue 4033 c 242 packet enqueued, QueueSize 10
+enqueue 4034 d 80 packet enqueued, QueueSize 35
+transmit 4044 a True transmitting packet 83
+transmit 4044 b True transmitting packet 243
+transmit 4045 c True transmitting packet 236
+enqueue 4047 e 56 packet enqueued, QueueSize 81
+enqueue 4055 c 83 packet enqueued, QueueSize 10
+enqueue 4055 c 243 packet enqueued, QueueSize 11
+enqueue 4056 d 236 packet dropped, queue is full
+transmit 4066 a True transmitting packet 84
+transmit 4066 b True transmitting packet 244
+transmit 4067 c False transmitting packet 236
+transmit 4072 d True transmitting packet 57
+enqueue 4077 c 84 packet enqueued, QueueSize 12
+enqueue 4077 c 244 packet enqueued, QueueSize 13
+enqueue 4078 d 236 packet enqueued, QueueSize 35
+transmit 4088 a True transmitting packet 85
+transmit 4088 b True transmitting packet 245
+transmit 4089 c True transmitting packet 237
+enqueue 4097 e 57 packet enqueued, QueueSize 82
+enqueue 4099 c 85 packet enqueued, QueueSize 13
+enqueue 4099 c 245 packet enqueued, QueueSize 14
+enqueue 4100 d 237 packet dropped, queue is full
+transmit 4110 a True transmitting packet 86
+transmit 4110 b True empty queue, no packet to transmit
+transmit 4111 c False transmitting packet 237
+enqueue 4121 c 86 packet enqueued, QueueSize 15
+transmit 4122 d True transmitting packet 58
+enqueue 4122 d 237 packet enqueued, QueueSize 35
+transmit 4132 a True transmitting packet 87
+transmit 4133 c True transmitting packet 238
+enqueue 4143 c 87 packet enqueued, QueueSize 15
+enqueue 4144 d 238 packet dropped, queue is full
+enqueue 4147 e 58 packet enqueued, QueueSize 83
+transmit 4154 a True transmitting packet 88
+transmit 4155 c False transmitting packet 238
+enqueue 4165 c 88 packet enqueued, QueueSize 16
+enqueue 4166 d 238 packet dropped, queue is full
+transmit 4172 d True transmitting packet 59
+transmit 4176 a True transmitting packet 89
+transmit 4177 c False transmitting packet 238
+enqueue 4187 c 89 packet enqueued, QueueSize 17
+enqueue 4188 d 238 packet enqueued, QueueSize 35
+enqueue 4197 e 59 packet enqueued, QueueSize 84
+transmit 4198 a True transmitting packet 90
+transmit 4199 c True transmitting packet 239
+enqueue 4209 c 90 packet enqueued, QueueSize 17
+enqueue 4210 d 239 packet dropped, queue is full
+transmit 4220 a True transmitting packet 91
+transmit 4221 c False transmitting packet 239
+transmit 4222 d True transmitting packet 60
+enqueue 4231 c 91 packet enqueued, QueueSize 18
+enqueue 4232 d 239 packet enqueued, QueueSize 35
+transmit 4242 a True transmitting packet 92
+transmit 4243 c True transmitting packet 240
+enqueue 4247 e 60 packet enqueued, QueueSize 85
+enqueue 4253 c 92 packet enqueued, QueueSize 18
+enqueue 4254 d 240 packet dropped, queue is full
+transmit 4264 a True transmitting packet 93
+transmit 4265 c False transmitting packet 240
+transmit 4272 d True transmitting packet 226
+enqueue 4275 c 93 packet enqueued, QueueSize 19
+enqueue 4276 d 240 packet enqueued, QueueSize 35
+transmit 4286 a True transmitting packet 94
+transmit 4287 c True transmitting packet 81
+enqueue 4297 e 226 packet enqueued, QueueSize 86
+enqueue 4297 c 94 packet enqueued, QueueSize 19
+enqueue 4298 d 81 packet dropped, queue is full
+transmit 4308 a True transmitting packet 95
+transmit 4309 c False transmitting packet 81
+enqueue 4319 c 95 packet enqueued, QueueSize 20
+enqueue 4320 d 81 packet dropped, queue is full
+transmit 4322 d True transmitting packet 227
+transmit 4330 a True transmitting packet 96
+transmit 4331 c False transmitting packet 81
+enqueue 4341 c 96 packet enqueued, QueueSize 21
+enqueue 4342 d 81 packet enqueued, QueueSize 35
+enqueue 4347 e 227 packet enqueued, QueueSize 87
+transmit 4352 a True transmitting packet 97
+transmit 4353 c True transmitting packet 241
+enqueue 4363 c 97 packet enqueued, QueueSize 21
+enqueue 4364 d 241 packet dropped, queue is full
+transmit 4372 d True transmitting packet 228
+transmit 4374 a True transmitting packet 98
+transmit 4375 c False transmitting packet 241
+enqueue 4385 c 98 packet enqueued, QueueSize 22
+enqueue 4386 d 241 packet enqueued, QueueSize 35
+transmit 4396 a True transmitting packet 99
+enqueue 4397 e 228 packet enqueued, QueueSize 88
+transmit 4397 c True transmitting packet 82
+enqueue 4407 c 99 packet enqueued, QueueSize 22
+enqueue 4408 d 82 packet dropped, queue is full
+transmit 4418 a True transmitting packet 100
+transmit 4419 c False transmitting packet 82
+transmit 4422 d True transmitting packet 229
+enqueue 4429 c 100 packet enqueued, QueueSize 23
+enqueue 4430 d 82 packet enqueued, QueueSize 35
+transmit 4440 a True empty queue, no packet to transmit
+transmit 4441 c True transmitting packet 242
+enqueue 4447 e 229 packet enqueued, QueueSize 89
+enqueue 4452 d 242 packet dropped, queue is full
+transmit 4463 c False transmitting packet 242
+transmit 4472 d True transmitting packet 230
+enqueue 4474 d 242 packet enqueued, QueueSize 35
+transmit 4485 c True transmitting packet 83
+enqueue 4496 d 83 packet dropped, queue is full
+enqueue 4497 e 230 packet enqueued, QueueSize 90
+enqueue 4500 b 246 packet enqueued, QueueSize 1
+enqueue 4500 b 247 packet enqueued, QueueSize 2
+enqueue 4500 b 248 packet enqueued, QueueSize 3
+enqueue 4500 b 249 packet enqueued, QueueSize 4
+enqueue 4500 b 250 packet enqueued, QueueSize 5
+transmit 4500 b False transmitting packet 246
+transmit 4507 c False transmitting packet 83
+enqueue 4511 c 246 packet enqueued, QueueSize 22
+enqueue 4518 d 83 packet dropped, queue is full
+transmit 4522 d True transmitting packet 61
+transmit 4522 b True transmitting packet 247
+transmit 4529 c False transmitting packet 83
+enqueue 4533 c 247 packet enqueued, QueueSize 23
+enqueue 4540 d 83 packet enqueued, QueueSize 35
+transmit 4544 b True transmitting packet 248
+enqueue 4547 e 61 packet enqueued, QueueSize 91
+transmit 4551 c True transmitting packet 243
+enqueue 4555 c 248 packet enqueued, QueueSize 23
+enqueue 4562 d 243 packet dropped, queue is full
+transmit 4566 b True transmitting packet 249
+transmit 4572 d True transmitting packet 231
+transmit 4573 c False transmitting packet 243
+enqueue 4577 c 249 packet enqueued, QueueSize 24
+enqueue 4584 d 243 packet enqueued, QueueSize 35
+transmit 4588 b True transmitting packet 250
+transmit 4595 c True transmitting packet 84
+enqueue 4597 e 231 packet enqueued, QueueSize 92
+enqueue 4599 c 250 packet enqueued, QueueSize 24
+enqueue 4606 d 84 packet dropped, queue is full
+transmit 4610 b True empty queue, no packet to transmit
+transmit 4617 c False transmitting packet 84
+transmit 4622 d True transmitting packet 62
+enqueue 4628 d 84 packet enqueued, QueueSize 35
+transmit 4639 c True transmitting packet 244
+enqueue 4647 e 62 packet enqueued, QueueSize 93
+enqueue 4650 d 244 packet dropped, queue is full
+transmit 4661 c False transmitting packet 244
+transmit 4672 d True transmitting packet 232
+enqueue 4672 d 244 packet enqueued, QueueSize 35
+transmit 4683 c True transmitting packet 85
+enqueue 4694 d 85 packet dropped, queue is full
+enqueue 4697 e 232 packet enqueued, QueueSize 94
+transmit 4705 c False transmitting packet 85
+enqueue 4716 d 85 packet dropped, queue is full
+transmit 4722 d True transmitting packet 63
+transmit 4727 c False transmitting packet 85
+enqueue 4738 d 85 packet enqueued, QueueSize 35
+enqueue 4747 e 63 packet enqueued, QueueSize 95
+transmit 4749 c True transmitting packet 245
+enqueue 4760 d 245 packet dropped, queue is full
+transmit 4771 c False transmitting packet 245
+transmit 4772 d True transmitting packet 233
+enqueue 4782 d 245 packet enqueued, QueueSize 35
+transmit 4793 c True transmitting packet 86
+enqueue 4797 e 233 packet enqueued, QueueSize 96
+enqueue 4804 d 86 packet dropped, queue is full
+transmit 4815 c False transmitting packet 86
+transmit 4822 d True transmitting packet 64
+enqueue 4826 d 86 packet enqueued, QueueSize 35
+transmit 4837 c True transmitting packet 87
+enqueue 4847 e 64 packet enqueued, QueueSize 97
+enqueue 4848 d 87 packet dropped, queue is full
+transmit 4859 c False transmitting packet 87
+enqueue 4870 d 87 packet dropped, queue is full
+transmit 4872 d True transmitting packet 234
+transmit 4881 c False transmitting packet 87
+enqueue 4892 d 87 packet enqueued, QueueSize 35
+enqueue 4897 e 234 packet enqueued, QueueSize 98
+transmit 4903 c True transmitting packet 88
+enqueue 4914 d 88 packet dropped, queue is full
+transmit 4922 d True transmitting packet 65
+transmit 4925 c False transmitting packet 88
+enqueue 4936 d 88 packet enqueued, QueueSize 35
+enqueue 4947 e 65 packet enqueued, QueueSize 99
+transmit 4947 c True transmitting packet 89
+enqueue 4958 d 89 packet dropped, queue is full
+transmit 4969 c False transmitting packet 89
+transmit 4972 d True transmitting packet 235
+enqueue 4980 d 89 packet enqueued, QueueSize 35
+transmit 4991 c True transmitting packet 90
+enqueue 4997 e 235 packet enqueued, QueueSize 100
+enqueue 5000 a 101 packet enqueued, QueueSize 1
+enqueue 5000 a 102 packet enqueued, QueueSize 2
+enqueue 5000 a 103 packet enqueued, QueueSize 3
+enqueue 5000 a 104 packet enqueued, QueueSize 4
+enqueue 5000 a 105 packet enqueued, QueueSize 5
+enqueue 5000 a 106 packet enqueued, QueueSize 6
+enqueue 5000 a 107 packet enqueued, QueueSize 7
+enqueue 5000 a 108 packet enqueued, QueueSize 8
+enqueue 5000 a 109 packet enqueued, QueueSize 9
+enqueue 5000 a 110 packet enqueued, QueueSize 10
+enqueue 5000 a 111 packet enqueued, QueueSize 11
+enqueue 5000 a 112 packet enqueued, QueueSize 12
+enqueue 5000 a 113 packet enqueued, QueueSize 13
+enqueue 5000 a 114 packet enqueued, QueueSize 14
+enqueue 5000 a 115 packet enqueued, QueueSize 15
+enqueue 5000 a 116 packet enqueued, QueueSize 16
+enqueue 5000 a 117 packet enqueued, QueueSize 17
+enqueue 5000 a 118 packet enqueued, QueueSize 18
+enqueue 5000 a 119 packet enqueued, QueueSize 19
+enqueue 5000 a 120 packet enqueued, QueueSize 20
+enqueue 5000 b 251 packet enqueued, QueueSize 1
+enqueue 5000 b 252 packet enqueued, QueueSize 2
+enqueue 5000 b 253 packet enqueued, QueueSize 3
+enqueue 5000 b 254 packet enqueued, QueueSize 4
+enqueue 5000 b 255 packet enqueued, QueueSize 5
+transmit 5000 a False transmitting packet 101
+transmit 5000 b False transmitting packet 251
+enqueue 5002 d 90 packet dropped, queue is full
+enqueue 5011 c 101 packet enqueued, QueueSize 17
+enqueue 5011 c 251 packet enqueued, QueueSize 18
+transmit 5013 c False transmitting packet 90
+transmit 5022 d True transmitting packet 66
+transmit 5022 a True transmitting packet 102
+transmit 5022 b True transmitting packet 252
+enqueue 5024 d 90 packet enqueued, QueueSize 35
+enqueue 5033 c 102 packet enqueued, QueueSize 19
+enqueue 5033 c 252 packet enqueued, QueueSize 20
+transmit 5035 c True transmitting packet 91
+transmit 5044 a True transmitting packet 103
+transmit 5044 b True transmitting packet 253
+enqueue 5046 d 91 packet dropped, queue is full
+enqueue 5047 e 66 packet enqueued, QueueSize 101
+enqueue 5055 c 103 packet enqueued, QueueSize 20
+enqueue 5055 c 253 packet enqueued, QueueSize 21
+transmit 5057 c False transmitting packet 91
+transmit 5066 a True transmitting packet 104
+transmit 5066 b True transmitting packet 254
+enqueue 5068 d 91 packet dropped, queue is full
+transmit 5072 d True transmitting packet 67
+enqueue 5077 c 104 packet enqueued, QueueSize 22
+enqueue 5077 c 254 packet enqueued, QueueSize 23
+transmit 5079 c False transmitting packet 91
+transmit 5088 a True transmitting packet 105
+transmit 5088 b True transmitting packet 255
+enqueue 5090 d 91 packet enqueued, QueueSize 35
+enqueue 5097 e 67 packet enqueued, QueueSize 102
+enqueue 5099 c 105 packet enqueued, QueueSize 24
+enqueue 5099 c 255 packet enqueued, QueueSize 25
+transmit 5101 c True transmitting packet 92
+transmit 5110 a True transmitting packet 106
+transmit 5110 b True empty queue, no packet to transmit
+enqueue 5112 d 92 packet dropped, queue is full
+enqueue 5121 c 106 packet enqueued, QueueSize 25
+transmit 5122 d True transmitting packet 68
+transmit 5123 c False transmitting packet 92
+transmit 5132 a True transmitting packet 107
+enqueue 5134 d 92 packet enqueued, QueueSize 35
+enqueue 5143 c 107 packet enqueued, QueueSize 26
+transmit 5145 c True transmitting packet 93
+enqueue 5147 e 68 packet enqueued, QueueSize 103
+transmit 5154 a True transmitting packet 108
+enqueue 5156 d 93 packet dropped, queue is full
+enqueue 5165 c 108 packet enqueued, QueueSize 26
+transmit 5167 c False transmitting packet 93
+transmit 5172 d True transmitting packet 69
+transmit 5176 a True transmitting packet 109
+enqueue 5178 d 93 packet enqueued, QueueSize 35
+enqueue 5187 c 109 packet enqueued, QueueSize 27
+transmit 5189 c True transmitting packet 94
+enqueue 5197 e 69 packet enqueued, QueueSize 104
+transmit 5198 a True transmitting packet 110
+enqueue 5200 d 94 packet dropped, queue is full
+enqueue 5209 c 110 packet enqueued, QueueSize 27
+transmit 5211 c False transmitting packet 94
+transmit 5220 a True transmitting packet 111
+transmit 5222 d True transmitting packet 70
+enqueue 5222 d 94 packet enqueued, QueueSize 35
+enqueue 5231 c 111 packet enqueued, QueueSize 28
+transmit 5233 c True transmitting packet 95
+transmit 5242 a True transmitting packet 112
+enqueue 5244 d 95 packet dropped, queue is full
+enqueue 5247 e 70 packet enqueued, QueueSize 105
+enqueue 5253 c 112 packet enqueued, QueueSize 28
+transmit 5255 c False transmitting packet 95
+transmit 5264 a True transmitting packet 113
+enqueue 5266 d 95 packet dropped, queue is full
+transmit 5272 d True transmitting packet 71
+enqueue 5275 c 113 packet enqueued, QueueSize 29
+transmit 5277 c False transmitting packet 95
+transmit 5286 a True transmitting packet 114
+enqueue 5288 d 95 packet enqueued, QueueSize 35
+enqueue 5297 e 71 packet enqueued, QueueSize 106
+enqueue 5297 c 114 packet enqueued, QueueSize 30
+transmit 5299 c True transmitting packet 96
+transmit 5308 a True transmitting packet 115
+enqueue 5310 d 96 packet dropped, queue is full
+enqueue 5319 c 115 packet enqueued, QueueSize 30
+transmit 5321 c False transmitting packet 96
+transmit 5322 d True transmitting packet 72
+transmit 5330 a True transmitting packet 116
+enqueue 5332 d 96 packet enqueued, QueueSize 35
+enqueue 5341 c 116 packet enqueued, QueueSize 31
+transmit 5343 c True transmitting packet 97
+enqueue 5347 e 72 packet enqueued, QueueSize 107
+transmit 5352 a True transmitting packet 117
+enqueue 5354 d 97 packet dropped, queue is full
+enqueue 5363 c 117 packet enqueued, QueueSize 31
+transmit 5365 c False transmitting packet 97
+transmit 5372 d True transmitting packet 73
+transmit 5374 a True transmitting packet 118
+enqueue 5376 d 97 packet enqueued, QueueSize 35
+enqueue 5385 c 118 packet enqueued, QueueSize 32
+transmit 5387 c True transmitting packet 98
+transmit 5396 a True transmitting packet 119
+enqueue 5397 e 73 packet enqueued, QueueSize 108
+enqueue 5398 d 98 packet dropped, queue is full
+enqueue 5407 c 119 packet enqueued, QueueSize 32
+transmit 5409 c False transmitting packet 98
+transmit 5418 a True transmitting packet 120
+enqueue 5420 d 98 packet dropped, queue is full
+transmit 5422 d True transmitting packet 74
+enqueue 5429 c 120 packet enqueued, QueueSize 33
+transmit 5431 c False transmitting packet 98
+transmit 5440 a True empty queue, no packet to transmit
+enqueue 5442 d 98 packet enqueued, QueueSize 35
+enqueue 5447 e 74 packet enqueued, QueueSize 109
+transmit 5453 c True transmitting packet 99
+enqueue 5464 d 99 packet dropped, queue is full
+transmit 5472 d True transmitting packet 75
+transmit 5475 c False transmitting packet 99
+enqueue 5486 d 99 packet enqueued, QueueSize 35
+enqueue 5497 e 75 packet enqueued, QueueSize 110
+transmit 5497 c True transmitting packet 100
+enqueue 5500 b 256 packet enqueued, QueueSize 1
+enqueue 5500 b 257 packet enqueued, QueueSize 2
+enqueue 5500 b 258 packet enqueued, QueueSize 3
+enqueue 5500 b 259 packet enqueued, QueueSize 4
+enqueue 5500 b 260 packet enqueued, QueueSize 5
+transmit 5500 b False transmitting packet 256
+enqueue 5508 d 100 packet dropped, queue is full
+enqueue 5511 c 256 packet enqueued, QueueSize 32
+transmit 5519 c False transmitting packet 100
+transmit 5522 d True transmitting packet 76
+transmit 5522 b True transmitting packet 257
+enqueue 5530 d 100 packet enqueued, QueueSize 35
+enqueue 5533 c 257 packet enqueued, QueueSize 33
+transmit 5541 c True transmitting packet 246
+transmit 5544 b True transmitting packet 258
+enqueue 5547 e 76 packet enqueued, QueueSize 111
+enqueue 5552 d 246 packet dropped, queue is full
+enqueue 5555 c 258 packet enqueued, QueueSize 33
+transmit 5563 c False transmitting packet 246
+transmit 5566 b True transmitting packet 259
+transmit 5572 d True transmitting packet 77
+enqueue 5574 d 246 packet enqueued, QueueSize 35
+enqueue 5577 c 259 packet enqueued, QueueSize 34
+transmit 5585 c True transmitting packet 247
+transmit 5588 b True transmitting packet 260
+enqueue 5596 d 247 packet dropped, queue is full
+enqueue 5597 e 77 packet enqueued, QueueSize 112
+enqueue 5599 c 260 packet enqueued, QueueSize 34
+transmit 5607 c False transmitting packet 247
+transmit 5610 b True empty queue, no packet to transmit
+enqueue 5618 d 247 packet dropped, queue is full
+transmit 5622 d True transmitting packet 78
+transmit 5629 c False transmitting packet 247
+enqueue 5640 d 247 packet enqueued, QueueSize 35
+enqueue 5647 e 78 packet enqueued, QueueSize 113
+transmit 5651 c True transmitting packet 248
+enqueue 5662 d 248 packet dropped, queue is full
+transmit 5672 d True transmitting packet 79
+transmit 5673 c False transmitting packet 248
+enqueue 5684 d 248 packet enqueued, QueueSize 35
+transmit 5695 c True transmitting packet 249
+enqueue 5697 e 79 packet enqueued, QueueSize 114
+enqueue 5706 d 249 packet dropped, queue is full
+transmit 5717 c False transmitting packet 249
+transmit 5722 d True transmitting packet 80
+enqueue 5728 d 249 packet enqueued, QueueSize 35
+transmit 5739 c True transmitting packet 250
+enqueue 5747 e 80 packet enqueued, QueueSize 115
+enqueue 5750 d 250 packet dropped, queue is full
+transmit 5761 c False transmitting packet 250
+transmit 5772 d True transmitting packet 236
+enqueue 5772 d 250 packet enqueued, QueueSize 35
+transmit 5783 c True transmitting packet 101
+enqueue 5794 d 101 packet dropped, queue is full
+enqueue 5797 e 236 packet enqueued, QueueSize 116
+transmit 5805 c False transmitting packet 101
+enqueue 5816 d 101 packet dropped, queue is full
+transmit 5822 d True transmitting packet 237
+transmit 5827 c False transmitting packet 101
+enqueue 5838 d 101 packet enqueued, QueueSize 35
+enqueue 5847 e 237 packet enqueued, QueueSize 117
+transmit 5849 c True transmitting packet 251
+enqueue 5860 d 251 packet dropped, queue is full
+transmit 5871 c False transmitting packet 251
+transmit 5872 d True transmitting packet 238
+enqueue 5882 d 251 packet enqueued, QueueSize 35
+transmit 5893 c True transmitting packet 102
+enqueue 5897 e 238 packet enqueued, QueueSize 118
+enqueue 5904 d 102 packet dropped, queue is full
+transmit 5915 c False transmitting packet 102
+transmit 5922 d True transmitting packet 239
+enqueue 5926 d 102 packet enqueued, QueueSize 35
+transmit 5937 c True transmitting packet 252
+enqueue 5947 e 239 packet enqueued, QueueSize 119
+enqueue 5948 d 252 packet dropped, queue is full
+transmit 5959 c False transmitting packet 252
+enqueue 5970 d 252 packet dropped, queue is full
+transmit 5972 d True transmitting packet 240
+transmit 5981 c False transmitting packet 252
+enqueue 5992 d 252 packet enqueued, QueueSize 35
+enqueue 5997 e 240 packet enqueued, QueueSize 120
+enqueue 6000 a 121 packet enqueued, QueueSize 1
+enqueue 6000 a 122 packet enqueued, QueueSize 2
+enqueue 6000 a 123 packet enqueued, QueueSize 3
+enqueue 6000 a 124 packet enqueued, QueueSize 4
+enqueue 6000 a 125 packet enqueued, QueueSize 5
+enqueue 6000 a 126 packet enqueued, QueueSize 6
+enqueue 6000 a 127 packet enqueued, QueueSize 7
+enqueue 6000 a 128 packet enqueued, QueueSize 8
+enqueue 6000 a 129 packet enqueued, QueueSize 9
+enqueue 6000 a 130 packet enqueued, QueueSize 10
+enqueue 6000 a 131 packet enqueued, QueueSize 11
+enqueue 6000 a 132 packet enqueued, QueueSize 12
+enqueue 6000 a 133 packet enqueued, QueueSize 13
+enqueue 6000 a 134 packet enqueued, QueueSize 14
+enqueue 6000 a 135 packet enqueued, QueueSize 15
+enqueue 6000 a 136 packet enqueued, QueueSize 16
+enqueue 6000 a 137 packet enqueued, QueueSize 17
+enqueue 6000 a 138 packet enqueued, QueueSize 18
+enqueue 6000 a 139 packet enqueued, QueueSize 19
+enqueue 6000 a 140 packet enqueued, QueueSize 20
+enqueue 6000 b 261 packet enqueued, QueueSize 1
+enqueue 6000 b 262 packet enqueued, QueueSize 2
+enqueue 6000 b 263 packet enqueued, QueueSize 3
+enqueue 6000 b 264 packet enqueued, QueueSize 4
+enqueue 6000 b 265 packet enqueued, QueueSize 5
+transmit 6000 a False transmitting packet 121
+transmit 6000 b False transmitting packet 261
+transmit 6003 c True transmitting packet 103
+enqueue 6011 c 121 packet enqueued, QueueSize 27
+enqueue 6011 c 261 packet enqueued, QueueSize 28
+enqueue 6014 d 103 packet dropped, queue is full
+transmit 6022 d True transmitting packet 81
+transmit 6022 a True transmitting packet 122
+transmit 6022 b True transmitting packet 262
+transmit 6025 c False transmitting packet 103
+enqueue 6033 c 122 packet enqueued, QueueSize 29
+enqueue 6033 c 262 packet enqueued, QueueSize 30
+enqueue 6036 d 103 packet enqueued, QueueSize 35
+transmit 6044 a True transmitting packet 123
+transmit 6044 b True transmitting packet 263
+enqueue 6047 e 81 packet enqueued, QueueSize 121
+transmit 6047 c True transmitting packet 253
+enqueue 6055 c 123 packet enqueued, QueueSize 30
+enqueue 6055 c 263 packet enqueued, QueueSize 31
+enqueue 6058 d 253 packet dropped, queue is full
+transmit 6066 a True transmitting packet 124
+transmit 6066 b True transmitting packet 264
+transmit 6069 c False transmitting packet 253
+transmit 6072 d True transmitting packet 241
+enqueue 6077 c 124 packet enqueued, QueueSize 32
+enqueue 6077 c 264 packet enqueued, QueueSize 33
+enqueue 6080 d 253 packet enqueued, QueueSize 35
+transmit 6088 a True transmitting packet 125
+transmit 6088 b True transmitting packet 265
+transmit 6091 c True transmitting packet 104
+enqueue 6097 e 241 packet enqueued, QueueSize 122
+enqueue 6099 c 125 packet enqueued, QueueSize 33
+enqueue 6099 c 265 packet enqueued, QueueSize 34
+enqueue 6102 d 104 packet dropped, queue is full
+transmit 6110 a True transmitting packet 126
+transmit 6110 b True empty queue, no packet to transmit
+transmit 6113 c False transmitting packet 104
+enqueue 6121 c 126 packet enqueued, QueueSize 35
+transmit 6122 d True transmitting packet 82
+enqueue 6124 d 104 packet enqueued, QueueSize 35
+transmit 6132 a True transmitting packet 127
+transmit 6135 c True transmitting packet 254
+enqueue 6143 c 127 packet enqueued, QueueSize 35
+enqueue 6146 d 254 packet dropped, queue is full
+enqueue 6147 e 82 packet enqueued, QueueSize 123
+transmit 6154 a True transmitting packet 128
+transmit 6157 c False transmitting packet 254
+enqueue 6165 c 128 packet dropped, queue is full
+enqueue 6168 d 254 packet dropped, queue is full
+transmit 6172 d True transmitting packet 242
+transmit 6176 a False transmitting packet 128
+transmit 6179 c False transmitting packet 254
+enqueue 6187 c 128 packet dropped, queue is full
+enqueue 6190 d 254 packet enqueued, QueueSize 35
+enqueue 6197 e 242 packet enqueued, QueueSize 124
+transmit 6198 a False transmitting packet 128
+transmit 6201 c True transmitting packet 105
+enqueue 6209 c 128 packet enqueued, QueueSize 35
+enqueue 6212 d 105 packet dropped, queue is full
+transmit 6220 a True transmitting packet 129
+transmit 6222 d True transmitting packet 83
+transmit 6223 c False transmitting packet 105
+enqueue 6231 c 129 packet dropped, queue is full
+enqueue 6234 d 105 packet enqueued, QueueSize 35
+transmit 6242 a False transmitting packet 129
+transmit 6245 c True transmitting packet 255
+enqueue 6247 e 83 packet enqueued, QueueSize 125
+enqueue 6253 c 129 packet enqueued, QueueSize 35
+enqueue 6256 d 255 packet dropped, queue is full
+transmit 6264 a True transmitting packet 130
+transmit 6267 c False transmitting packet 255
+transmit 6272 d True transmitting packet 243
+enqueue 6275 c 130 packet dropped, queue is full
+enqueue 6278 d 255 packet enqueued, QueueSize 35
+transmit 6286 a False transmitting packet 130
+transmit 6289 c True transmitting packet 106
+enqueue 6297 e 243 packet enqueued, QueueSize 126
+enqueue 6297 c 130 packet enqueued, QueueSize 35
+enqueue 6300 d 106 packet dropped, queue is full
+transmit 6308 a True transmitting packet 131
+transmit 6311 c False transmitting packet 106
+enqueue 6319 c 131 packet dropped, queue is full
+transmit 6322 d True transmitting packet 84
+enqueue 6322 d 106 packet enqueued, QueueSize 35
+transmit 6330 a False transmitting packet 131
+transmit 6333 c True transmitting packet 107
+enqueue 6341 c 131 packet enqueued, QueueSize 35
+enqueue 6344 d 107 packet dropped, queue is full
+enqueue 6347 e 84 packet enqueued, QueueSize 127
+transmit 6352 a True transmitting packet 132
+transmit 6355 c False transmitting packet 107
+enqueue 6363 c 132 packet dropped, queue is full
+enqueue 6366 d 107 packet dropped, queue is full
+transmit 6372 d True transmitting packet 244
+transmit 6374 a False transmitting packet 132
+transmit 6377 c False transmitting packet 107
+enqueue 6385 c 132 packet dropped, queue is full
+enqueue 6388 d 107 packet enqueued, QueueSize 35
+transmit 6396 a False transmitting packet 132
+enqueue 6397 e 244 packet enqueued, QueueSize 128
+transmit 6399 c True transmitting packet 108
+enqueue 6407 c 132 packet enqueued, QueueSize 35
+enqueue 6410 d 108 packet dropped, queue is full
+transmit 6418 a True transmitting packet 133
+transmit 6421 c False transmitting packet 108
+transmit 6422 d True transmitting packet 85
+enqueue 6429 c 133 packet dropped, queue is full
+enqueue 6432 d 108 packet enqueued, QueueSize 35
+transmit 6440 a False transmitting packet 133
+transmit 6443 c True transmitting packet 109
+enqueue 6447 e 85 packet enqueued, QueueSize 129
+enqueue 6451 c 133 packet enqueued, QueueSize 35
+enqueue 6454 d 109 packet dropped, queue is full
+transmit 6462 a True transmitting packet 134
+transmit 6465 c False transmitting packet 109
+transmit 6472 d True transmitting packet 245
+enqueue 6473 c 134 packet dropped, queue is full
+enqueue 6476 d 109 packet enqueued, QueueSize 35
+transmit 6484 a False transmitting packet 134
+transmit 6487 c True transmitting packet 110
+enqueue 6495 c 134 packet enqueued, QueueSize 35
+enqueue 6497 e 245 packet enqueued, QueueSize 130
+enqueue 6498 d 110 packet dropped, queue is full
+enqueue 6500 b 266 packet enqueued, QueueSize 1
+enqueue 6500 b 267 packet enqueued, QueueSize 2
+enqueue 6500 b 268 packet enqueued, QueueSize 3
+enqueue 6500 b 269 packet enqueued, QueueSize 4
+enqueue 6500 b 270 packet enqueued, QueueSize 5
+transmit 6500 b False transmitting packet 266
+transmit 6506 a True transmitting packet 135
+transmit 6509 c False transmitting packet 110
+enqueue 6511 c 266 packet dropped, queue is full
+enqueue 6517 c 135 packet dropped, queue is full
+enqueue 6520 d 110 packet dropped, queue is full
+transmit 6522 d True transmitting packet 86
+transmit 6522 b False transmitting packet 266
+transmit 6528 a False transmitting packet 135
+transmit 6531 c False transmitting packet 110
+enqueue 6533 c 266 packet dropped, queue is full
+enqueue 6539 c 135 packet dropped, queue is full
+enqueue 6542 d 110 packet enqueued, QueueSize 35
+transmit 6544 b False transmitting packet 266
+enqueue 6547 e 86 packet enqueued, QueueSize 131
+transmit 6550 a False transmitting packet 135
+transmit 6553 c True transmitting packet 111
+enqueue 6555 c 266 packet enqueued, QueueSize 35
+enqueue 6561 c 135 packet dropped, queue is full
+enqueue 6564 d 111 packet dropped, queue is full
+transmit 6566 b True transmitting packet 267
+transmit 6572 d True transmitting packet 87
+transmit 6572 a False transmitting packet 135
+transmit 6575 c False transmitting packet 111
+enqueue 6577 c 267 packet dropped, queue is full
+enqueue 6583 c 135 packet dropped, queue is full
+enqueue 6586 d 111 packet enqueued, QueueSize 35
+transmit 6588 b False transmitting packet 267
+transmit 6594 a False transmitting packet 135
+enqueue 6597 e 87 packet enqueued, QueueSize 132
+transmit 6597 c True transmitting packet 112
+enqueue 6599 c 267 packet enqueued, QueueSize 35
+enqueue 6605 c 135 packet dropped, queue is full
+enqueue 6608 d 112 packet dropped, queue is full
+transmit 6610 b True transmitting packet 268
+transmit 6616 a False transmitting packet 135
+transmit 6619 c False transmitting packet 112
+enqueue 6621 c 268 packet dropped, queue is full
+transmit 6622 d True transmitting packet 88
+enqueue 6627 c 135 packet dropped, queue is full
+enqueue 6630 d 112 packet enqueued, QueueSize 35
+transmit 6632 b False transmitting packet 268
+transmit 6638 a False transmitting packet 135
+transmit 6641 c True transmitting packet 113
+enqueue 6643 c 268 packet enqueued, QueueSize 35
+enqueue 6647 e 88 packet enqueued, QueueSize 133
+enqueue 6649 c 135 packet dropped, queue is full
+enqueue 6652 d 113 packet dropped, queue is full
+transmit 6654 b True transmitting packet 269
+transmit 6660 a False transmitting packet 135
+transmit 6663 c False transmitting packet 113
+enqueue 6665 c 269 packet dropped, queue is full
+enqueue 6671 c 135 packet dropped, queue is full
+transmit 6672 d True transmitting packet 89
+enqueue 6674 d 113 packet enqueued, QueueSize 35
+transmit 6676 b False transmitting packet 269
+transmit 6682 a False transmitting packet 135
+transmit 6685 c True transmitting packet 114
+enqueue 6687 c 269 packet enqueued, QueueSize 35
+enqueue 6693 c 135 packet dropped, queue is full
+enqueue 6696 d 114 packet dropped, queue is full
+enqueue 6697 e 89 packet enqueued, QueueSize 134
+transmit 6698 b True transmitting packet 270
+transmit 6704 a False transmitting packet 135
+transmit 6707 c False transmitting packet 114
+enqueue 6709 c 270 packet dropped, queue is full
+enqueue 6715 c 135 packet dropped, queue is full
+enqueue 6718 d 114 packet dropped, queue is full
+transmit 6720 b False transmitting packet 270
+transmit 6722 d True transmitting packet 90
+transmit 6726 a False transmitting packet 135
+transmit 6729 c False transmitting packet 114
+enqueue 6731 c 270 packet dropped, queue is full
+enqueue 6737 c 135 packet dropped, queue is full
+enqueue 6740 d 114 packet enqueued, QueueSize 35
+transmit 6742 b False transmitting packet 270
+enqueue 6747 e 90 packet enqueued, QueueSize 135
+transmit 6748 a False transmitting packet 135
+transmit 6751 c True transmitting packet 115
+enqueue 6753 c 270 packet enqueued, QueueSize 35
+enqueue 6759 c 135 packet dropped, queue is full
+enqueue 6762 d 115 packet dropped, queue is full
+transmit 6764 b True empty queue, no packet to transmit
+transmit 6770 a False transmitting packet 135
+transmit 6772 d True transmitting packet 91
+transmit 6773 c False transmitting packet 115
+enqueue 6781 c 135 packet dropped, queue is full
+enqueue 6784 d 115 packet enqueued, QueueSize 35
+transmit 6792 a False transmitting packet 135
+transmit 6795 c True transmitting packet 116
+enqueue 6797 e 91 packet enqueued, QueueSize 136
+enqueue 6803 c 135 packet enqueued, QueueSize 35
+enqueue 6806 d 116 packet dropped, queue is full
+transmit 6814 a True transmitting packet 136
+transmit 6817 c False transmitting packet 116
+transmit 6822 d True transmitting packet 92
+enqueue 6825 c 136 packet dropped, queue is full
+enqueue 6828 d 116 packet enqueued, QueueSize 35
+transmit 6836 a False transmitting packet 136
+transmit 6839 c True transmitting packet 117
+enqueue 6847 e 92 packet enqueued, QueueSize 137
+enqueue 6847 c 136 packet enqueued, QueueSize 35
+enqueue 6850 d 117 packet dropped, queue is full
+transmit 6858 a True transmitting packet 137
+transmit 6861 c False transmitting packet 117
+enqueue 6869 c 137 packet dropped, queue is full
+transmit 6872 d True transmitting packet 93
+enqueue 6872 d 117 packet enqueued, QueueSize 35
+transmit 6880 a False transmitting packet 137
+transmit 6883 c True transmitting packet 118
+enqueue 6891 c 137 packet enqueued, QueueSize 35
+enqueue 6894 d 118 packet dropped, queue is full
+enqueue 6897 e 93 packet enqueued, QueueSize 138
+transmit 6902 a True transmitting packet 138
+transmit 6905 c False transmitting packet 118
+enqueue 6913 c 138 packet dropped, queue is full
+enqueue 6916 d 118 packet dropped, queue is full
+transmit 6922 d True transmitting packet 94
+transmit 6924 a False transmitting packet 138
+transmit 6927 c False transmitting packet 118
+enqueue 6935 c 138 packet dropped, queue is full
+enqueue 6938 d 118 packet enqueued, QueueSize 35
+transmit 6946 a False transmitting packet 138
+enqueue 6947 e 94 packet enqueued, QueueSize 139
+transmit 6949 c True transmitting packet 119
+enqueue 6957 c 138 packet enqueued, QueueSize 35
+enqueue 6960 d 119 packet dropped, queue is full
+transmit 6968 a True transmitting packet 139
+transmit 6971 c False transmitting packet 119
+transmit 6972 d True transmitting packet 95
+enqueue 6979 c 139 packet dropped, queue is full
+enqueue 6982 d 119 packet enqueued, QueueSize 35
+transmit 6990 a False transmitting packet 139
+transmit 6993 c True transmitting packet 120
+enqueue 6997 e 95 packet enqueued, QueueSize 140
+enqueue 7000 a 141 packet enqueued, QueueSize 3
+enqueue 7000 a 142 packet enqueued, QueueSize 4
+enqueue 7000 a 143 packet enqueued, QueueSize 5
+enqueue 7000 a 144 packet enqueued, QueueSize 6
+enqueue 7000 a 145 packet enqueued, QueueSize 7
+enqueue 7000 a 146 packet enqueued, QueueSize 8
+enqueue 7000 a 147 packet enqueued, QueueSize 9
+enqueue 7000 a 148 packet enqueued, QueueSize 10
+enqueue 7000 a 149 packet enqueued, QueueSize 11
+enqueue 7000 a 150 packet enqueued, QueueSize 12
+enqueue 7000 a 151 packet enqueued, QueueSize 13
+enqueue 7000 a 152 packet enqueued, QueueSize 14
+enqueue 7000 a 153 packet enqueued, QueueSize 15
+enqueue 7000 a 154 packet enqueued, QueueSize 16
+enqueue 7000 a 155 packet enqueued, QueueSize 17
+enqueue 7000 a 156 packet enqueued, QueueSize 18
+enqueue 7000 a 157 packet enqueued, QueueSize 19
+enqueue 7000 a 158 packet enqueued, QueueSize 20
+enqueue 7000 a 159 packet enqueued, QueueSize 21
+enqueue 7000 a 160 packet enqueued, QueueSize 22
+enqueue 7000 b 271 packet enqueued, QueueSize 1
+enqueue 7000 b 272 packet enqueued, QueueSize 2
+enqueue 7000 b 273 packet enqueued, QueueSize 3
+enqueue 7000 b 274 packet enqueued, QueueSize 4
+enqueue 7000 b 275 packet enqueued, QueueSize 5
+transmit 7000 b False transmitting packet 271
+enqueue 7001 c 139 packet enqueued, QueueSize 35
+enqueue 7004 d 120 packet dropped, queue is full
+enqueue 7011 c 271 packet dropped, queue is full
+transmit 7012 a True transmitting packet 140
+transmit 7015 c False transmitting packet 120
+transmit 7022 d True transmitting packet 96
+transmit 7022 b False transmitting packet 271
+enqueue 7023 c 140 packet dropped, queue is full
+enqueue 7026 d 120 packet enqueued, QueueSize 35
+enqueue 7033 c 271 packet dropped, queue is full
+transmit 7034 a False transmitting packet 140
+transmit 7037 c True transmitting packet 256
+transmit 7044 b False transmitting packet 271
+enqueue 7045 c 140 packet enqueued, QueueSize 35
+enqueue 7047 e 96 packet enqueued, QueueSize 141
+enqueue 7048 d 256 packet dropped, queue is full
+enqueue 7055 c 271 packet dropped, queue is full
+transmit 7056 a True transmitting packet 141
+transmit 7059 c False transmitting packet 256
+transmit 7066 b False transmitting packet 271
+enqueue 7067 c 141 packet dropped, queue is full
+enqueue 7070 d 256 packet dropped, queue is full
+transmit 7072 d True transmitting packet 97
+enqueue 7077 c 271 packet dropped, queue is full
+transmit 7078 a False transmitting packet 141
+transmit 7081 c False transmitting packet 256
+transmit 7088 b False transmitting packet 271
+enqueue 7089 c 141 packet dropped, queue is full
+enqueue 7092 d 256 packet enqueued, QueueSize 35
+enqueue 7097 e 97 packet enqueued, QueueSize 142
+enqueue 7099 c 271 packet dropped, queue is full
+transmit 7100 a False transmitting packet 141
+transmit 7103 c True transmitting packet 257
+transmit 7110 b False transmitting packet 271
+enqueue 7111 c 141 packet enqueued, QueueSize 35
+enqueue 7114 d 257 packet dropped, queue is full
+enqueue 7121 c 271 packet dropped, queue is full
+transmit 7122 d True transmitting packet 98
+transmit 7122 a True transmitting packet 142
+transmit 7125 c False transmitting packet 257
+transmit 7132 b False transmitting packet 271
+enqueue 7133 c 142 packet dropped, queue is full
+enqueue 7136 d 257 packet enqueued, QueueSize 35
+enqueue 7143 c 271 packet dropped, queue is full
+transmit 7144 a False transmitting packet 142
+enqueue 7147 e 98 packet enqueued, QueueSize 143
+transmit 7147 c True transmitting packet 258
+transmit 7154 b False transmitting packet 271
+enqueue 7155 c 142 packet enqueued, QueueSize 35
+enqueue 7158 d 258 packet dropped, queue is full
+enqueue 7165 c 271 packet dropped, queue is full
+transmit 7166 a True transmitting packet 143
+transmit 7169 c False transmitting packet 258
+transmit 7172 d True transmitting packet 99
+transmit 7176 b False transmitting packet 271
+enqueue 7177 c 143 packet dropped, queue is full
+enqueue 7180 d 258 packet enqueued, QueueSize 35
+enqueue 7187 c 271 packet dropped, queue is full
+transmit 7188 a False transmitting packet 143
+transmit 7191 c True transmitting packet 259
+enqueue 7197 e 99 packet enqueued, QueueSize 144
+transmit 7198 b False transmitting packet 271
+enqueue 7199 c 143 packet enqueued, QueueSize 35
+enqueue 7202 d 259 packet dropped, queue is full
+enqueue 7209 c 271 packet dropped, queue is full
+transmit 7210 a True transmitting packet 144
+transmit 7213 c False transmitting packet 259
+transmit 7220 b False transmitting packet 271
+enqueue 7221 c 144 packet dropped, queue is full
+transmit 7222 d True transmitting packet 100
+enqueue 7224 d 259 packet enqueued, QueueSize 35
+enqueue 7231 c 271 packet dropped, queue is full
+transmit 7232 a False transmitting packet 144
+transmit 7235 c True transmitting packet 260
+transmit 7242 b False transmitting packet 271
+enqueue 7243 c 144 packet enqueued, QueueSize 35
+enqueue 7246 d 260 packet dropped, queue is full
+enqueue 7247 e 100 packet enqueued, QueueSize 145
+enqueue 7253 c 271 packet dropped, queue is full
+transmit 7254 a True transmitting packet 145
+transmit 7257 c False transmitting packet 260
+transmit 7264 b False transmitting packet 271
+enqueue 7265 c 145 packet dropped, queue is full
+enqueue 7268 d 260 packet dropped, queue is full
+transmit 7272 d True transmitting packet 246
+enqueue 7275 c 271 packet dropped, queue is full
+transmit 7276 a False transmitting packet 145
+transmit 7279 c False transmitting packet 260
+transmit 7286 b False transmitting packet 271
+enqueue 7287 c 145 packet dropped, queue is full
+enqueue 7290 d 260 packet enqueued, QueueSize 35
+enqueue 7297 e 246 packet enqueued, QueueSize 146
+enqueue 7297 c 271 packet dropped, queue is full
+transmit 7298 a False transmitting packet 145
+transmit 7301 c True transmitting packet 121
+transmit 7308 b False transmitting packet 271
+enqueue 7309 c 145 packet enqueued, QueueSize 35
+enqueue 7312 d 121 packet dropped, queue is full
+enqueue 7319 c 271 packet dropped, queue is full
+transmit 7320 a True transmitting packet 146
+transmit 7322 d True transmitting packet 247
+transmit 7323 c False transmitting packet 121
+transmit 7330 b False transmitting packet 271
+enqueue 7331 c 146 packet dropped, queue is full
+enqueue 7334 d 121 packet enqueued, QueueSize 35
+enqueue 7341 c 271 packet dropped, queue is full
+transmit 7342 a False transmitting packet 146
+transmit 7345 c True transmitting packet 261
+enqueue 7347 e 247 packet enqueued, QueueSize 147
+transmit 7352 b False transmitting packet 271
+enqueue 7353 c 146 packet enqueued, QueueSize 35
+enqueue 7356 d 261 packet dropped, queue is full
+enqueue 7363 c 271 packet dropped, queue is full
+transmit 7364 a True transmitting packet 147
+transmit 7367 c False transmitting packet 261
+transmit 7372 d True transmitting packet 248
+transmit 7374 b False transmitting packet 271
+enqueue 7375 c 147 packet dropped, queue is full
+enqueue 7378 d 261 packet enqueued, QueueSize 35
+enqueue 7385 c 271 packet dropped, queue is full
+transmit 7386 a False transmitting packet 147
+transmit 7389 c True transmitting packet 122
+transmit 7396 b False transmitting packet 271
+enqueue 7397 e 248 packet enqueued, QueueSize 148
+enqueue 7397 c 147 packet enqueued, QueueSize 35
+enqueue 7400 d 122 packet dropped, queue is full
+enqueue 7407 c 271 packet dropped, queue is full
+transmit 7408 a True transmitting packet 148
+transmit 7411 c False transmitting packet 122
+transmit 7418 b False transmitting packet 271
+enqueue 7419 c 148 packet dropped, queue is full
+transmit 7422 d True transmitting packet 249
+enqueue 7422 d 122 packet enqueued, QueueSize 35
+enqueue 7429 c 271 packet dropped, queue is full
+transmit 7430 a False transmitting packet 148
+transmit 7433 c True transmitting packet 262
+transmit 7440 b False transmitting packet 271
+enqueue 7441 c 148 packet enqueued, QueueSize 35
+enqueue 7444 d 262 packet dropped, queue is full
+enqueue 7447 e 249 packet enqueued, QueueSize 149
+enqueue 7451 c 271 packet dropped, queue is full
+transmit 7452 a True transmitting packet 149
+transmit 7455 c False transmitting packet 262
+transmit 7462 b False transmitting packet 271
+enqueue 7463 c 149 packet dropped, queue is full
+enqueue 7466 d 262 packet dropped, queue is full
+transmit 7472 d True transmitting packet 250
+enqueue 7473 c 271 packet dropped, queue is full
+transmit 7474 a False transmitting packet 149
+transmit 7477 c False transmitting packet 262
+transmit 7484 b False transmitting packet 271
+enqueue 7485 c 149 packet dropped, queue is full
+enqueue 7488 d 262 packet enqueued, QueueSize 35
+enqueue 7495 c 271 packet dropped, queue is full
+transmit 7496 a False transmitting packet 149
+enqueue 7497 e 250 packet enqueued, QueueSize 150
+transmit 7499 c True transmitting packet 123
+enqueue 7500 b 276 packet enqueued, QueueSize 6
+enqueue 7500 b 277 packet enqueued, QueueSize 7
+enqueue 7500 b 278 packet enqueued, QueueSize 8
+enqueue 7500 b 279 packet enqueued, QueueSize 9
+enqueue 7500 b 280 packet enqueued, QueueSize 10
+transmit 7506 b False transmitting packet 271
+enqueue 7507 c 149 packet enqueued, QueueSize 35
+enqueue 7510 d 123 packet dropped, queue is full
+enqueue 7517 c 271 packet dropped, queue is full
+transmit 7518 a True transmitting packet 150
+transmit 7521 c False transmitting packet 123
+transmit 7522 d True transmitting packet 101
+transmit 7528 b False transmitting packet 271
+enqueue 7529 c 150 packet dropped, queue is full
+enqueue 7532 d 123 packet enqueued, QueueSize 35
+enqueue 7539 c 271 packet dropped, queue is full
+transmit 7540 a False transmitting packet 150
+transmit 7543 c True transmitting packet 263
+enqueue 7547 e 101 packet enqueued, QueueSize 151
+transmit 7550 b False transmitting packet 271
+enqueue 7551 c 150 packet enqueued, QueueSize 35
+enqueue 7554 d 263 packet dropped, queue is full
+enqueue 7561 c 271 packet dropped, queue is full
+transmit 7562 a True transmitting packet 151
+transmit 7565 c False transmitting packet 263
+transmit 7572 d True transmitting packet 251
+transmit 7572 b False transmitting packet 271
+enqueue 7573 c 151 packet dropped, queue is full
+enqueue 7576 d 263 packet enqueued, QueueSize 35
+enqueue 7583 c 271 packet dropped, queue is full
+transmit 7584 a False transmitting packet 151
+transmit 7587 c True transmitting packet 124
+transmit 7594 b False transmitting packet 271
+enqueue 7595 c 151 packet enqueued, QueueSize 35
+enqueue 7597 e 251 packet enqueued, QueueSize 152
+enqueue 7598 d 124 packet dropped, queue is full
+enqueue 7605 c 271 packet dropped, queue is full
+transmit 7606 a True transmitting packet 152
+transmit 7609 c False transmitting packet 124
+transmit 7616 b False transmitting packet 271
+enqueue 7617 c 152 packet dropped, queue is full
+enqueue 7620 d 124 packet dropped, queue is full
+transmit 7622 d True transmitting packet 102
+enqueue 7627 c 271 packet dropped, queue is full
+transmit 7628 a False transmitting packet 152
+transmit 7631 c False transmitting packet 124
+transmit 7638 b False transmitting packet 271
+enqueue 7639 c 152 packet dropped, queue is full
+enqueue 7642 d 124 packet enqueued, QueueSize 35
+enqueue 7647 e 102 packet enqueued, QueueSize 153
+enqueue 7649 c 271 packet dropped, queue is full
+transmit 7650 a False transmitting packet 152
+transmit 7653 c True transmitting packet 264
+transmit 7660 b False transmitting packet 271
+enqueue 7661 c 152 packet enqueued, QueueSize 35
+enqueue 7664 d 264 packet dropped, queue is full
+enqueue 7671 c 271 packet dropped, queue is full
+transmit 7672 d True transmitting packet 252
+transmit 7672 a True transmitting packet 153
+transmit 7675 c False transmitting packet 264
+transmit 7682 b False transmitting packet 271
+enqueue 7683 c 153 packet dropped, queue is full
+enqueue 7686 d 264 packet enqueued, QueueSize 35
+enqueue 7693 c 271 packet dropped, queue is full
+transmit 7694 a False transmitting packet 153
+enqueue 7697 e 252 packet enqueued, QueueSize 154
+transmit 7697 c True transmitting packet 125
+transmit 7704 b False transmitting packet 271
+enqueue 7705 c 153 packet enqueued, QueueSize 35
+enqueue 7708 d 125 packet dropped, queue is full
+enqueue 7715 c 271 packet dropped, queue is full
+transmit 7716 a True transmitting packet 154
+transmit 7719 c False transmitting packet 125
+transmit 7722 d True transmitting packet 103
+transmit 7726 b False transmitting packet 271
+enqueue 7727 c 154 packet dropped, queue is full
+enqueue 7730 d 125 packet enqueued, QueueSize 35
+enqueue 7737 c 271 packet dropped, queue is full
+transmit 7738 a False transmitting packet 154
+transmit 7741 c True transmitting packet 265
+enqueue 7747 e 103 packet enqueued, QueueSize 155
+transmit 7748 b False transmitting packet 271
+enqueue 7749 c 154 packet enqueued, QueueSize 35
+enqueue 7752 d 265 packet dropped, queue is full
+enqueue 7759 c 271 packet dropped, queue is full
+transmit 7760 a True transmitting packet 155
+transmit 7763 c False transmitting packet 265
+transmit 7770 b False transmitting packet 271
+enqueue 7771 c 155 packet dropped, queue is full
+transmit 7772 d True transmitting packet 253
+enqueue 7774 d 265 packet enqueued, QueueSize 35
+enqueue 7781 c 271 packet dropped, queue is full
+transmit 7782 a False transmitting packet 155
+transmit 7785 c True transmitting packet 126
+transmit 7792 b False transmitting packet 271
+enqueue 7793 c 155 packet enqueued, QueueSize 35
+enqueue 7796 d 126 packet dropped, queue is full
+enqueue 7797 e 253 packet enqueued, QueueSize 156
+enqueue 7803 c 271 packet dropped, queue is full
+transmit 7804 a True transmitting packet 156
+transmit 7807 c False transmitting packet 126
+transmit 7814 b False transmitting packet 271
+enqueue 7815 c 156 packet dropped, queue is full
+enqueue 7818 d 126 packet dropped, queue is full
+transmit 7822 d True transmitting packet 104
+enqueue 7825 c 271 packet dropped, queue is full
+transmit 7826 a False transmitting packet 156
+transmit 7829 c False transmitting packet 126
+transmit 7836 b False transmitting packet 271
+enqueue 7837 c 156 packet dropped, queue is full
+enqueue 7840 d 126 packet enqueued, QueueSize 35
+enqueue 7847 e 104 packet enqueued, QueueSize 157
+enqueue 7847 c 271 packet dropped, queue is full
+transmit 7848 a False transmitting packet 156
+transmit 7851 c True transmitting packet 127
+transmit 7858 b False transmitting packet 271
+enqueue 7859 c 156 packet enqueued, QueueSize 35
+enqueue 7862 d 127 packet dropped, queue is full
+enqueue 7869 c 271 packet dropped, queue is full
+transmit 7870 a True transmitting packet 157
+transmit 7872 d True transmitting packet 254
+transmit 7873 c False transmitting packet 127
+transmit 7880 b False transmitting packet 271
+enqueue 7881 c 157 packet dropped, queue is full
+enqueue 7884 d 127 packet enqueued, QueueSize 35
+enqueue 7891 c 271 packet dropped, queue is full
+transmit 7892 a False transmitting packet 157
+transmit 7895 c True transmitting packet 128
+enqueue 7897 e 254 packet enqueued, QueueSize 158
+transmit 7902 b False transmitting packet 271
+enqueue 7903 c 157 packet enqueued, QueueSize 35
+enqueue 7906 d 128 packet dropped, queue is full
+enqueue 7913 c 271 packet dropped, queue is full
+transmit 7914 a True transmitting packet 158
+transmit 7917 c False transmitting packet 128
+transmit 7922 d True transmitting packet 105
+transmit 7924 b False transmitting packet 271
+enqueue 7925 c 158 packet dropped, queue is full
+enqueue 7928 d 128 packet enqueued, QueueSize 35
+enqueue 7935 c 271 packet dropped, queue is full
+transmit 7936 a False transmitting packet 158
+transmit 7939 c True transmitting packet 129
+transmit 7946 b False transmitting packet 271
+enqueue 7947 e 105 packet enqueued, QueueSize 159
+enqueue 7947 c 158 packet enqueued, QueueSize 35
+enqueue 7950 d 129 packet dropped, queue is full
+enqueue 7957 c 271 packet dropped, queue is full
+transmit 7958 a True transmitting packet 159
+transmit 7961 c False transmitting packet 129
+transmit 7968 b False transmitting packet 271
+enqueue 7969 c 159 packet dropped, queue is full
+transmit 7972 d True transmitting packet 255
+enqueue 7972 d 129 packet enqueued, QueueSize 35
+enqueue 7979 c 271 packet dropped, queue is full
+transmit 7980 a False transmitting packet 159
+transmit 7983 c True transmitting packet 130
+transmit 7990 b False transmitting packet 271
+enqueue 7991 c 159 packet enqueued, QueueSize 35
+enqueue 7994 d 130 packet dropped, queue is full
+enqueue 7997 e 255 packet enqueued, QueueSize 160
+enqueue 8000 a 161 packet enqueued, QueueSize 3
+enqueue 8000 a 162 packet enqueued, QueueSize 4
+enqueue 8000 a 163 packet enqueued, QueueSize 5
+enqueue 8000 a 164 packet enqueued, QueueSize 6
+enqueue 8000 a 165 packet enqueued, QueueSize 7
+enqueue 8000 a 166 packet enqueued, QueueSize 8
+enqueue 8000 a 167 packet enqueued, QueueSize 9
+enqueue 8000 a 168 packet enqueued, QueueSize 10
+enqueue 8000 a 169 packet enqueued, QueueSize 11
+enqueue 8000 a 170 packet enqueued, QueueSize 12
+enqueue 8000 a 171 packet enqueued, QueueSize 13
+enqueue 8000 a 172 packet enqueued, QueueSize 14
+enqueue 8000 a 173 packet enqueued, QueueSize 15
+enqueue 8000 a 174 packet enqueued, QueueSize 16
+enqueue 8000 a 175 packet enqueued, QueueSize 17
+enqueue 8000 a 176 packet enqueued, QueueSize 18
+enqueue 8000 a 177 packet enqueued, QueueSize 19
+enqueue 8000 a 178 packet enqueued, QueueSize 20
+enqueue 8000 a 179 packet enqueued, QueueSize 21
+enqueue 8000 a 180 packet enqueued, QueueSize 22
+enqueue 8000 b 281 packet enqueued, QueueSize 11
+enqueue 8000 b 282 packet enqueued, QueueSize 12
+enqueue 8000 b 283 packet enqueued, QueueSize 13
+enqueue 8000 b 284 packet enqueued, QueueSize 14
+enqueue 8000 b 285 packet enqueued, QueueSize 15
+enqueue 8001 c 271 packet dropped, queue is full
+transmit 8002 a True transmitting packet 160
+transmit 8005 c False transmitting packet 130
+transmit 8012 b False transmitting packet 271
+enqueue 8013 c 160 packet dropped, queue is full
+enqueue 8016 d 130 packet dropped, queue is full
+transmit 8022 d True transmitting packet 106
+enqueue 8023 c 271 packet dropped, queue is full
+transmit 8024 a False transmitting packet 160
+transmit 8027 c False transmitting packet 130
+transmit 8034 b False transmitting packet 271
+enqueue 8035 c 160 packet dropped, queue is full
+enqueue 8038 d 130 packet enqueued, QueueSize 35
+enqueue 8045 c 271 packet dropped, queue is full
+transmit 8046 a False transmitting packet 160
+enqueue 8047 e 106 packet enqueued, QueueSize 161
+transmit 8049 c True transmitting packet 131
+transmit 8056 b False transmitting packet 271
+enqueue 8057 c 160 packet enqueued, QueueSize 35
+enqueue 8060 d 131 packet dropped, queue is full
+enqueue 8067 c 271 packet dropped, queue is full
+transmit 8068 a True transmitting packet 161
+transmit 8071 c False transmitting packet 131
+transmit 8072 d True transmitting packet 107
+transmit 8078 b False transmitting packet 271
+enqueue 8079 c 161 packet dropped, queue is full
+enqueue 8082 d 131 packet enqueued, QueueSize 35
+enqueue 8089 c 271 packet dropped, queue is full
+transmit 8090 a False transmitting packet 161
+transmit 8093 c True transmitting packet 132
+enqueue 8097 e 107 packet enqueued, QueueSize 162
+transmit 8100 b False transmitting packet 271
+enqueue 8101 c 161 packet enqueued, QueueSize 35
+enqueue 8104 d 132 packet dropped, queue is full
+enqueue 8111 c 271 packet dropped, queue is full
+transmit 8112 a True transmitting packet 162
+transmit 8115 c False transmitting packet 132
+transmit 8122 d True transmitting packet 108
+transmit 8122 b False transmitting packet 271
+enqueue 8123 c 162 packet dropped, queue is full
+enqueue 8126 d 132 packet enqueued, QueueSize 35
+enqueue 8133 c 271 packet dropped, queue is full
+transmit 8134 a False transmitting packet 162
+transmit 8137 c True transmitting packet 133
+transmit 8144 b False transmitting packet 271
+enqueue 8145 c 162 packet enqueued, QueueSize 35
+enqueue 8147 e 108 packet enqueued, QueueSize 163
+enqueue 8148 d 133 packet dropped, queue is full
+enqueue 8155 c 271 packet dropped, queue is full
+transmit 8156 a True transmitting packet 163
+transmit 8159 c False transmitting packet 133
+transmit 8166 b False transmitting packet 271
+enqueue 8167 c 163 packet dropped, queue is full
+enqueue 8170 d 133 packet dropped, queue is full
+transmit 8172 d True transmitting packet 109
+enqueue 8177 c 271 packet dropped, queue is full
+transmit 8178 a False transmitting packet 163
+transmit 8181 c False transmitting packet 133
+transmit 8188 b False transmitting packet 271
+enqueue 8189 c 163 packet dropped, queue is full
+enqueue 8192 d 133 packet enqueued, QueueSize 35
+enqueue 8197 e 109 packet enqueued, QueueSize 164
+enqueue 8199 c 271 packet dropped, queue is full
+transmit 8200 a False transmitting packet 163
+transmit 8203 c True transmitting packet 134
+transmit 8210 b False transmitting packet 271
+enqueue 8211 c 163 packet enqueued, QueueSize 35
+enqueue 8214 d 134 packet dropped, queue is full
+enqueue 8221 c 271 packet dropped, queue is full
+transmit 8222 d True transmitting packet 110
+transmit 8222 a True transmitting packet 164
+transmit 8225 c False transmitting packet 134
+transmit 8232 b False transmitting packet 271
+enqueue 8233 c 164 packet dropped, queue is full
+enqueue 8236 d 134 packet enqueued, QueueSize 35
+enqueue 8243 c 271 packet dropped, queue is full
+transmit 8244 a False transmitting packet 164
+enqueue 8247 e 110 packet enqueued, QueueSize 165
+transmit 8247 c True transmitting packet 266
+transmit 8254 b False transmitting packet 271
+enqueue 8255 c 164 packet enqueued, QueueSize 35
+enqueue 8258 d 266 packet dropped, queue is full
+enqueue 8265 c 271 packet dropped, queue is full
+transmit 8266 a True transmitting packet 165
+transmit 8269 c False transmitting packet 266
+transmit 8272 d True transmitting packet 111
+transmit 8276 b False transmitting packet 271
+enqueue 8277 c 165 packet dropped, queue is full
+enqueue 8280 d 266 packet enqueued, QueueSize 35
+enqueue 8287 c 271 packet dropped, queue is full
+transmit 8288 a False transmitting packet 165
+transmit 8291 c True transmitting packet 267
+enqueue 8297 e 111 packet enqueued, QueueSize 166
+transmit 8298 b False transmitting packet 271
+enqueue 8299 c 165 packet enqueued, QueueSize 35
+enqueue 8302 d 267 packet dropped, queue is full
+enqueue 8309 c 271 packet dropped, queue is full
+transmit 8310 a True transmitting packet 166
+transmit 8313 c False transmitting packet 267
+transmit 8320 b False transmitting packet 271
+enqueue 8321 c 166 packet dropped, queue is full
+transmit 8322 d True transmitting packet 112
+enqueue 8324 d 267 packet enqueued, QueueSize 35
+enqueue 8331 c 271 packet dropped, queue is full
+transmit 8332 a False transmitting packet 166
+transmit 8335 c True transmitting packet 268
+transmit 8342 b False transmitting packet 271
+enqueue 8343 c 166 packet enqueued, QueueSize 35
+enqueue 8346 d 268 packet dropped, queue is full
+enqueue 8347 e 112 packet enqueued, QueueSize 167
+enqueue 8353 c 271 packet dropped, queue is full
+transmit 8354 a True transmitting packet 167
+transmit 8357 c False transmitting packet 268
+transmit 8364 b False transmitting packet 271
+enqueue 8365 c 167 packet dropped, queue is full
+enqueue 8368 d 268 packet dropped, queue is full
+transmit 8372 d True transmitting packet 113
+enqueue 8375 c 271 packet dropped, queue is full
+transmit 8376 a False transmitting packet 167
+transmit 8379 c False transmitting packet 268
+transmit 8386 b False transmitting packet 271
+enqueue 8387 c 167 packet dropped, queue is full
+enqueue 8390 d 268 packet enqueued, QueueSize 35
+enqueue 8397 e 113 packet enqueued, QueueSize 168
+enqueue 8397 c 271 packet dropped, queue is full
+transmit 8398 a False transmitting packet 167
+transmit 8401 c True transmitting packet 269
+transmit 8408 b False transmitting packet 271
+enqueue 8409 c 167 packet enqueued, QueueSize 35
+enqueue 8412 d 269 packet dropped, queue is full
+enqueue 8419 c 271 packet dropped, queue is full
+transmit 8420 a True transmitting packet 168
+transmit 8422 d True transmitting packet 114
+transmit 8423 c False transmitting packet 269
+transmit 8430 b False transmitting packet 271
+enqueue 8431 c 168 packet dropped, queue is full
+enqueue 8434 d 269 packet enqueued, QueueSize 35
+enqueue 8441 c 271 packet dropped, queue is full
+transmit 8442 a False transmitting packet 168
+transmit 8445 c True transmitting packet 270
+enqueue 8447 e 114 packet enqueued, QueueSize 169
+transmit 8452 b False transmitting packet 271
+enqueue 8453 c 168 packet enqueued, QueueSize 35
+enqueue 8456 d 270 packet dropped, queue is full
+enqueue 8463 c 271 packet dropped, queue is full
+transmit 8464 a True transmitting packet 169
+transmit 8467 c False transmitting packet 270
+transmit 8472 d True transmitting packet 115
+transmit 8474 b False transmitting packet 271
+enqueue 8475 c 169 packet dropped, queue is full
+enqueue 8478 d 270 packet enqueued, QueueSize 35
+enqueue 8485 c 271 packet dropped, queue is full
+transmit 8486 a False transmitting packet 169
+transmit 8489 c True transmitting packet 135
+transmit 8496 b False transmitting packet 271
+enqueue 8497 e 115 packet enqueued, QueueSize 170
+enqueue 8497 c 169 packet enqueued, QueueSize 35
+enqueue 8500 b 286 packet enqueued, QueueSize 16
+enqueue 8500 b 287 packet enqueued, QueueSize 17
+enqueue 8500 b 288 packet enqueued, QueueSize 18
+enqueue 8500 b 289 packet enqueued, QueueSize 19
+enqueue 8500 b 290 packet enqueued, QueueSize 20
+enqueue 8500 d 135 packet dropped, queue is full
+enqueue 8507 c 271 packet dropped, queue is full
+transmit 8508 a True transmitting packet 170
+transmit 8511 c False transmitting packet 135
+transmit 8518 b False transmitting packet 271
+enqueue 8519 c 170 packet dropped, queue is full
+transmit 8522 d True transmitting packet 116
+enqueue 8522 d 135 packet enqueued, QueueSize 35
+enqueue 8529 c 271 packet dropped, queue is full
+transmit 8530 a False transmitting packet 170
+transmit 8533 c True transmitting packet 136
+transmit 8540 b False transmitting packet 271
+enqueue 8541 c 170 packet enqueued, QueueSize 35
+enqueue 8544 d 136 packet dropped, queue is full
+enqueue 8547 e 116 packet enqueued, QueueSize 171
+enqueue 8551 c 271 packet dropped, queue is full
+transmit 8552 a True transmitting packet 171
+transmit 8555 c False transmitting packet 136
+transmit 8562 b False transmitting packet 271
+enqueue 8563 c 171 packet dropped, queue is full
+enqueue 8566 d 136 packet dropped, queue is full
+transmit 8572 d True transmitting packet 117
+enqueue 8573 c 271 packet dropped, queue is full
+transmit 8574 a False transmitting packet 171
+transmit 8577 c False transmitting packet 136
+transmit 8584 b False transmitting packet 271
+enqueue 8585 c 171 packet dropped, queue is full
+enqueue 8588 d 136 packet enqueued, QueueSize 35
+enqueue 8595 c 271 packet dropped, queue is full
+transmit 8596 a False transmitting packet 171
+enqueue 8597 e 117 packet enqueued, QueueSize 172
+transmit 8599 c True transmitting packet 137
+transmit 8606 b False transmitting packet 271
+enqueue 8607 c 171 packet enqueued, QueueSize 35
+enqueue 8610 d 137 packet dropped, queue is full
+enqueue 8617 c 271 packet dropped, queue is full
+transmit 8618 a True transmitting packet 172
+transmit 8621 c False transmitting packet 137
+transmit 8622 d True transmitting packet 118
+transmit 8628 b False transmitting packet 271
+enqueue 8629 c 172 packet dropped, queue is full
+enqueue 8632 d 137 packet enqueued, QueueSize 35
+enqueue 8639 c 271 packet dropped, queue is full
+transmit 8640 a False transmitting packet 172
+transmit 8643 c True transmitting packet 138
+enqueue 8647 e 118 packet enqueued, QueueSize 173
+transmit 8650 b False transmitting packet 271
+enqueue 8651 c 172 packet enqueued, QueueSize 35
+enqueue 8654 d 138 packet dropped, queue is full
+enqueue 8661 c 271 packet dropped, queue is full
+transmit 8662 a True transmitting packet 173
+transmit 8665 c False transmitting packet 138
+transmit 8672 d True transmitting packet 119
+transmit 8672 b False transmitting packet 271
+enqueue 8673 c 173 packet dropped, queue is full
+enqueue 8676 d 138 packet enqueued, QueueSize 35
+enqueue 8683 c 271 packet dropped, queue is full
+transmit 8684 a False transmitting packet 173
+transmit 8687 c True transmitting packet 139
+transmit 8694 b False transmitting packet 271
+enqueue 8695 c 173 packet enqueued, QueueSize 35
+enqueue 8697 e 119 packet enqueued, QueueSize 174
+enqueue 8698 d 139 packet dropped, queue is full
+enqueue 8705 c 271 packet dropped, queue is full
+transmit 8706 a True transmitting packet 174
+transmit 8709 c False transmitting packet 139
+transmit 8716 b False transmitting packet 271
+enqueue 8717 c 174 packet dropped, queue is full
+enqueue 8720 d 139 packet dropped, queue is full
+transmit 8722 d True transmitting packet 120
+enqueue 8727 c 271 packet dropped, queue is full
+transmit 8728 a False transmitting packet 174
+transmit 8731 c False transmitting packet 139
+transmit 8738 b False transmitting packet 271
+enqueue 8739 c 174 packet dropped, queue is full
+enqueue 8742 d 139 packet enqueued, QueueSize 35
+enqueue 8747 e 120 packet enqueued, QueueSize 175
+enqueue 8749 c 271 packet dropped, queue is full
+transmit 8750 a False transmitting packet 174
+transmit 8753 c True transmitting packet 140
+transmit 8760 b False transmitting packet 271
+enqueue 8761 c 174 packet enqueued, QueueSize 35
+enqueue 8764 d 140 packet dropped, queue is full
+enqueue 8771 c 271 packet dropped, queue is full
+transmit 8772 d True transmitting packet 256
+transmit 8772 a True transmitting packet 175
+transmit 8775 c False transmitting packet 140
+transmit 8782 b False transmitting packet 271
+enqueue 8783 c 175 packet dropped, queue is full
+enqueue 8786 d 140 packet enqueued, QueueSize 35
+enqueue 8793 c 271 packet dropped, queue is full
+transmit 8794 a False transmitting packet 175
+enqueue 8797 e 256 packet enqueued, QueueSize 176
+transmit 8797 c True transmitting packet 141
+transmit 8804 b False transmitting packet 271
+enqueue 8805 c 175 packet enqueued, QueueSize 35
+enqueue 8808 d 141 packet dropped, queue is full
+enqueue 8815 c 271 packet dropped, queue is full
+transmit 8816 a True transmitting packet 176
+transmit 8819 c False transmitting packet 141
+transmit 8822 d True transmitting packet 257
+transmit 8826 b False transmitting packet 271
+enqueue 8827 c 176 packet dropped, queue is full
+enqueue 8830 d 141 packet enqueued, QueueSize 35
+enqueue 8837 c 271 packet dropped, queue is full
+transmit 8838 a False transmitting packet 176
+transmit 8841 c True transmitting packet 142
+enqueue 8847 e 257 packet enqueued, QueueSize 177
+transmit 8848 b False transmitting packet 271
+enqueue 8849 c 176 packet enqueued, QueueSize 35
+enqueue 8852 d 142 packet dropped, queue is full
+enqueue 8859 c 271 packet dropped, queue is full
+transmit 8860 a True transmitting packet 177
+transmit 8863 c False transmitting packet 142
+transmit 8870 b False transmitting packet 271
+enqueue 8871 c 177 packet dropped, queue is full
+transmit 8872 d True transmitting packet 258
+enqueue 8874 d 142 packet enqueued, QueueSize 35
+enqueue 8881 c 271 packet dropped, queue is full
+transmit 8882 a False transmitting packet 177
+transmit 8885 c True transmitting packet 143
+transmit 8892 b False transmitting packet 271
+enqueue 8893 c 177 packet enqueued, QueueSize 35
+enqueue 8896 d 143 packet dropped, queue is full
+enqueue 8897 e 258 packet enqueued, QueueSize 178
+enqueue 8903 c 271 packet dropped, queue is full
+transmit 8904 a True transmitting packet 178
+transmit 8907 c False transmitting packet 143
+transmit 8914 b False transmitting packet 271
+enqueue 8915 c 178 packet dropped, queue is full
+enqueue 8918 d 143 packet dropped, queue is full
+transmit 8922 d True transmitting packet 259
+enqueue 8925 c 271 packet dropped, queue is full
+transmit 8926 a False transmitting packet 178
+transmit 8929 c False transmitting packet 143
+transmit 8936 b False transmitting packet 271
+enqueue 8937 c 178 packet dropped, queue is full
+enqueue 8940 d 143 packet enqueued, QueueSize 35
+enqueue 8947 e 259 packet enqueued, QueueSize 179
+enqueue 8947 c 271 packet dropped, queue is full
+transmit 8948 a False transmitting packet 178
+transmit 8951 c True transmitting packet 144
+transmit 8958 b False transmitting packet 271
+enqueue 8959 c 178 packet enqueued, QueueSize 35
+enqueue 8962 d 144 packet dropped, queue is full
+enqueue 8969 c 271 packet dropped, queue is full
+transmit 8970 a True transmitting packet 179
+transmit 8972 d True transmitting packet 260
+transmit 8973 c False transmitting packet 144
+transmit 8980 b False transmitting packet 271
+enqueue 8981 c 179 packet dropped, queue is full
+enqueue 8984 d 144 packet enqueued, QueueSize 35
+enqueue 8991 c 271 packet dropped, queue is full
+transmit 8992 a False transmitting packet 179
+transmit 8995 c True transmitting packet 145
+enqueue 8997 e 260 packet enqueued, QueueSize 180
+enqueue 9000 a 181 packet enqueued, QueueSize 3
+enqueue 9000 a 182 packet enqueued, QueueSize 4
+enqueue 9000 a 183 packet enqueued, QueueSize 5
+enqueue 9000 a 184 packet enqueued, QueueSize 6
+enqueue 9000 a 185 packet enqueued, QueueSize 7
+enqueue 9000 a 186 packet enqueued, QueueSize 8
+enqueue 9000 a 187 packet enqueued, QueueSize 9
+enqueue 9000 a 188 packet enqueued, QueueSize 10
+enqueue 9000 a 189 packet enqueued, QueueSize 11
+enqueue 9000 a 190 packet enqueued, QueueSize 12
+enqueue 9000 a 191 packet enqueued, QueueSize 13
+enqueue 9000 a 192 packet enqueued, QueueSize 14
+enqueue 9000 a 193 packet enqueued, QueueSize 15
+enqueue 9000 a 194 packet enqueued, QueueSize 16
+enqueue 9000 a 195 packet enqueued, QueueSize 17
+enqueue 9000 a 196 packet enqueued, QueueSize 18
+enqueue 9000 a 197 packet enqueued, QueueSize 19
+enqueue 9000 a 198 packet enqueued, QueueSize 20
+enqueue 9000 a 199 packet enqueued, QueueSize 21
+enqueue 9000 a 200 packet enqueued, QueueSize 22
+enqueue 9000 b 291 packet enqueued, QueueSize 21
+enqueue 9000 b 292 packet enqueued, QueueSize 22
+enqueue 9000 b 293 packet enqueued, QueueSize 23
+enqueue 9000 b 294 packet enqueued, QueueSize 24
+enqueue 9000 b 295 packet enqueued, QueueSize 25
+transmit 9002 b False transmitting packet 271
+enqueue 9003 c 179 packet enqueued, QueueSize 35
+enqueue 9006 d 145 packet dropped, queue is full
+enqueue 9013 c 271 packet dropped, queue is full
+transmit 9014 a True transmitting packet 180
+transmit 9017 c False transmitting packet 145
+transmit 9022 d True transmitting packet 121
+transmit 9024 b False transmitting packet 271
+enqueue 9025 c 180 packet dropped, queue is full
+enqueue 9028 d 145 packet enqueued, QueueSize 35
+enqueue 9035 c 271 packet dropped, queue is full
+transmit 9036 a False transmitting packet 180
+transmit 9039 c True transmitting packet 146
+transmit 9046 b False transmitting packet 271
+enqueue 9047 e 121 packet enqueued, QueueSize 181
+enqueue 9047 c 180 packet enqueued, QueueSize 35
+enqueue 9050 d 146 packet dropped, queue is full
+enqueue 9057 c 271 packet dropped, queue is full
+transmit 9058 a True transmitting packet 181
+transmit 9061 c False transmitting packet 146
+transmit 9068 b False transmitting packet 271
+enqueue 9069 c 181 packet dropped, queue is full
+transmit 9072 d True transmitting packet 261
+enqueue 9072 d 146 packet enqueued, QueueSize 35
+enqueue 9079 c 271 packet dropped, queue is full
+transmit 9080 a False transmitting packet 181
+transmit 9083 c True transmitting packet 147
+transmit 9090 b False transmitting packet 271
+enqueue 9091 c 181 packet enqueued, QueueSize 35
+enqueue 9094 d 147 packet dropped, queue is full
+enqueue 9097 e 261 packet enqueued, QueueSize 182
+enqueue 9101 c 271 packet dropped, queue is full
+transmit 9102 a True transmitting packet 182
+transmit 9105 c False transmitting packet 147
+transmit 9112 b False transmitting packet 271
+enqueue 9113 c 182 packet dropped, queue is full
+enqueue 9116 d 147 packet dropped, queue is full
+transmit 9122 d True transmitting packet 122
+enqueue 9123 c 271 packet dropped, queue is full
+transmit 9124 a False transmitting packet 182
+transmit 9127 c False transmitting packet 147
+transmit 9134 b False transmitting packet 271
+enqueue 9135 c 182 packet dropped, queue is full
+enqueue 9138 d 147 packet enqueued, QueueSize 35
+enqueue 9145 c 271 packet dropped, queue is full
+transmit 9146 a False transmitting packet 182
+enqueue 9147 e 122 packet enqueued, QueueSize 183
+transmit 9149 c True transmitting packet 148
+transmit 9156 b False transmitting packet 271
+enqueue 9157 c 182 packet enqueued, QueueSize 35
+enqueue 9160 d 148 packet dropped, queue is full
+enqueue 9167 c 271 packet dropped, queue is full
+transmit 9168 a True transmitting packet 183
+transmit 9171 c False transmitting packet 148
+transmit 9172 d True transmitting packet 262
+transmit 9178 b False transmitting packet 271
+enqueue 9179 c 183 packet dropped, queue is full
+enqueue 9182 d 148 packet enqueued, QueueSize 35
+enqueue 9189 c 271 packet dropped, queue is full
+transmit 9190 a False transmitting packet 183
+transmit 9193 c True transmitting packet 149
+enqueue 9197 e 262 packet enqueued, QueueSize 184
+transmit 9200 b False transmitting packet 271
+enqueue 9201 c 183 packet enqueued, QueueSize 35
+enqueue 9204 d 149 packet dropped, queue is full
+enqueue 9211 c 271 packet dropped, queue is full
+transmit 9212 a True transmitting packet 184
+transmit 9215 c False transmitting packet 149
+transmit 9222 d True transmitting packet 123
+transmit 9222 b False transmitting packet 271
+enqueue 9223 c 184 packet dropped, queue is full
+enqueue 9226 d 149 packet enqueued, QueueSize 35
+enqueue 9233 c 271 packet dropped, queue is full
+transmit 9234 a False transmitting packet 184
+transmit 9237 c True transmitting packet 150
+transmit 9244 b False transmitting packet 271
+enqueue 9245 c 184 packet enqueued, QueueSize 35
+enqueue 9247 e 123 packet enqueued, QueueSize 185
+enqueue 9248 d 150 packet dropped, queue is full
+enqueue 9255 c 271 packet dropped, queue is full
+transmit 9256 a True transmitting packet 185
+transmit 9259 c False transmitting packet 150
+transmit 9266 b False transmitting packet 271
+enqueue 9267 c 185 packet dropped, queue is full
+enqueue 9270 d 150 packet dropped, queue is full
+transmit 9272 d True transmitting packet 263
+enqueue 9277 c 271 packet dropped, queue is full
+transmit 9278 a False transmitting packet 185
+transmit 9281 c False transmitting packet 150
+transmit 9288 b False transmitting packet 271
+enqueue 9289 c 185 packet dropped, queue is full
+enqueue 9292 d 150 packet enqueued, QueueSize 35
+enqueue 9297 e 263 packet enqueued, QueueSize 186
+enqueue 9299 c 271 packet dropped, queue is full
+transmit 9300 a False transmitting packet 185
+transmit 9303 c True transmitting packet 151
+transmit 9310 b False transmitting packet 271
+enqueue 9311 c 185 packet enqueued, QueueSize 35
+enqueue 9314 d 151 packet dropped, queue is full
+enqueue 9321 c 271 packet dropped, queue is full
+transmit 9322 d True transmitting packet 124
+transmit 9322 a True transmitting packet 186
+transmit 9325 c False transmitting packet 151
+transmit 9332 b False transmitting packet 271
+enqueue 9333 c 186 packet dropped, queue is full
+enqueue 9336 d 151 packet enqueued, QueueSize 35
+enqueue 9343 c 271 packet dropped, queue is full
+transmit 9344 a False transmitting packet 186
+enqueue 9347 e 124 packet enqueued, QueueSize 187
+transmit 9347 c True transmitting packet 152
+transmit 9354 b False transmitting packet 271
+enqueue 9355 c 186 packet enqueued, QueueSize 35
+enqueue 9358 d 152 packet dropped, queue is full
+enqueue 9365 c 271 packet dropped, queue is full
+transmit 9366 a True transmitting packet 187
+transmit 9369 c False transmitting packet 152
+transmit 9372 d True transmitting packet 264
+transmit 9376 b False transmitting packet 271
+enqueue 9377 c 187 packet dropped, queue is full
+enqueue 9380 d 152 packet enqueued, QueueSize 35
+enqueue 9387 c 271 packet dropped, queue is full
+transmit 9388 a False transmitting packet 187
+transmit 9391 c True transmitting packet 153
+enqueue 9397 e 264 packet enqueued, QueueSize 188
+transmit 9398 b False transmitting packet 271
+enqueue 9399 c 187 packet enqueued, QueueSize 35
+enqueue 9402 d 153 packet dropped, queue is full
+enqueue 9409 c 271 packet dropped, queue is full
+transmit 9410 a True transmitting packet 188
+transmit 9413 c False transmitting packet 153
+transmit 9420 b False transmitting packet 271
+enqueue 9421 c 188 packet dropped, queue is full
+transmit 9422 d True transmitting packet 125
+enqueue 9424 d 153 packet enqueued, QueueSize 35
+enqueue 9431 c 271 packet dropped, queue is full
+transmit 9432 a False transmitting packet 188
+transmit 9435 c True transmitting packet 154
+transmit 9442 b False transmitting packet 271
+enqueue 9443 c 188 packet enqueued, QueueSize 35
+enqueue 9446 d 154 packet dropped, queue is full
+enqueue 9447 e 125 packet enqueued, QueueSize 189
+enqueue 9453 c 271 packet dropped, queue is full
+transmit 9454 a True transmitting packet 189
+transmit 9457 c False transmitting packet 154
+transmit 9464 b False transmitting packet 271
+enqueue 9465 c 189 packet dropped, queue is full
+enqueue 9468 d 154 packet dropped, queue is full
+transmit 9472 d True transmitting packet 265
+enqueue 9475 c 271 packet dropped, queue is full
+transmit 9476 a False transmitting packet 189
+transmit 9479 c False transmitting packet 154
+transmit 9486 b False transmitting packet 271
+enqueue 9487 c 189 packet dropped, queue is full
+enqueue 9490 d 154 packet enqueued, QueueSize 35
+enqueue 9497 e 265 packet enqueued, QueueSize 190
+enqueue 9497 c 271 packet dropped, queue is full
+transmit 9498 a False transmitting packet 189
+enqueue 9500 b 296 packet enqueued, QueueSize 26
+enqueue 9500 b 297 packet enqueued, QueueSize 27
+enqueue 9500 b 298 packet enqueued, QueueSize 28
+enqueue 9500 b 299 packet enqueued, QueueSize 29
+enqueue 9500 b 300 packet enqueued, QueueSize 30
+transmit 9501 c True transmitting packet 155
+transmit 9508 b False transmitting packet 271
+enqueue 9509 c 189 packet enqueued, QueueSize 35
+enqueue 9512 d 155 packet dropped, queue is full
+enqueue 9519 c 271 packet dropped, queue is full
+transmit 9520 a True transmitting packet 190
+transmit 9522 d True transmitting packet 126
+transmit 9523 c False transmitting packet 155
+transmit 9530 b False transmitting packet 271
+enqueue 9531 c 190 packet dropped, queue is full
+enqueue 9534 d 155 packet enqueued, QueueSize 35
+enqueue 9541 c 271 packet dropped, queue is full
+transmit 9542 a False transmitting packet 190
+transmit 9545 c True transmitting packet 156
+enqueue 9547 e 126 packet enqueued, QueueSize 191
+transmit 9552 b False transmitting packet 271
+enqueue 9553 c 190 packet enqueued, QueueSize 35
+enqueue 9556 d 156 packet dropped, queue is full
+enqueue 9563 c 271 packet dropped, queue is full
+transmit 9564 a True transmitting packet 191
+transmit 9567 c False transmitting packet 156
+transmit 9572 d True transmitting packet 127
+transmit 9574 b False transmitting packet 271
+enqueue 9575 c 191 packet dropped, queue is full
+enqueue 9578 d 156 packet enqueued, QueueSize 35
+enqueue 9585 c 271 packet dropped, queue is full
+transmit 9586 a False transmitting packet 191
+transmit 9589 c True transmitting packet 157
+transmit 9596 b False transmitting packet 271
+enqueue 9597 e 127 packet enqueued, QueueSize 192
+enqueue 9597 c 191 packet enqueued, QueueSize 35
+enqueue 9600 d 157 packet dropped, queue is full
+enqueue 9607 c 271 packet dropped, queue is full
+transmit 9608 a True transmitting packet 192
+transmit 9611 c False transmitting packet 157
+transmit 9618 b False transmitting packet 271
+enqueue 9619 c 192 packet dropped, queue is full
+transmit 9622 d True transmitting packet 128
+enqueue 9622 d 157 packet enqueued, QueueSize 35
+enqueue 9629 c 271 packet dropped, queue is full
+transmit 9630 a False transmitting packet 192
+transmit 9633 c True transmitting packet 158
+transmit 9640 b False transmitting packet 271
+enqueue 9641 c 192 packet enqueued, QueueSize 35
+enqueue 9644 d 158 packet dropped, queue is full
+enqueue 9647 e 128 packet enqueued, QueueSize 193
+enqueue 9651 c 271 packet dropped, queue is full
+transmit 9652 a True transmitting packet 193
+transmit 9655 c False transmitting packet 158
+transmit 9662 b False transmitting packet 271
+enqueue 9663 c 193 packet dropped, queue is full
+enqueue 9666 d 158 packet dropped, queue is full
+transmit 9672 d True transmitting packet 129
+enqueue 9673 c 271 packet dropped, queue is full
+transmit 9674 a False transmitting packet 193
+transmit 9677 c False transmitting packet 158
+transmit 9684 b False transmitting packet 271
+enqueue 9685 c 193 packet dropped, queue is full
+enqueue 9688 d 158 packet enqueued, QueueSize 35
+enqueue 9695 c 271 packet dropped, queue is full
+transmit 9696 a False transmitting packet 193
+enqueue 9697 e 129 packet enqueued, QueueSize 194
+transmit 9699 c True transmitting packet 159
+transmit 9706 b False transmitting packet 271
+enqueue 9707 c 193 packet enqueued, QueueSize 35
+enqueue 9710 d 159 packet dropped, queue is full
+enqueue 9717 c 271 packet dropped, queue is full
+transmit 9718 a True transmitting packet 194
+transmit 9721 c False transmitting packet 159
+transmit 9722 d True transmitting packet 130
+transmit 9728 b False transmitting packet 271
+enqueue 9729 c 194 packet dropped, queue is full
+enqueue 9732 d 159 packet enqueued, QueueSize 35
+enqueue 9739 c 271 packet dropped, queue is full
+transmit 9740 a False transmitting packet 194
+transmit 9743 c True transmitting packet 160
+enqueue 9747 e 130 packet enqueued, QueueSize 195
+transmit 9750 b False transmitting packet 271
+enqueue 9751 c 194 packet enqueued, QueueSize 35
+enqueue 9754 d 160 packet dropped, queue is full
+enqueue 9761 c 271 packet dropped, queue is full
+transmit 9762 a True transmitting packet 195
+transmit 9765 c False transmitting packet 160
+transmit 9772 d True transmitting packet 131
+transmit 9772 b False transmitting packet 271
+enqueue 9773 c 195 packet dropped, queue is full
+enqueue 9776 d 160 packet enqueued, QueueSize 35
+enqueue 9783 c 271 packet dropped, queue is full
+transmit 9784 a False transmitting packet 195
+transmit 9787 c True transmitting packet 161
+transmit 9794 b False transmitting packet 271
+enqueue 9795 c 195 packet enqueued, QueueSize 35
+enqueue 9797 e 131 packet enqueued, QueueSize 196
+enqueue 9798 d 161 packet dropped, queue is full
+enqueue 9805 c 271 packet dropped, queue is full
+transmit 9806 a True transmitting packet 196
+transmit 9809 c False transmitting packet 161
+transmit 9816 b False transmitting packet 271
+enqueue 9817 c 196 packet dropped, queue is full
+enqueue 9820 d 161 packet dropped, queue is full
+transmit 9822 d True transmitting packet 132
+enqueue 9827 c 271 packet dropped, queue is full
+transmit 9828 a False transmitting packet 196
+transmit 9831 c False transmitting packet 161
+transmit 9838 b False transmitting packet 271
+enqueue 9839 c 196 packet dropped, queue is full
+enqueue 9842 d 161 packet enqueued, QueueSize 35
+enqueue 9847 e 132 packet enqueued, QueueSize 197
+enqueue 9849 c 271 packet dropped, queue is full
+transmit 9850 a False transmitting packet 196
+transmit 9853 c True transmitting packet 162
+transmit 9860 b False transmitting packet 271
+enqueue 9861 c 196 packet enqueued, QueueSize 35
+enqueue 9864 d 162 packet dropped, queue is full
+enqueue 9871 c 271 packet dropped, queue is full
+transmit 9872 d True transmitting packet 133
+transmit 9872 a True transmitting packet 197
+transmit 9875 c False transmitting packet 162
+transmit 9882 b False transmitting packet 271
+enqueue 9883 c 197 packet dropped, queue is full
+enqueue 9886 d 162 packet enqueued, QueueSize 35
+enqueue 9893 c 271 packet dropped, queue is full
+transmit 9894 a False transmitting packet 197
+enqueue 9897 e 133 packet enqueued, QueueSize 198
+transmit 9897 c True transmitting packet 163
+transmit 9904 b False transmitting packet 271
+enqueue 9905 c 197 packet enqueued, QueueSize 35
+enqueue 9908 d 163 packet dropped, queue is full
+enqueue 9915 c 271 packet dropped, queue is full
+transmit 9916 a True transmitting packet 198
+transmit 9919 c False transmitting packet 163
+transmit 9922 d True transmitting packet 134
+transmit 9926 b False transmitting packet 271
+enqueue 9927 c 198 packet dropped, queue is full
+enqueue 9930 d 163 packet enqueued, QueueSize 35
+enqueue 9937 c 271 packet dropped, queue is full
+transmit 9938 a False transmitting packet 198
+transmit 9941 c True transmitting packet 164
+enqueue 9947 e 134 packet enqueued, QueueSize 199
+transmit 9948 b False transmitting packet 271
+enqueue 9949 c 198 packet enqueued, QueueSize 35
+enqueue 9952 d 164 packet dropped, queue is full
+enqueue 9959 c 271 packet dropped, queue is full
+transmit 9960 a True transmitting packet 199
+transmit 9963 c False transmitting packet 164
+transmit 9970 b False transmitting packet 271
+enqueue 9971 c 199 packet dropped, queue is full
+transmit 9972 d True transmitting packet 266
+enqueue 9974 d 164 packet enqueued, QueueSize 35
+enqueue 9981 c 271 packet dropped, queue is full
+transmit 9982 a False transmitting packet 199
+transmit 9985 c True transmitting packet 165
+transmit 9992 b False transmitting packet 271
+enqueue 9993 c 199 packet enqueued, QueueSize 35
+enqueue 9996 d 165 packet dropped, queue is full
+enqueue 9997 e 266 packet enqueued, QueueSize 200
+enqueue 10003 c 271 packet dropped, queue is full

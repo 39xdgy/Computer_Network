@@ -1,0 +1,301 @@
+0	Sender: packeting segment 0
+0	Sender: sending packet 0
+5	Receiver: receiving packet 0
+5	Receiver: delivering segment 0
+5	Receiver: sending ACK 0
+10	Sender: receiving ACK 0
+10	Sender: packeting segment 1
+10	Sender: sending packet 1
+10	Channel: delaying packet 1 isACK:False
+25	Sender: timeout-- preparing to resend packet 1
+25	Receiver: receiving packet 1
+25	Receiver: delivering segment 1
+25	Sender: sending packet 1
+25	Receiver: sending ACK 1
+30	Receiver: receiving packet 1
+30	Receiver: duplicate packet 1
+30	Sender: receiving ACK 1
+30	Sender: packeting segment 2
+30	Receiver: sending ACK 1
+30	Sender: sending packet 2
+35	Sender: receiving MISMATCHED ACK 1
+35	Receiver: receiving packet 2
+35	Receiver: delivering segment 2
+35	Receiver: sending ACK 2
+40	Sender: receiving ACK 2
+40	Sender: packeting segment 3
+40	Sender: sending packet 0
+40	Channel: delaying packet 0 isACK:False
+55	Sender: timeout-- preparing to resend packet 0
+55	Receiver: receiving packet 0
+55	Receiver: delivering segment 3
+55	Sender: sending packet 0
+55	Receiver: sending ACK 0
+55	Channel: dropping packet 0 isACK:True
+60	Receiver: receiving packet 0
+60	Receiver: duplicate packet 0
+60	Receiver: sending ACK 0
+65	Sender: receiving ACK 0
+65	Sender: packeting segment 4
+65	Sender: sending packet 1
+70	Receiver: receiving packet 1
+70	Receiver: delivering segment 4
+70	Receiver: sending ACK 1
+75	Sender: receiving ACK 1
+75	Sender: packeting segment 5
+75	Sender: sending packet 2
+80	Receiver: receiving packet 2
+80	Receiver: delivering segment 5
+80	Receiver: sending ACK 2
+85	Sender: receiving ACK 2
+85	Sender: packeting segment 6
+85	Sender: sending packet 0
+85	Channel: dropping packet 0 isACK:False
+100	Sender: timeout-- preparing to resend packet 0
+100	Sender: sending packet 0
+100	Channel: dropping packet 0 isACK:False
+115	Sender: timeout-- preparing to resend packet 0
+115	Sender: sending packet 0
+120	Receiver: receiving packet 0
+120	Receiver: delivering segment 6
+120	Receiver: sending ACK 0
+125	Sender: receiving ACK 0
+125	Sender: packeting segment 7
+125	Sender: sending packet 1
+130	Receiver: receiving packet 1
+130	Receiver: delivering segment 7
+130	Receiver: sending ACK 1
+135	Sender: receiving ACK 1
+135	Sender: packeting segment 8
+135	Sender: sending packet 2
+135	Channel: dropping packet 2 isACK:False
+150	Sender: timeout-- preparing to resend packet 2
+150	Sender: sending packet 2
+155	Receiver: receiving packet 2
+155	Receiver: delivering segment 8
+155	Receiver: sending ACK 2
+160	Sender: receiving ACK 2
+160	Sender: packeting segment 9
+160	Sender: sending packet 0
+165	Receiver: receiving packet 0
+165	Receiver: delivering segment 9
+165	Receiver: sending ACK 0
+170	Sender: receiving ACK 0
+170	Sender: packeting segment 10
+170	Sender: sending packet 1
+170	Channel: delaying packet 1 isACK:False
+185	Sender: timeout-- preparing to resend packet 1
+185	Receiver: receiving packet 1
+185	Receiver: delivering segment 10
+185	Sender: sending packet 1
+185	Receiver: sending ACK 1
+190	Receiver: receiving packet 1
+190	Receiver: duplicate packet 1
+190	Sender: receiving ACK 1
+190	Sender: packeting segment 11
+190	Receiver: sending ACK 1
+190	Sender: sending packet 2
+195	Sender: receiving MISMATCHED ACK 1
+195	Receiver: receiving packet 2
+195	Receiver: delivering segment 11
+195	Receiver: sending ACK 2
+195	Channel: delaying packet 2 isACK:True
+205	Sender: timeout-- preparing to resend packet 2
+205	Sender: sending packet 2
+205	Channel: delaying packet 2 isACK:False
+210	Sender: receiving ACK 2
+210	Sender: packeting segment 12
+210	Sender: sending packet 0
+215	Receiver: receiving packet 0
+215	Receiver: delivering segment 12
+215	Receiver: sending ACK 0
+220	Receiver: receiving packet 2
+220	Receiver: duplicate packet 2
+220	Sender: receiving ACK 0
+220	Sender: packeting segment 13
+220	Receiver: sending ACK 2
+220	Sender: sending packet 1
+225	Sender: receiving MISMATCHED ACK 2
+225	Receiver: receiving packet 1
+225	Receiver: delivering segment 13
+225	Receiver: sending ACK 1
+230	Sender: receiving ACK 1
+230	Sender: packeting segment 14
+230	Sender: sending packet 2
+230	Channel: delaying packet 2 isACK:False
+245	Sender: timeout-- preparing to resend packet 2
+245	Receiver: receiving packet 2
+245	Receiver: delivering segment 14
+245	Sender: sending packet 2
+245	Receiver: sending ACK 2
+245	Channel: delaying packet 2 isACK:False
+250	Sender: receiving ACK 2
+250	Sender: packeting segment 15
+250	Sender: sending packet 0
+255	Receiver: receiving packet 0
+255	Receiver: delivering segment 15
+255	Receiver: sending ACK 0
+255	Channel: delaying packet 0 isACK:True
+260	Receiver: receiving packet 2
+260	Receiver: duplicate packet 2
+260	Receiver: sending ACK 2
+265	Sender: timeout-- preparing to resend packet 0
+265	Sender: receiving MISMATCHED ACK 2
+265	Sender: sending packet 0
+270	Sender: receiving ACK 0
+270	Sender: packeting segment 16
+270	Receiver: receiving packet 0
+270	Receiver: duplicate packet 0
+270	Sender: sending packet 1
+270	Receiver: sending ACK 0
+275	Receiver: receiving packet 1
+275	Receiver: delivering segment 16
+275	Sender: receiving MISMATCHED ACK 0
+275	Receiver: sending ACK 1
+280	Sender: receiving ACK 1
+280	Sender: packeting segment 17
+280	Sender: sending packet 2
+285	Receiver: receiving packet 2
+285	Receiver: delivering segment 17
+285	Receiver: sending ACK 2
+290	Sender: receiving ACK 2
+290	Sender: packeting segment 18
+290	Sender: sending packet 0
+290	Channel: delaying packet 0 isACK:False
+305	Sender: timeout-- preparing to resend packet 0
+305	Receiver: receiving packet 0
+305	Receiver: delivering segment 18
+305	Sender: sending packet 0
+305	Receiver: sending ACK 0
+305	Channel: dropping packet 0 isACK:False
+305	Channel: delaying packet 0 isACK:True
+320	Sender: timeout-- preparing to resend packet 0
+320	Sender: receiving ACK 0
+320	Sender: packeting segment 19
+320	Sender: sending packet 0
+320	Sender: sending packet 1
+325	Receiver: receiving packet 0
+325	Receiver: duplicate packet 0
+325	Receiver: receiving packet 1
+325	Receiver: delivering segment 19
+325	Receiver: sending ACK 0
+325	Receiver: sending ACK 1
+325	Channel: delaying packet 0 isACK:True
+330	Sender: receiving ACK 1
+330	Sender: packeting segment 20
+330	Sender: sending packet 2
+330	Channel: dropping packet 2 isACK:False
+340	Sender: receiving MISMATCHED ACK 0
+345	Sender: timeout-- preparing to resend packet 2
+345	Sender: sending packet 2
+350	Receiver: receiving packet 2
+350	Receiver: delivering segment 20
+350	Receiver: sending ACK 2
+355	Sender: receiving ACK 2
+355	Sender: packeting segment 21
+355	Sender: sending packet 0
+360	Receiver: receiving packet 0
+360	Receiver: delivering segment 21
+360	Receiver: sending ACK 0
+365	Sender: receiving ACK 0
+365	Sender: packeting segment 22
+365	Sender: sending packet 1
+370	Receiver: receiving packet 1
+370	Receiver: delivering segment 22
+370	Receiver: sending ACK 1
+375	Sender: receiving ACK 1
+375	Sender: packeting segment 23
+375	Sender: sending packet 2
+380	Receiver: receiving packet 2
+380	Receiver: delivering segment 23
+380	Receiver: sending ACK 2
+385	Sender: receiving ACK 2
+385	Sender: packeting segment 24
+385	Sender: sending packet 0
+390	Receiver: receiving packet 0
+390	Receiver: delivering segment 24
+390	Receiver: sending ACK 0
+390	Channel: dropping packet 0 isACK:True
+400	Sender: timeout-- preparing to resend packet 0
+400	Sender: sending packet 0
+405	Receiver: receiving packet 0
+405	Receiver: duplicate packet 0
+405	Receiver: sending ACK 0
+410	Sender: receiving ACK 0
+410	Sender: packeting segment 25
+410	Sender: sending packet 1
+415	Receiver: receiving packet 1
+415	Receiver: delivering segment 25
+415	Receiver: sending ACK 1
+420	Sender: receiving ACK 1
+420	Sender: packeting segment 26
+420	Sender: sending packet 2
+425	Receiver: receiving packet 2
+425	Receiver: delivering segment 26
+425	Receiver: sending ACK 2
+430	Sender: receiving ACK 2
+430	Sender: packeting segment 27
+430	Sender: sending packet 0
+435	Receiver: receiving packet 0
+435	Receiver: delivering segment 27
+435	Receiver: sending ACK 0
+440	Sender: receiving ACK 0
+440	Sender: packeting segment 28
+440	Sender: sending packet 1
+445	Receiver: receiving packet 1
+445	Receiver: delivering segment 28
+445	Receiver: sending ACK 1
+450	Sender: receiving ACK 1
+450	Sender: packeting segment 29
+450	Sender: sending packet 2
+455	Receiver: receiving packet 2
+455	Receiver: delivering segment 29
+455	Receiver: sending ACK 2
+460	Sender: receiving ACK 2
+460	Sender: packeting segment 30
+460	Sender: sending packet 0
+460	Channel: delaying packet 0 isACK:False
+475	Sender: timeout-- preparing to resend packet 0
+475	Receiver: receiving packet 0
+475	Receiver: delivering segment 30
+475	Sender: sending packet 0
+475	Receiver: sending ACK 0
+480	Receiver: receiving packet 0
+480	Receiver: duplicate packet 0
+480	Sender: receiving ACK 0
+480	Sender: packeting segment 31
+480	Receiver: sending ACK 0
+480	Sender: sending packet 1
+485	Sender: receiving MISMATCHED ACK 0
+485	Receiver: receiving packet 1
+485	Receiver: delivering segment 31
+485	Receiver: sending ACK 1
+490	Sender: receiving ACK 1
+490	Sender: packeting segment 32
+490	Sender: sending packet 2
+490	Channel: dropping packet 2 isACK:False
+505	Sender: timeout-- preparing to resend packet 2
+505	Sender: sending packet 2
+505	Channel: delaying packet 2 isACK:False
+520	Sender: timeout-- preparing to resend packet 2
+520	Receiver: receiving packet 2
+520	Receiver: delivering segment 32
+520	Sender: sending packet 2
+520	Receiver: sending ACK 2
+520	Channel: dropping packet 2 isACK:True
+525	Receiver: receiving packet 2
+525	Receiver: duplicate packet 2
+525	Receiver: sending ACK 2
+530	Sender: receiving ACK 2
+530	Sender: packeting segment 33
+530	Sender: sending packet 0
+535	Receiver: receiving packet 0
+535	Receiver: delivering segment 33
+535	Receiver: sending ACK 0
+540	Sender: receiving ACK 0
+540	Sender: packeting segment 34
+540	Sender: sending packet 1
+545	Receiver: receiving packet 1
+545	Receiver: delivering segment 34
+545	Receiver: sending ACK 1
+550	Sender: receiving ACK 1

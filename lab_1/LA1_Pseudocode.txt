@@ -1,0 +1,23 @@
+Enqueue (Node x, Time t, Node sender, Link incoming_link, Packet p):
+	isDropped = False
+	If x.queue is empty:
+		x.queue.append(p)
+		Schedule a Transmit (x.next_node, t,  False)
+		
+	Else If x.queue is full:
+		isDropped = True
+		
+	Else: #x.queue is neither empty nor full
+		x.queue.append(p)
+		
+	If sender is not None: #meaning x is neither A nor B		
+		schedule a Transmit (sender, t+incoming_link.delay, !isDropped) 
+		
+		
+Transmit (Node x, Time t, boolean isACK):
+	if isACK = True:
+		x.queue.pop() #get rid of the packet that was successfully received by the next node 
+		
+	if x.queue is not epmty:  #yes we need to check this as the queue might be empty after pop()
+		schedule a Enqueue (x.next_node, t + x.outgoing_link.delay, x, x.outgoing_link, x.queue[0])
+	

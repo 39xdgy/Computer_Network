@@ -1,0 +1,8 @@
+import smtplib
+
+from email.mime.text import MIMEText
+
+with open(textfile) as fp:
+    msg = MIMEText(fp.read())
+
+print(msg)

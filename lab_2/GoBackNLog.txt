@@ -1,0 +1,3423 @@
+0	Sender: packeting segment 0
+0	Sender: packeting segment 1
+0	Sender: packeting segment 2
+0	Sender: packeting segment 3
+0	Sender: packeting segment 4
+0	Sender: sending packet 0
+1	Sender: sending packet 1
+2	Sender: sending packet 2
+3	Sender: sending packet 3
+4	Sender: sending packet 4
+5	Receiver: receiving packet 0
+5	Receiver: delivering segment 0
+5	Receiver: sending ACK 0
+6	Receiver: receiving packet 1
+6	Receiver: delivering segment 1
+6	Receiver: sending ACK 1
+7	Receiver: receiving packet 2
+7	Receiver: delivering segment 2
+7	Receiver: sending ACK 2
+8	Receiver: receiving packet 3
+8	Receiver: delivering segment 3
+8	Receiver: sending ACK 3
+9	Receiver: receiving packet 4
+9	Receiver: delivering segment 4
+9	Receiver: sending ACK 4
+10	Sender: receiving ACK 0
+10	Sender: packeting segment 5
+10	Sender: sending packet 5
+11	Sender: receiving ACK 1
+11	Sender: packeting segment 6
+11	Sender: sending packet 6
+12	Sender: receiving ACK 2
+12	Sender: packeting segment 7
+12	Sender: sending packet 7
+13	Sender: receiving ACK 3
+13	Sender: packeting segment 8
+13	Sender: sending packet 8
+14	Sender: receiving ACK 4
+14	Sender: packeting segment 9
+14	Sender: sending packet 9
+15	Sender: timeout, base = 5
+15	Sender: packeting segment 5
+15	Sender: packeting segment 6
+15	Sender: packeting segment 7
+15	Sender: packeting segment 8
+15	Sender: packeting segment 9
+15	Receiver: receiving packet 5
+15	Receiver: delivering segment 5
+15	Sender: sending packet 5
+15	Receiver: sending ACK 5
+16	Receiver: receiving packet 6
+16	Receiver: delivering segment 6
+16	Sender: sending packet 6
+16	Receiver: sending ACK 6
+17	Receiver: receiving packet 7
+17	Receiver: delivering segment 7
+17	Sender: sending packet 7
+17	Receiver: sending ACK 7
+18	Receiver: receiving packet 8
+18	Receiver: delivering segment 8
+18	Sender: sending packet 8
+18	Receiver: sending ACK 8
+19	Receiver: receiving packet 9
+19	Receiver: delivering segment 9
+19	Sender: sending packet 9
+19	Receiver: sending ACK 9
+19	Channel: dropping packet 9 isACK:True
+20	Receiver: receiving packet 5
+20	Receiver: discarding packet 5
+20	Sender: receiving ACK 5
+20	Sender: packeting segment 10
+20	Receiver: sending ACK 9
+20	Sender: sending packet 10
+20	Channel: dropping packet 9 isACK:True
+21	Receiver: receiving packet 6
+21	Receiver: discarding packet 6
+21	Sender: receiving ACK 6
+21	Sender: packeting segment 11
+21	Receiver: sending ACK 9
+21	Sender: sending packet 11
+21	Channel: delaying packet 11 isACK:False
+22	Receiver: receiving packet 7
+22	Receiver: discarding packet 7
+22	Sender: receiving ACK 7
+22	Sender: packeting segment 12
+22	Receiver: sending ACK 9
+22	Sender: sending packet 12
+22	Channel: dropping packet 9 isACK:True
+22	Channel: delaying packet 12 isACK:False
+23	Receiver: receiving packet 8
+23	Receiver: discarding packet 8
+23	Sender: receiving ACK 8
+23	Sender: packeting segment 13
+23	Receiver: sending ACK 9
+23	Sender: sending packet 13
+23	Channel: delaying packet 13 isACK:False
+24	Receiver: receiving packet 9
+24	Receiver: discarding packet 9
+24	Receiver: sending ACK 9
+25	Sender: timeout, base = 9
+25	Sender: packeting segment 9
+25	Sender: packeting segment 10
+25	Sender: packeting segment 11
+25	Sender: packeting segment 12
+25	Sender: packeting segment 13
+25	Receiver: receiving packet 10
+25	Receiver: delivering segment 10
+25	Sender: sending packet 9
+25	Receiver: sending ACK 10
+26	Sender: timeout, base = 9
+26	Sender: packeting segment 9
+26	Sender: packeting segment 10
+26	Sender: packeting segment 11
+26	Sender: packeting segment 12
+26	Sender: packeting segment 13
+26	Sender: receiving ACK 9
+26	Sender: packeting segment 9
+26	Sender: packeting segment 9
+26	Sender: packeting segment 9
+26	Sender: packeting segment 9
+26	Sender: packeting segment 9
+26	Sender: packeting segment 9
+26	Sender: sending packet 10
+26	Sender: sending packet 9
+26	Sender: sending packet 9
+26	Sender: sending packet 9
+26	Sender: sending packet 9
+26	Sender: sending packet 9
+26	Sender: sending packet 9
+26	Sender: sending packet 9
+26	Channel: dropping packet 9 isACK:False
+27	Sender: timeout, base = 10
+27	Sender: packeting segment 10
+27	Sender: packeting segment 11
+27	Sender: packeting segment 12
+27	Sender: packeting segment 13
+27	Sender: packeting segment 14
+27	Sender: sending packet 11
+27	Sender: sending packet 10
+27	Sender: sending packet 10
+27	Channel: delaying packet 10 isACK:False
+28	Sender: timeout, base = 10
+28	Sender: packeting segment 10
+28	Sender: packeting segment 11
+28	Sender: packeting segment 12
+28	Sender: packeting segment 13
+28	Sender: packeting segment 14
+28	Sender: receiving ACK 9
+28	Sender: ignoring duplicate ACK 9
+28	Sender: sending packet 12
+28	Sender: sending packet 11
+28	Sender: sending packet 11
+28	Sender: sending packet 10
+28	Channel: dropping packet 12 isACK:False
+28	Channel: delaying packet 10 isACK:False
+29	Sender: timeout, base = 10
+29	Sender: packeting segment 10
+29	Sender: packeting segment 11
+29	Sender: packeting segment 12
+29	Sender: packeting segment 13
+29	Sender: packeting segment 14
+29	Sender: receiving ACK 9
+29	Sender: ignoring duplicate ACK 9
+29	Sender: sending packet 13
+29	Sender: sending packet 12
+29	Sender: sending packet 12
+29	Sender: sending packet 11
+29	Sender: sending packet 10
+30	Sender: timeout, base = 10
+30	Sender: packeting segment 10
+30	Sender: packeting segment 11
+30	Sender: packeting segment 12
+30	Sender: packeting segment 13
+30	Sender: packeting segment 14
+30	Receiver: receiving packet 9
+30	Receiver: discarding packet 9
+30	Sender: receiving ACK 10
+30	Sender: packeting segment 10
+30	Sender: packeting segment 10
+30	Sender: packeting segment 10
+30	Sender: packeting segment 10
+30	Sender: packeting segment 10
+30	Sender: packeting segment 10
+30	Sender: sending packet 13
+30	Sender: sending packet 13
+30	Sender: sending packet 12
+30	Sender: sending packet 11
+30	Sender: sending packet 10
+30	Receiver: sending ACK 10
+30	Sender: sending packet 10
+30	Sender: sending packet 10
+30	Sender: sending packet 10
+30	Sender: sending packet 10
+30	Sender: sending packet 10
+30	Sender: sending packet 10
+30	Channel: dropping packet 13 isACK:False
+30	Channel: delaying packet 12 isACK:False
+30	Channel: delaying packet 10 isACK:False
+31	Receiver: receiving packet 10
+31	Receiver: discarding packet 10
+31	Receiver: receiving packet 9
+31	Receiver: discarding packet 9
+31	Receiver: receiving packet 9
+31	Receiver: discarding packet 9
+31	Receiver: receiving packet 9
+31	Receiver: discarding packet 9
+31	Receiver: receiving packet 9
+31	Receiver: discarding packet 9
+31	Receiver: receiving packet 9
+31	Receiver: discarding packet 9
+31	Receiver: receiving packet 9
+31	Receiver: discarding packet 9
+31	Sender: sending packet 14
+31	Sender: sending packet 13
+31	Sender: sending packet 12
+31	Sender: sending packet 11
+31	Receiver: sending ACK 10
+31	Receiver: sending ACK 10
+31	Receiver: sending ACK 10
+31	Receiver: sending ACK 10
+31	Receiver: sending ACK 10
+31	Receiver: sending ACK 10
+31	Receiver: sending ACK 10
+31	Channel: delaying packet 10 isACK:True
+31	Channel: delaying packet 10 isACK:True
+32	Receiver: receiving packet 11
+32	Receiver: delivering segment 11
+32	Receiver: receiving packet 10
+32	Receiver: discarding packet 10
+32	Sender: sending packet 14
+32	Sender: sending packet 13
+32	Sender: sending packet 12
+32	Receiver: sending ACK 11
+32	Receiver: sending ACK 11
+33	Receiver: receiving packet 11
+33	Receiver: discarding packet 11
+33	Receiver: receiving packet 11
+33	Receiver: discarding packet 11
+33	Sender: sending packet 14
+33	Sender: sending packet 13
+33	Receiver: sending ACK 11
+33	Receiver: sending ACK 11
+33	Channel: delaying packet 14 isACK:False
+33	Channel: dropping packet 11 isACK:True
+34	Receiver: receiving packet 13
+34	Receiver: discarding packet 13
+34	Receiver: receiving packet 12
+34	Receiver: delivering segment 12
+34	Receiver: receiving packet 12
+34	Receiver: discarding packet 12
+34	Receiver: receiving packet 11
+34	Receiver: discarding packet 11
+34	Receiver: receiving packet 10
+34	Receiver: discarding packet 10
+34	Sender: sending packet 14
+34	Receiver: sending ACK 11
+34	Receiver: sending ACK 12
+34	Receiver: sending ACK 12
+34	Receiver: sending ACK 12
+34	Receiver: sending ACK 12
+34	Channel: dropping packet 11 isACK:True
+35	Sender: timeout, base = 11
+35	Sender: packeting segment 11
+35	Sender: packeting segment 12
+35	Sender: packeting segment 13
+35	Sender: packeting segment 14
+35	Sender: packeting segment 15
+35	Receiver: receiving packet 13
+35	Receiver: delivering segment 13
+35	Receiver: receiving packet 11
+35	Receiver: discarding packet 11
+35	Receiver: receiving packet 10
+35	Receiver: discarding packet 10
+35	Sender: receiving ACK 10
+35	Sender: ignoring duplicate ACK 10
+35	Receiver: receiving packet 10
+35	Receiver: discarding packet 10
+35	Receiver: receiving packet 10
+35	Receiver: discarding packet 10
+35	Receiver: receiving packet 10
+35	Receiver: discarding packet 10
+35	Receiver: receiving packet 10
+35	Receiver: discarding packet 10
+35	Receiver: receiving packet 10
+35	Receiver: discarding packet 10
+35	Sender: sending packet 11
+35	Receiver: sending ACK 13
+35	Receiver: sending ACK 13
+35	Receiver: sending ACK 13
+35	Receiver: sending ACK 13
+35	Receiver: sending ACK 13
+35	Receiver: sending ACK 13
+35	Receiver: sending ACK 13
+35	Receiver: sending ACK 13
+35	Channel: dropping packet 13 isACK:True
+36	Sender: timeout, base = 11
+36	Sender: packeting segment 11
+36	Sender: packeting segment 12
+36	Sender: packeting segment 13
+36	Sender: packeting segment 14
+36	Sender: packeting segment 15
+36	Receiver: receiving packet 11
+36	Receiver: discarding packet 11
+36	Receiver: receiving packet 14
+36	Receiver: delivering segment 14
+36	Receiver: receiving packet 13
+36	Receiver: discarding packet 13
+36	Receiver: receiving packet 12
+36	Receiver: discarding packet 12
+36	Receiver: receiving packet 11
+36	Receiver: discarding packet 11
+36	Sender: receiving ACK 10
+36	Sender: ignoring duplicate ACK 10
+36	Sender: receiving ACK 10
+36	Sender: ignoring duplicate ACK 10
+36	Sender: receiving ACK 10
+36	Sender: ignoring duplicate ACK 10
+36	Sender: receiving ACK 10
+36	Sender: ignoring duplicate ACK 10
+36	Sender: receiving ACK 10
+36	Sender: ignoring duplicate ACK 10
+36	Sender: sending packet 12
+36	Sender: sending packet 11
+36	Receiver: sending ACK 13
+36	Receiver: sending ACK 14
+36	Receiver: sending ACK 14
+36	Receiver: sending ACK 14
+36	Receiver: sending ACK 14
+36	Channel: delaying packet 12 isACK:False
+37	Sender: timeout, base = 11
+37	Sender: packeting segment 11
+37	Sender: packeting segment 12
+37	Sender: packeting segment 13
+37	Sender: packeting segment 14
+37	Sender: packeting segment 15
+37	Receiver: receiving packet 12
+37	Receiver: discarding packet 12
+37	Receiver: receiving packet 14
+37	Receiver: discarding packet 14
+37	Receiver: receiving packet 13
+37	Receiver: discarding packet 13
+37	Receiver: receiving packet 12
+37	Receiver: discarding packet 12
+37	Sender: receiving ACK 11
+37	Sender: packeting segment 11
+37	Sender: packeting segment 11
+37	Sender: packeting segment 11
+37	Sender: packeting segment 11
+37	Sender: packeting segment 11
+37	Sender: packeting segment 11
+37	Sender: receiving ACK 11
+37	Sender: ignoring duplicate ACK 11
+37	Sender: sending packet 13
+37	Sender: sending packet 12
+37	Sender: sending packet 11
+37	Receiver: sending ACK 14
+37	Receiver: sending ACK 14
+37	Receiver: sending ACK 14
+37	Receiver: sending ACK 14
+37	Sender: sending packet 11
+37	Sender: sending packet 11
+37	Sender: sending packet 11
+37	Sender: sending packet 11
+37	Sender: sending packet 11
+37	Sender: sending packet 11
+37	Channel: delaying packet 14 isACK:True
+37	Channel: dropping packet 14 isACK:True
+37	Channel: delaying packet 11 isACK:False
+38	Sender: timeout, base = 12
+38	Sender: packeting segment 12
+38	Sender: packeting segment 13
+38	Sender: packeting segment 14
+38	Sender: packeting segment 15
+38	Sender: packeting segment 16
+38	Receiver: receiving packet 13
+38	Receiver: discarding packet 13
+38	Receiver: receiving packet 13
+38	Receiver: discarding packet 13
+38	Sender: receiving ACK 11
+38	Sender: ignoring duplicate ACK 11
+38	Sender: sending packet 14
+38	Sender: sending packet 13
+38	Sender: sending packet 12
+38	Sender: sending packet 12
+38	Receiver: sending ACK 14
+38	Receiver: sending ACK 14
+38	Channel: delaying packet 12 isACK:False
+39	Receiver: receiving packet 14
+39	Receiver: discarding packet 14
+39	Sender: receiving ACK 12
+39	Sender: packeting segment 16
+39	Sender: packeting segment 16
+39	Sender: receiving ACK 12
+39	Sender: ignoring duplicate ACK 12
+39	Sender: receiving ACK 12
+39	Sender: ignoring duplicate ACK 12
+39	Sender: receiving ACK 12
+39	Sender: ignoring duplicate ACK 12
+39	Sender: sending packet 15
+39	Sender: sending packet 14
+39	Sender: sending packet 13
+39	Sender: sending packet 13
+39	Receiver: sending ACK 14
+39	Sender: sending packet 16
+39	Sender: sending packet 16
+39	Channel: dropping packet 13 isACK:False
+39	Channel: dropping packet 14 isACK:True
+39	Channel: dropping packet 16 isACK:False
+40	Sender: timeout, base = 13
+40	Sender: packeting segment 13
+40	Sender: packeting segment 14
+40	Sender: packeting segment 15
+40	Sender: packeting segment 16
+40	Sender: packeting segment 17
+40	Receiver: receiving packet 11
+40	Receiver: discarding packet 11
+40	Sender: receiving ACK 13
+40	Sender: packeting segment 13
+40	Sender: packeting segment 13
+40	Sender: packeting segment 13
+40	Sender: packeting segment 13
+40	Sender: packeting segment 13
+40	Sender: packeting segment 13
+40	Sender: receiving ACK 13
+40	Sender: ignoring duplicate ACK 13
+40	Sender: receiving ACK 13
+40	Sender: ignoring duplicate ACK 13
+40	Sender: receiving ACK 13
+40	Sender: ignoring duplicate ACK 13
+40	Sender: receiving ACK 13
+40	Sender: ignoring duplicate ACK 13
+40	Sender: receiving ACK 13
+40	Sender: ignoring duplicate ACK 13
+40	Sender: receiving ACK 13
+40	Sender: ignoring duplicate ACK 13
+40	Sender: sending packet 15
+40	Sender: sending packet 14
+40	Sender: sending packet 14
+40	Sender: sending packet 13
+40	Receiver: sending ACK 14
+40	Sender: sending packet 13
+40	Sender: sending packet 13
+40	Sender: sending packet 13
+40	Sender: sending packet 13
+40	Sender: sending packet 13
+40	Sender: sending packet 13
+40	Channel: dropping packet 14 isACK:False
+40	Channel: delaying packet 13 isACK:False
+40	Channel: dropping packet 13 isACK:False
+41	Sender: timeout, base = 14
+41	Sender: packeting segment 14
+41	Sender: packeting segment 15
+41	Sender: packeting segment 16
+41	Sender: packeting segment 17
+41	Sender: packeting segment 18
+41	Sender: timeout, base = 14
+41	Sender: packeting segment 14
+41	Sender: packeting segment 15
+41	Sender: packeting segment 16
+41	Sender: packeting segment 17
+41	Sender: packeting segment 18
+41	Receiver: receiving packet 11
+41	Receiver: discarding packet 11
+41	Sender: receiving ACK 13
+41	Sender: ignoring duplicate ACK 13
+41	Sender: receiving ACK 14
+41	Sender: packeting segment 14
+41	Sender: packeting segment 14
+41	Sender: packeting segment 14
+41	Sender: packeting segment 14
+41	Sender: packeting segment 14
+41	Sender: packeting segment 14
+41	Sender: receiving ACK 14
+41	Sender: ignoring duplicate ACK 14
+41	Sender: receiving ACK 14
+41	Sender: ignoring duplicate ACK 14
+41	Sender: receiving ACK 14
+41	Sender: ignoring duplicate ACK 14
+41	Sender: sending packet 15
+41	Sender: sending packet 15
+41	Sender: sending packet 14
+41	Sender: sending packet 14
+41	Sender: sending packet 14
+41	Receiver: sending ACK 14
+41	Sender: sending packet 14
+41	Sender: sending packet 14
+41	Sender: sending packet 14
+41	Sender: sending packet 14
+41	Sender: sending packet 14
+41	Sender: sending packet 14
+42	Sender: timeout, base = 15
+42	Sender: packeting segment 15
+42	Sender: packeting segment 16
+42	Sender: packeting segment 17
+42	Sender: packeting segment 18
+42	Sender: packeting segment 19
+42	Receiver: receiving packet 10
+42	Receiver: discarding packet 10
+42	Receiver: receiving packet 13
+42	Receiver: discarding packet 13
+42	Receiver: receiving packet 12
+42	Receiver: discarding packet 12
+42	Receiver: receiving packet 11
+42	Receiver: discarding packet 11
+42	Sender: receiving ACK 14
+42	Sender: ignoring duplicate ACK 14
+42	Sender: receiving ACK 14
+42	Sender: ignoring duplicate ACK 14
+42	Receiver: receiving packet 11
+42	Receiver: discarding packet 11
+42	Receiver: receiving packet 11
+42	Receiver: discarding packet 11
+42	Receiver: receiving packet 11
+42	Receiver: discarding packet 11
+42	Receiver: receiving packet 11
+42	Receiver: discarding packet 11
+42	Receiver: receiving packet 11
+42	Receiver: discarding packet 11
+42	Sender: sending packet 16
+42	Sender: sending packet 15
+42	Sender: sending packet 15
+42	Sender: sending packet 15
+42	Sender: sending packet 15
+42	Receiver: sending ACK 14
+42	Receiver: sending ACK 14
+42	Receiver: sending ACK 14
+42	Receiver: sending ACK 14
+42	Receiver: sending ACK 14
+42	Receiver: sending ACK 14
+42	Receiver: sending ACK 14
+42	Receiver: sending ACK 14
+42	Receiver: sending ACK 14
+42	Channel: delaying packet 15 isACK:False
+42	Channel: dropping packet 14 isACK:True
+42	Channel: delaying packet 14 isACK:True
+42	Channel: delaying packet 14 isACK:True
+42	Channel: dropping packet 14 isACK:True
+43	Sender: timeout, base = 15
+43	Sender: packeting segment 15
+43	Sender: packeting segment 16
+43	Sender: packeting segment 17
+43	Sender: packeting segment 18
+43	Sender: packeting segment 19
+43	Receiver: receiving packet 10
+43	Receiver: discarding packet 10
+43	Receiver: receiving packet 14
+43	Receiver: discarding packet 14
+43	Receiver: receiving packet 13
+43	Receiver: discarding packet 13
+43	Receiver: receiving packet 12
+43	Receiver: discarding packet 12
+43	Sender: receiving ACK 14
+43	Sender: ignoring duplicate ACK 14
+43	Sender: receiving ACK 14
+43	Sender: ignoring duplicate ACK 14
+43	Sender: sending packet 16
+43	Sender: sending packet 16
+43	Sender: sending packet 16
+43	Sender: sending packet 16
+43	Sender: sending packet 15
+43	Receiver: sending ACK 14
+43	Receiver: sending ACK 14
+43	Receiver: sending ACK 14
+43	Receiver: sending ACK 14
+43	Channel: dropping packet 14 isACK:True
+44	Sender: timeout, base = 15
+44	Sender: packeting segment 15
+44	Sender: packeting segment 16
+44	Sender: packeting segment 17
+44	Sender: packeting segment 18
+44	Sender: packeting segment 19
+44	Receiver: receiving packet 15
+44	Receiver: delivering segment 15
+44	Receiver: receiving packet 14
+44	Receiver: discarding packet 14
+44	Receiver: receiving packet 13
+44	Receiver: discarding packet 13
+44	Receiver: receiving packet 16
+44	Receiver: delivering segment 16
+44	Sender: sending packet 17
+44	Sender: sending packet 17
+44	Sender: sending packet 17
+44	Sender: sending packet 17
+44	Sender: sending packet 16
+44	Sender: sending packet 15
+44	Receiver: sending ACK 15
+44	Receiver: sending ACK 15
+44	Receiver: sending ACK 15
+44	Receiver: sending ACK 16
+44	Channel: delaying packet 17 isACK:False
+44	Channel: dropping packet 17 isACK:False
+44	Channel: dropping packet 15 isACK:True
+45	Sender: timeout, base = 15
+45	Sender: packeting segment 15
+45	Sender: packeting segment 16
+45	Sender: packeting segment 17
+45	Sender: packeting segment 18
+45	Sender: packeting segment 19
+45	Sender: timeout, base = 15
+45	Sender: packeting segment 15
+45	Sender: packeting segment 16
+45	Sender: packeting segment 17
+45	Sender: packeting segment 18
+45	Sender: packeting segment 19
+45	Receiver: receiving packet 12
+45	Receiver: discarding packet 12
+45	Receiver: receiving packet 10
+45	Receiver: discarding packet 10
+45	Receiver: receiving packet 15
+45	Receiver: discarding packet 15
+45	Receiver: receiving packet 14
+45	Receiver: discarding packet 14
+45	Receiver: receiving packet 13
+45	Receiver: discarding packet 13
+45	Sender: receiving ACK 14
+45	Sender: ignoring duplicate ACK 14
+45	Receiver: receiving packet 13
+45	Receiver: discarding packet 13
+45	Receiver: receiving packet 13
+45	Receiver: discarding packet 13
+45	Receiver: receiving packet 13
+45	Receiver: discarding packet 13
+45	Receiver: receiving packet 13
+45	Receiver: discarding packet 13
+45	Sender: sending packet 18
+45	Sender: sending packet 18
+45	Sender: sending packet 18
+45	Sender: sending packet 17
+45	Sender: sending packet 16
+45	Sender: sending packet 15
+45	Sender: sending packet 15
+45	Receiver: sending ACK 16
+45	Receiver: sending ACK 16
+45	Receiver: sending ACK 16
+45	Receiver: sending ACK 16
+45	Receiver: sending ACK 16
+45	Receiver: sending ACK 16
+45	Receiver: sending ACK 16
+45	Receiver: sending ACK 16
+45	Receiver: sending ACK 16
+45	Channel: dropping packet 15 isACK:False
+45	Channel: dropping packet 16 isACK:True
+46	Sender: receiving ACK 10
+46	Sender: ignoring duplicate ACK 10
+46	Sender: receiving ACK 10
+46	Sender: ignoring duplicate ACK 10
+46	Receiver: receiving packet 15
+46	Receiver: discarding packet 15
+46	Receiver: receiving packet 15
+46	Receiver: discarding packet 15
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Sender: receiving ACK 14
+46	Sender: ignoring duplicate ACK 14
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Receiver: receiving packet 14
+46	Receiver: discarding packet 14
+46	Sender: sending packet 19
+46	Sender: sending packet 18
+46	Sender: sending packet 17
+46	Sender: sending packet 16
+46	Sender: sending packet 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Receiver: sending ACK 16
+46	Channel: delaying packet 16 isACK:False
+46	Channel: dropping packet 16 isACK:False
+46	Channel: delaying packet 16 isACK:True
+46	Channel: delaying packet 16 isACK:True
+46	Channel: dropping packet 16 isACK:True
+47	Receiver: receiving packet 16
+47	Receiver: discarding packet 16
+47	Receiver: receiving packet 15
+47	Receiver: discarding packet 15
+47	Receiver: receiving packet 15
+47	Receiver: discarding packet 15
+47	Receiver: receiving packet 15
+47	Receiver: discarding packet 15
+47	Sender: receiving ACK 14
+47	Sender: ignoring duplicate ACK 14
+47	Sender: receiving ACK 14
+47	Sender: ignoring duplicate ACK 14
+47	Sender: receiving ACK 14
+47	Sender: ignoring duplicate ACK 14
+47	Sender: receiving ACK 14
+47	Sender: ignoring duplicate ACK 14
+47	Sender: receiving ACK 14
+47	Sender: ignoring duplicate ACK 14
+47	Sender: sending packet 19
+47	Sender: sending packet 18
+47	Sender: sending packet 17
+47	Sender: sending packet 17
+47	Receiver: sending ACK 16
+47	Receiver: sending ACK 16
+47	Receiver: sending ACK 16
+47	Receiver: sending ACK 16
+48	Receiver: receiving packet 14
+48	Receiver: discarding packet 14
+48	Receiver: receiving packet 16
+48	Receiver: discarding packet 16
+48	Receiver: receiving packet 16
+48	Receiver: discarding packet 16
+48	Receiver: receiving packet 16
+48	Receiver: discarding packet 16
+48	Receiver: receiving packet 16
+48	Receiver: discarding packet 16
+48	Receiver: receiving packet 15
+48	Receiver: discarding packet 15
+48	Sender: receiving ACK 14
+48	Sender: ignoring duplicate ACK 14
+48	Sender: receiving ACK 14
+48	Sender: ignoring duplicate ACK 14
+48	Sender: receiving ACK 14
+48	Sender: ignoring duplicate ACK 14
+48	Sender: sending packet 19
+48	Sender: sending packet 18
+48	Sender: sending packet 18
+48	Receiver: sending ACK 16
+48	Receiver: sending ACK 16
+48	Receiver: sending ACK 16
+48	Receiver: sending ACK 16
+48	Receiver: sending ACK 16
+48	Receiver: sending ACK 16
+48	Channel: delaying packet 18 isACK:False
+49	Receiver: receiving packet 17
+49	Receiver: delivering segment 17
+49	Receiver: receiving packet 17
+49	Receiver: discarding packet 17
+49	Receiver: receiving packet 16
+49	Receiver: discarding packet 16
+49	Receiver: receiving packet 15
+49	Receiver: discarding packet 15
+49	Sender: receiving ACK 15
+49	Sender: receiving ACK 15
+49	Sender: ignoring duplicate ACK 15
+49	Sender: receiving ACK 16
+49	Sender: sending packet 19
+49	Sender: sending packet 19
+49	Receiver: sending ACK 17
+49	Receiver: sending ACK 17
+49	Receiver: sending ACK 17
+49	Receiver: sending ACK 17
+50	Sender: timeout, base = 17
+50	Sender: packeting segment 17
+50	Sender: packeting segment 18
+50	Sender: packeting segment 19
+50	Sender: packeting segment 20
+50	Sender: packeting segment 21
+50	Receiver: receiving packet 18
+50	Receiver: delivering segment 18
+50	Receiver: receiving packet 18
+50	Receiver: discarding packet 18
+50	Receiver: receiving packet 18
+50	Receiver: discarding packet 18
+50	Receiver: receiving packet 17
+50	Receiver: discarding packet 17
+50	Receiver: receiving packet 16
+50	Receiver: discarding packet 16
+50	Receiver: receiving packet 15
+50	Receiver: discarding packet 15
+50	Sender: receiving ACK 16
+50	Sender: ignoring duplicate ACK 16
+50	Sender: receiving ACK 16
+50	Sender: ignoring duplicate ACK 16
+50	Sender: receiving ACK 16
+50	Sender: ignoring duplicate ACK 16
+50	Sender: receiving ACK 16
+50	Sender: ignoring duplicate ACK 16
+50	Sender: receiving ACK 16
+50	Sender: ignoring duplicate ACK 16
+50	Sender: receiving ACK 16
+50	Sender: ignoring duplicate ACK 16
+50	Sender: receiving ACK 16
+50	Sender: ignoring duplicate ACK 16
+50	Sender: receiving ACK 16
+50	Sender: ignoring duplicate ACK 16
+50	Sender: sending packet 17
+50	Receiver: sending ACK 18
+50	Receiver: sending ACK 18
+50	Receiver: sending ACK 18
+50	Receiver: sending ACK 18
+50	Receiver: sending ACK 18
+50	Receiver: sending ACK 18
+50	Channel: dropping packet 18 isACK:True
+51	Sender: timeout, base = 17
+51	Sender: packeting segment 17
+51	Sender: packeting segment 18
+51	Sender: packeting segment 19
+51	Sender: packeting segment 20
+51	Sender: packeting segment 21
+51	Receiver: receiving packet 12
+51	Receiver: discarding packet 12
+51	Receiver: receiving packet 19
+51	Receiver: delivering segment 19
+51	Receiver: receiving packet 18
+51	Receiver: discarding packet 18
+51	Receiver: receiving packet 17
+51	Receiver: discarding packet 17
+51	Sender: receiving ACK 16
+51	Sender: ignoring duplicate ACK 16
+51	Sender: receiving ACK 16
+51	Sender: ignoring duplicate ACK 16
+51	Sender: receiving ACK 16
+51	Sender: ignoring duplicate ACK 16
+51	Sender: receiving ACK 16
+51	Sender: ignoring duplicate ACK 16
+51	Sender: receiving ACK 16
+51	Sender: ignoring duplicate ACK 16
+51	Sender: receiving ACK 16
+51	Sender: ignoring duplicate ACK 16
+51	Sender: receiving ACK 16
+51	Sender: ignoring duplicate ACK 16
+51	Sender: receiving ACK 16
+51	Sender: ignoring duplicate ACK 16
+51	Sender: sending packet 18
+51	Sender: sending packet 17
+51	Receiver: sending ACK 18
+51	Receiver: sending ACK 19
+51	Receiver: sending ACK 19
+51	Receiver: sending ACK 19
+51	Channel: delaying packet 19 isACK:True
+52	Sender: timeout, base = 17
+52	Sender: packeting segment 17
+52	Sender: packeting segment 18
+52	Sender: packeting segment 19
+52	Sender: packeting segment 20
+52	Sender: packeting segment 21
+52	Sender: timeout, base = 17
+52	Sender: packeting segment 17
+52	Sender: packeting segment 18
+52	Sender: packeting segment 19
+52	Sender: packeting segment 20
+52	Sender: packeting segment 21
+52	Sender: receiving ACK 14
+52	Sender: ignoring duplicate ACK 14
+52	Receiver: receiving packet 11
+52	Receiver: discarding packet 11
+52	Receiver: receiving packet 19
+52	Receiver: discarding packet 19
+52	Receiver: receiving packet 18
+52	Receiver: discarding packet 18
+52	Receiver: receiving packet 17
+52	Receiver: discarding packet 17
+52	Receiver: receiving packet 17
+52	Receiver: discarding packet 17
+52	Sender: receiving ACK 16
+52	Sender: ignoring duplicate ACK 16
+52	Sender: receiving ACK 16
+52	Sender: ignoring duplicate ACK 16
+52	Sender: receiving ACK 16
+52	Sender: ignoring duplicate ACK 16
+52	Sender: receiving ACK 16
+52	Sender: ignoring duplicate ACK 16
+52	Sender: sending packet 19
+52	Sender: sending packet 18
+52	Sender: sending packet 17
+52	Sender: sending packet 17
+52	Receiver: sending ACK 19
+52	Receiver: sending ACK 19
+52	Receiver: sending ACK 19
+52	Receiver: sending ACK 19
+52	Receiver: sending ACK 19
+52	Channel: dropping packet 17 isACK:False
+52	Channel: dropping packet 19 isACK:True
+53	Sender: timeout, base = 17
+53	Sender: packeting segment 17
+53	Sender: packeting segment 18
+53	Sender: packeting segment 19
+53	Sender: packeting segment 20
+53	Sender: packeting segment 21
+53	Receiver: receiving packet 12
+53	Receiver: discarding packet 12
+53	Receiver: receiving packet 19
+53	Receiver: discarding packet 19
+53	Receiver: receiving packet 18
+53	Receiver: discarding packet 18
+53	Sender: receiving ACK 16
+53	Sender: ignoring duplicate ACK 16
+53	Sender: receiving ACK 16
+53	Sender: ignoring duplicate ACK 16
+53	Sender: receiving ACK 16
+53	Sender: ignoring duplicate ACK 16
+53	Sender: receiving ACK 16
+53	Sender: ignoring duplicate ACK 16
+53	Sender: receiving ACK 16
+53	Sender: ignoring duplicate ACK 16
+53	Sender: receiving ACK 16
+53	Sender: ignoring duplicate ACK 16
+53	Sender: sending packet 20
+53	Sender: sending packet 19
+53	Sender: sending packet 18
+53	Sender: sending packet 18
+53	Sender: sending packet 17
+53	Receiver: sending ACK 19
+53	Receiver: sending ACK 19
+53	Receiver: sending ACK 19
+53	Channel: dropping packet 19 isACK:False
+54	Sender: timeout, base = 17
+54	Sender: packeting segment 17
+54	Sender: packeting segment 18
+54	Sender: packeting segment 19
+54	Sender: packeting segment 20
+54	Sender: packeting segment 21
+54	Receiver: receiving packet 19
+54	Receiver: discarding packet 19
+54	Receiver: receiving packet 19
+54	Receiver: discarding packet 19
+54	Sender: receiving ACK 17
+54	Sender: packeting segment 17
+54	Sender: packeting segment 17
+54	Sender: packeting segment 17
+54	Sender: packeting segment 17
+54	Sender: packeting segment 17
+54	Sender: packeting segment 17
+54	Sender: receiving ACK 17
+54	Sender: ignoring duplicate ACK 17
+54	Sender: receiving ACK 17
+54	Sender: ignoring duplicate ACK 17
+54	Sender: receiving ACK 17
+54	Sender: ignoring duplicate ACK 17
+54	Sender: sending packet 21
+54	Sender: sending packet 20
+54	Sender: sending packet 19
+54	Sender: sending packet 19
+54	Sender: sending packet 18
+54	Sender: sending packet 17
+54	Receiver: sending ACK 19
+54	Receiver: sending ACK 19
+54	Sender: sending packet 17
+54	Sender: sending packet 17
+54	Sender: sending packet 17
+54	Sender: sending packet 17
+54	Sender: sending packet 17
+54	Sender: sending packet 17
+54	Channel: dropping packet 21 isACK:False
+54	Channel: dropping packet 17 isACK:False
+55	Sender: timeout, base = 18
+55	Sender: packeting segment 18
+55	Sender: packeting segment 19
+55	Sender: packeting segment 20
+55	Sender: packeting segment 21
+55	Sender: packeting segment 22
+55	Sender: timeout, base = 18
+55	Sender: packeting segment 18
+55	Sender: packeting segment 19
+55	Sender: packeting segment 20
+55	Sender: packeting segment 21
+55	Sender: packeting segment 22
+55	Receiver: receiving packet 13
+55	Receiver: discarding packet 13
+55	Receiver: receiving packet 17
+55	Receiver: discarding packet 17
+55	Sender: receiving ACK 18
+55	Sender: packeting segment 18
+55	Sender: packeting segment 18
+55	Sender: packeting segment 18
+55	Sender: packeting segment 18
+55	Sender: packeting segment 18
+55	Sender: packeting segment 18
+55	Sender: receiving ACK 18
+55	Sender: ignoring duplicate ACK 18
+55	Sender: receiving ACK 18
+55	Sender: ignoring duplicate ACK 18
+55	Sender: receiving ACK 18
+55	Sender: ignoring duplicate ACK 18
+55	Sender: receiving ACK 18
+55	Sender: ignoring duplicate ACK 18
+55	Sender: sending packet 21
+55	Sender: sending packet 20
+55	Sender: sending packet 20
+55	Sender: sending packet 19
+55	Sender: sending packet 18
+55	Sender: sending packet 18
+55	Sender: sending packet 18
+55	Receiver: sending ACK 19
+55	Receiver: sending ACK 19
+55	Sender: sending packet 18
+55	Sender: sending packet 18
+55	Sender: sending packet 18
+55	Sender: sending packet 18
+55	Sender: sending packet 18
+55	Sender: sending packet 18
+55	Channel: delaying packet 18 isACK:False
+55	Channel: dropping packet 18 isACK:False
+55	Channel: dropping packet 18 isACK:False
+56	Sender: timeout, base = 19
+56	Sender: packeting segment 19
+56	Sender: packeting segment 20
+56	Sender: packeting segment 21
+56	Sender: packeting segment 22
+56	Sender: packeting segment 23
+56	Sender: timeout, base = 19
+56	Sender: packeting segment 19
+56	Sender: packeting segment 20
+56	Sender: packeting segment 21
+56	Sender: packeting segment 22
+56	Sender: packeting segment 23
+56	Receiver: receiving packet 18
+56	Receiver: discarding packet 18
+56	Receiver: receiving packet 17
+56	Receiver: discarding packet 17
+56	Sender: receiving ACK 18
+56	Sender: ignoring duplicate ACK 18
+56	Sender: receiving ACK 19
+56	Sender: packeting segment 19
+56	Sender: packeting segment 19
+56	Sender: packeting segment 19
+56	Sender: packeting segment 19
+56	Sender: packeting segment 19
+56	Sender: packeting segment 19
+56	Sender: receiving ACK 19
+56	Sender: ignoring duplicate ACK 19
+56	Sender: sending packet 21
+56	Sender: sending packet 21
+56	Sender: sending packet 20
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Receiver: sending ACK 19
+56	Receiver: sending ACK 19
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Sender: sending packet 19
+56	Channel: delaying packet 20 isACK:False
+56	Channel: dropping packet 19 isACK:False
+56	Channel: dropping packet 19 isACK:False
+56	Channel: dropping packet 19 isACK:False
+56	Channel: dropping packet 19 isACK:False
+57	Sender: timeout, base = 20
+57	Sender: packeting segment 20
+57	Sender: packeting segment 21
+57	Sender: packeting segment 22
+57	Sender: packeting segment 23
+57	Sender: packeting segment 24
+57	Receiver: receiving packet 15
+57	Receiver: discarding packet 15
+57	Sender: receiving ACK 14
+57	Sender: ignoring duplicate ACK 14
+57	Sender: receiving ACK 14
+57	Sender: ignoring duplicate ACK 14
+57	Receiver: receiving packet 19
+57	Receiver: discarding packet 19
+57	Receiver: receiving packet 18
+57	Receiver: discarding packet 18
+57	Receiver: receiving packet 17
+57	Receiver: discarding packet 17
+57	Sender: receiving ACK 19
+57	Sender: ignoring duplicate ACK 19
+57	Sender: receiving ACK 19
+57	Sender: ignoring duplicate ACK 19
+57	Sender: receiving ACK 19
+57	Sender: ignoring duplicate ACK 19
+57	Sender: receiving ACK 19
+57	Sender: ignoring duplicate ACK 19
+57	Sender: sending packet 21
+57	Sender: sending packet 20
+57	Sender: sending packet 20
+57	Sender: sending packet 20
+57	Sender: sending packet 20
+57	Sender: sending packet 20
+57	Sender: sending packet 20
+57	Receiver: sending ACK 19
+57	Receiver: sending ACK 19
+57	Receiver: sending ACK 19
+57	Receiver: sending ACK 19
+57	Channel: delaying packet 20 isACK:False
+57	Channel: delaying packet 19 isACK:True
+57	Channel: delaying packet 19 isACK:True
+58	Sender: timeout, base = 20
+58	Sender: packeting segment 20
+58	Sender: packeting segment 21
+58	Sender: packeting segment 22
+58	Sender: packeting segment 23
+58	Sender: packeting segment 24
+58	Receiver: receiving packet 20
+58	Receiver: delivering segment 20
+58	Receiver: receiving packet 18
+58	Receiver: discarding packet 18
+58	Receiver: receiving packet 18
+58	Receiver: discarding packet 18
+58	Receiver: receiving packet 17
+58	Receiver: discarding packet 17
+58	Sender: receiving ACK 19
+58	Sender: ignoring duplicate ACK 19
+58	Sender: receiving ACK 19
+58	Sender: ignoring duplicate ACK 19
+58	Sender: receiving ACK 19
+58	Sender: ignoring duplicate ACK 19
+58	Sender: sending packet 21
+58	Sender: sending packet 21
+58	Sender: sending packet 21
+58	Sender: sending packet 21
+58	Sender: sending packet 21
+58	Sender: sending packet 21
+58	Sender: sending packet 20
+58	Receiver: sending ACK 20
+58	Receiver: sending ACK 20
+58	Receiver: sending ACK 20
+58	Receiver: sending ACK 20
+58	Channel: dropping packet 21 isACK:False
+58	Channel: dropping packet 21 isACK:False
+58	Channel: dropping packet 20 isACK:True
+59	Sender: timeout, base = 20
+59	Sender: packeting segment 20
+59	Sender: packeting segment 21
+59	Sender: packeting segment 22
+59	Sender: packeting segment 23
+59	Sender: packeting segment 24
+59	Receiver: receiving packet 17
+59	Receiver: discarding packet 17
+59	Receiver: receiving packet 20
+59	Receiver: discarding packet 20
+59	Receiver: receiving packet 19
+59	Receiver: discarding packet 19
+59	Receiver: receiving packet 19
+59	Receiver: discarding packet 19
+59	Receiver: receiving packet 18
+59	Receiver: discarding packet 18
+59	Receiver: receiving packet 17
+59	Receiver: discarding packet 17
+59	Sender: receiving ACK 19
+59	Sender: ignoring duplicate ACK 19
+59	Sender: receiving ACK 19
+59	Sender: ignoring duplicate ACK 19
+59	Receiver: receiving packet 17
+59	Receiver: discarding packet 17
+59	Receiver: receiving packet 17
+59	Receiver: discarding packet 17
+59	Receiver: receiving packet 17
+59	Receiver: discarding packet 17
+59	Receiver: receiving packet 17
+59	Receiver: discarding packet 17
+59	Receiver: receiving packet 17
+59	Receiver: discarding packet 17
+59	Sender: sending packet 22
+59	Sender: sending packet 22
+59	Sender: sending packet 22
+59	Sender: sending packet 22
+59	Sender: sending packet 22
+59	Sender: sending packet 21
+59	Sender: sending packet 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Receiver: sending ACK 20
+59	Channel: delaying packet 20 isACK:True
+59	Channel: delaying packet 20 isACK:True
+59	Channel: dropping packet 20 isACK:True
+59	Channel: delaying packet 20 isACK:True
+60	Sender: timeout, base = 20
+60	Sender: packeting segment 20
+60	Sender: packeting segment 21
+60	Sender: packeting segment 22
+60	Sender: packeting segment 23
+60	Sender: packeting segment 24
+60	Receiver: receiving packet 21
+60	Receiver: delivering segment 21
+60	Receiver: receiving packet 20
+60	Receiver: discarding packet 20
+60	Receiver: receiving packet 20
+60	Receiver: discarding packet 20
+60	Receiver: receiving packet 19
+60	Receiver: discarding packet 19
+60	Receiver: receiving packet 18
+60	Receiver: discarding packet 18
+60	Receiver: receiving packet 18
+60	Receiver: discarding packet 18
+60	Sender: receiving ACK 19
+60	Sender: ignoring duplicate ACK 19
+60	Sender: receiving ACK 19
+60	Sender: ignoring duplicate ACK 19
+60	Receiver: receiving packet 18
+60	Receiver: discarding packet 18
+60	Receiver: receiving packet 18
+60	Receiver: discarding packet 18
+60	Receiver: receiving packet 18
+60	Receiver: discarding packet 18
+60	Receiver: receiving packet 18
+60	Receiver: discarding packet 18
+60	Sender: sending packet 23
+60	Sender: sending packet 23
+60	Sender: sending packet 23
+60	Sender: sending packet 22
+60	Sender: sending packet 21
+60	Sender: sending packet 20
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Receiver: sending ACK 21
+60	Channel: delaying packet 21 isACK:True
+60	Channel: delaying packet 21 isACK:True
+61	Receiver: receiving packet 16
+61	Receiver: discarding packet 16
+61	Sender: receiving ACK 16
+61	Sender: ignoring duplicate ACK 16
+61	Sender: receiving ACK 16
+61	Sender: ignoring duplicate ACK 16
+61	Receiver: receiving packet 21
+61	Receiver: discarding packet 21
+61	Receiver: receiving packet 21
+61	Receiver: discarding packet 21
+61	Receiver: receiving packet 19
+61	Receiver: discarding packet 19
+61	Receiver: receiving packet 19
+61	Receiver: discarding packet 19
+61	Receiver: receiving packet 19
+61	Receiver: discarding packet 19
+61	Sender: receiving ACK 19
+61	Sender: ignoring duplicate ACK 19
+61	Sender: receiving ACK 19
+61	Sender: ignoring duplicate ACK 19
+61	Receiver: receiving packet 19
+61	Receiver: discarding packet 19
+61	Receiver: receiving packet 19
+61	Receiver: discarding packet 19
+61	Receiver: receiving packet 19
+61	Receiver: discarding packet 19
+61	Receiver: receiving packet 19
+61	Receiver: discarding packet 19
+61	Sender: sending packet 24
+61	Sender: sending packet 23
+61	Sender: sending packet 22
+61	Sender: sending packet 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Receiver: sending ACK 21
+61	Channel: delaying packet 21 isACK:True
+61	Channel: dropping packet 21 isACK:True
+61	Channel: dropping packet 21 isACK:True
+62	Receiver: receiving packet 21
+62	Receiver: discarding packet 21
+62	Receiver: receiving packet 20
+62	Receiver: discarding packet 20
+62	Receiver: receiving packet 20
+62	Receiver: discarding packet 20
+62	Receiver: receiving packet 20
+62	Receiver: discarding packet 20
+62	Receiver: receiving packet 20
+62	Receiver: discarding packet 20
+62	Receiver: receiving packet 20
+62	Receiver: discarding packet 20
+62	Sender: receiving ACK 19
+62	Sender: ignoring duplicate ACK 19
+62	Sender: receiving ACK 19
+62	Sender: ignoring duplicate ACK 19
+62	Sender: sending packet 24
+62	Sender: sending packet 23
+62	Sender: sending packet 22
+62	Receiver: sending ACK 21
+62	Receiver: sending ACK 21
+62	Receiver: sending ACK 21
+62	Receiver: sending ACK 21
+62	Receiver: sending ACK 21
+62	Receiver: sending ACK 21
+62	Channel: dropping packet 21 isACK:True
+63	Receiver: receiving packet 18
+63	Receiver: discarding packet 18
+63	Receiver: receiving packet 21
+63	Receiver: discarding packet 21
+63	Receiver: receiving packet 21
+63	Receiver: discarding packet 21
+63	Receiver: receiving packet 21
+63	Receiver: discarding packet 21
+63	Receiver: receiving packet 21
+63	Receiver: discarding packet 21
+63	Receiver: receiving packet 20
+63	Receiver: discarding packet 20
+63	Sender: receiving ACK 20
+63	Sender: receiving ACK 20
+63	Sender: ignoring duplicate ACK 20
+63	Sender: receiving ACK 20
+63	Sender: ignoring duplicate ACK 20
+63	Sender: sending packet 24
+63	Sender: sending packet 23
+63	Receiver: sending ACK 21
+63	Receiver: sending ACK 21
+63	Receiver: sending ACK 21
+63	Receiver: sending ACK 21
+63	Receiver: sending ACK 21
+63	Receiver: sending ACK 21
+64	Sender: timeout, base = 21
+64	Sender: packeting segment 21
+64	Sender: packeting segment 22
+64	Sender: packeting segment 23
+64	Sender: packeting segment 24
+64	Sender: packeting segment 25
+64	Sender: timeout, base = 21
+64	Sender: packeting segment 21
+64	Sender: packeting segment 22
+64	Sender: packeting segment 23
+64	Sender: packeting segment 24
+64	Sender: packeting segment 25
+64	Receiver: receiving packet 22
+64	Receiver: delivering segment 22
+64	Receiver: receiving packet 22
+64	Receiver: discarding packet 22
+64	Receiver: receiving packet 22
+64	Receiver: discarding packet 22
+64	Receiver: receiving packet 22
+64	Receiver: discarding packet 22
+64	Receiver: receiving packet 22
+64	Receiver: discarding packet 22
+64	Receiver: receiving packet 21
+64	Receiver: discarding packet 21
+64	Receiver: receiving packet 20
+64	Receiver: discarding packet 20
+64	Sender: receiving ACK 20
+64	Sender: ignoring duplicate ACK 20
+64	Sender: receiving ACK 20
+64	Sender: ignoring duplicate ACK 20
+64	Sender: receiving ACK 20
+64	Sender: ignoring duplicate ACK 20
+64	Sender: receiving ACK 20
+64	Sender: ignoring duplicate ACK 20
+64	Sender: receiving ACK 20
+64	Sender: ignoring duplicate ACK 20
+64	Sender: receiving ACK 20
+64	Sender: ignoring duplicate ACK 20
+64	Sender: receiving ACK 20
+64	Sender: ignoring duplicate ACK 20
+64	Sender: sending packet 24
+64	Sender: sending packet 21
+64	Sender: sending packet 21
+64	Receiver: sending ACK 22
+64	Receiver: sending ACK 22
+64	Receiver: sending ACK 22
+64	Receiver: sending ACK 22
+64	Receiver: sending ACK 22
+64	Receiver: sending ACK 22
+64	Receiver: sending ACK 22
+64	Channel: delaying packet 22 isACK:True
+64	Channel: delaying packet 22 isACK:True
+64	Channel: delaying packet 22 isACK:True
+65	Sender: timeout, base = 21
+65	Sender: packeting segment 21
+65	Sender: packeting segment 22
+65	Sender: packeting segment 23
+65	Sender: packeting segment 24
+65	Sender: packeting segment 25
+65	Receiver: receiving packet 23
+65	Receiver: delivering segment 23
+65	Receiver: receiving packet 23
+65	Receiver: discarding packet 23
+65	Receiver: receiving packet 23
+65	Receiver: discarding packet 23
+65	Receiver: receiving packet 22
+65	Receiver: discarding packet 22
+65	Receiver: receiving packet 21
+65	Receiver: discarding packet 21
+65	Receiver: receiving packet 20
+65	Receiver: discarding packet 20
+65	Sender: receiving ACK 21
+65	Sender: packeting segment 21
+65	Sender: packeting segment 21
+65	Sender: packeting segment 21
+65	Sender: packeting segment 21
+65	Sender: packeting segment 21
+65	Sender: packeting segment 21
+65	Sender: receiving ACK 21
+65	Sender: ignoring duplicate ACK 21
+65	Sender: receiving ACK 21
+65	Sender: ignoring duplicate ACK 21
+65	Sender: receiving ACK 21
+65	Sender: ignoring duplicate ACK 21
+65	Sender: receiving ACK 21
+65	Sender: ignoring duplicate ACK 21
+65	Sender: receiving ACK 21
+65	Sender: ignoring duplicate ACK 21
+65	Sender: receiving ACK 21
+65	Sender: ignoring duplicate ACK 21
+65	Sender: receiving ACK 21
+65	Sender: ignoring duplicate ACK 21
+65	Sender: sending packet 22
+65	Sender: sending packet 22
+65	Sender: sending packet 21
+65	Receiver: sending ACK 23
+65	Receiver: sending ACK 23
+65	Receiver: sending ACK 23
+65	Receiver: sending ACK 23
+65	Receiver: sending ACK 23
+65	Receiver: sending ACK 23
+65	Sender: sending packet 21
+65	Sender: sending packet 21
+65	Sender: sending packet 21
+65	Sender: sending packet 21
+65	Sender: sending packet 21
+65	Sender: sending packet 21
+65	Channel: dropping packet 23 isACK:True
+65	Channel: dropping packet 21 isACK:False
+66	Sender: timeout, base = 22
+66	Sender: packeting segment 22
+66	Sender: packeting segment 23
+66	Sender: packeting segment 24
+66	Sender: packeting segment 25
+66	Sender: packeting segment 26
+66	Sender: receiving ACK 19
+66	Sender: ignoring duplicate ACK 19
+66	Receiver: receiving packet 24
+66	Receiver: delivering segment 24
+66	Receiver: receiving packet 23
+66	Receiver: discarding packet 23
+66	Receiver: receiving packet 22
+66	Receiver: discarding packet 22
+66	Receiver: receiving packet 21
+66	Receiver: discarding packet 21
+66	Sender: receiving ACK 21
+66	Sender: ignoring duplicate ACK 21
+66	Sender: receiving ACK 21
+66	Sender: ignoring duplicate ACK 21
+66	Sender: receiving ACK 21
+66	Sender: ignoring duplicate ACK 21
+66	Sender: receiving ACK 21
+66	Sender: ignoring duplicate ACK 21
+66	Sender: receiving ACK 21
+66	Sender: ignoring duplicate ACK 21
+66	Sender: receiving ACK 21
+66	Sender: ignoring duplicate ACK 21
+66	Sender: receiving ACK 21
+66	Sender: ignoring duplicate ACK 21
+66	Sender: sending packet 23
+66	Sender: sending packet 23
+66	Sender: sending packet 22
+66	Sender: sending packet 22
+66	Receiver: sending ACK 24
+66	Receiver: sending ACK 24
+66	Receiver: sending ACK 24
+66	Receiver: sending ACK 24
+66	Channel: dropping packet 24 isACK:True
+67	Sender: timeout, base = 22
+67	Sender: packeting segment 22
+67	Sender: packeting segment 23
+67	Sender: packeting segment 24
+67	Sender: packeting segment 25
+67	Sender: packeting segment 26
+67	Receiver: receiving packet 24
+67	Receiver: discarding packet 24
+67	Receiver: receiving packet 23
+67	Receiver: discarding packet 23
+67	Receiver: receiving packet 22
+67	Receiver: discarding packet 22
+67	Sender: receiving ACK 21
+67	Sender: ignoring duplicate ACK 21
+67	Sender: receiving ACK 21
+67	Sender: ignoring duplicate ACK 21
+67	Sender: receiving ACK 21
+67	Sender: ignoring duplicate ACK 21
+67	Sender: receiving ACK 21
+67	Sender: ignoring duplicate ACK 21
+67	Sender: receiving ACK 21
+67	Sender: ignoring duplicate ACK 21
+67	Sender: sending packet 24
+67	Sender: sending packet 24
+67	Sender: sending packet 23
+67	Sender: sending packet 23
+67	Sender: sending packet 22
+67	Receiver: sending ACK 24
+67	Receiver: sending ACK 24
+67	Receiver: sending ACK 24
+68	Sender: timeout, base = 22
+68	Sender: packeting segment 22
+68	Sender: packeting segment 23
+68	Sender: packeting segment 24
+68	Sender: packeting segment 25
+68	Sender: packeting segment 26
+68	Receiver: receiving packet 24
+68	Receiver: discarding packet 24
+68	Receiver: receiving packet 23
+68	Receiver: discarding packet 23
+68	Sender: receiving ACK 21
+68	Sender: ignoring duplicate ACK 21
+68	Sender: receiving ACK 21
+68	Sender: ignoring duplicate ACK 21
+68	Sender: receiving ACK 21
+68	Sender: ignoring duplicate ACK 21
+68	Sender: receiving ACK 21
+68	Sender: ignoring duplicate ACK 21
+68	Sender: receiving ACK 21
+68	Sender: ignoring duplicate ACK 21
+68	Sender: receiving ACK 21
+68	Sender: ignoring duplicate ACK 21
+68	Sender: sending packet 25
+68	Sender: sending packet 25
+68	Sender: sending packet 24
+68	Sender: sending packet 24
+68	Sender: sending packet 23
+68	Sender: sending packet 22
+68	Receiver: sending ACK 24
+68	Receiver: sending ACK 24
+68	Channel: delaying packet 25 isACK:False
+69	Sender: timeout, base = 22
+69	Sender: packeting segment 22
+69	Sender: packeting segment 23
+69	Sender: packeting segment 24
+69	Sender: packeting segment 25
+69	Sender: packeting segment 26
+69	Sender: timeout, base = 22
+69	Sender: packeting segment 22
+69	Sender: packeting segment 23
+69	Sender: packeting segment 24
+69	Sender: packeting segment 25
+69	Sender: packeting segment 26
+69	Receiver: receiving packet 24
+69	Receiver: discarding packet 24
+69	Receiver: receiving packet 21
+69	Receiver: discarding packet 21
+69	Receiver: receiving packet 21
+69	Receiver: discarding packet 21
+69	Sender: receiving ACK 22
+69	Sender: packeting segment 22
+69	Sender: packeting segment 22
+69	Sender: packeting segment 22
+69	Sender: packeting segment 22
+69	Sender: packeting segment 22
+69	Sender: packeting segment 22
+69	Sender: receiving ACK 22
+69	Sender: ignoring duplicate ACK 22
+69	Sender: receiving ACK 22
+69	Sender: ignoring duplicate ACK 22
+69	Sender: receiving ACK 22
+69	Sender: ignoring duplicate ACK 22
+69	Sender: sending packet 25
+69	Sender: sending packet 25
+69	Sender: sending packet 24
+69	Sender: sending packet 23
+69	Sender: sending packet 22
+69	Sender: sending packet 22
+69	Receiver: sending ACK 24
+69	Receiver: sending ACK 24
+69	Receiver: sending ACK 24
+69	Sender: sending packet 22
+69	Sender: sending packet 22
+69	Sender: sending packet 22
+69	Sender: sending packet 22
+69	Sender: sending packet 22
+69	Sender: sending packet 22
+69	Channel: dropping packet 25 isACK:False
+69	Channel: delaying packet 24 isACK:True
+70	Sender: timeout, base = 23
+70	Sender: packeting segment 23
+70	Sender: packeting segment 24
+70	Sender: packeting segment 25
+70	Sender: packeting segment 26
+70	Sender: packeting segment 27
+70	Sender: timeout, base = 23
+70	Sender: packeting segment 23
+70	Sender: packeting segment 24
+70	Sender: packeting segment 25
+70	Sender: packeting segment 26
+70	Sender: packeting segment 27
+70	Receiver: receiving packet 18
+70	Receiver: discarding packet 18
+70	Receiver: receiving packet 22
+70	Receiver: discarding packet 22
+70	Receiver: receiving packet 22
+70	Receiver: discarding packet 22
+70	Receiver: receiving packet 21
+70	Receiver: discarding packet 21
+70	Sender: receiving ACK 23
+70	Sender: packeting segment 23
+70	Sender: packeting segment 23
+70	Sender: packeting segment 23
+70	Sender: packeting segment 23
+70	Sender: packeting segment 23
+70	Sender: packeting segment 23
+70	Sender: receiving ACK 23
+70	Sender: ignoring duplicate ACK 23
+70	Sender: receiving ACK 23
+70	Sender: ignoring duplicate ACK 23
+70	Sender: receiving ACK 23
+70	Sender: ignoring duplicate ACK 23
+70	Sender: receiving ACK 23
+70	Sender: ignoring duplicate ACK 23
+70	Receiver: receiving packet 21
+70	Receiver: discarding packet 21
+70	Receiver: receiving packet 21
+70	Receiver: discarding packet 21
+70	Receiver: receiving packet 21
+70	Receiver: discarding packet 21
+70	Receiver: receiving packet 21
+70	Receiver: discarding packet 21
+70	Receiver: receiving packet 21
+70	Receiver: discarding packet 21
+70	Sender: sending packet 26
+70	Sender: sending packet 25
+70	Sender: sending packet 24
+70	Sender: sending packet 23
+70	Sender: sending packet 23
+70	Sender: sending packet 23
+70	Sender: sending packet 23
+70	Receiver: sending ACK 24
+70	Receiver: sending ACK 24
+70	Receiver: sending ACK 24
+70	Receiver: sending ACK 24
+70	Sender: sending packet 23
+70	Sender: sending packet 23
+70	Sender: sending packet 23
+70	Sender: sending packet 23
+70	Sender: sending packet 23
+70	Sender: sending packet 23
+70	Receiver: sending ACK 24
+70	Receiver: sending ACK 24
+70	Receiver: sending ACK 24
+70	Receiver: sending ACK 24
+70	Receiver: sending ACK 24
+70	Channel: dropping packet 25 isACK:False
+70	Channel: delaying packet 24 isACK:True
+70	Channel: dropping packet 24 isACK:True
+70	Channel: delaying packet 24 isACK:True
+70	Channel: delaying packet 24 isACK:True
+71	Sender: timeout, base = 24
+71	Sender: packeting segment 24
+71	Sender: packeting segment 25
+71	Sender: packeting segment 26
+71	Sender: packeting segment 27
+71	Sender: packeting segment 28
+71	Sender: timeout, base = 24
+71	Sender: packeting segment 24
+71	Sender: packeting segment 25
+71	Sender: packeting segment 26
+71	Sender: packeting segment 27
+71	Sender: packeting segment 28
+71	Receiver: receiving packet 20
+71	Receiver: discarding packet 20
+71	Receiver: receiving packet 23
+71	Receiver: discarding packet 23
+71	Receiver: receiving packet 23
+71	Receiver: discarding packet 23
+71	Receiver: receiving packet 22
+71	Receiver: discarding packet 22
+71	Receiver: receiving packet 22
+71	Receiver: discarding packet 22
+71	Sender: receiving ACK 24
+71	Sender: packeting segment 24
+71	Sender: packeting segment 24
+71	Sender: packeting segment 24
+71	Sender: packeting segment 24
+71	Sender: packeting segment 24
+71	Sender: packeting segment 24
+71	Sender: receiving ACK 24
+71	Sender: ignoring duplicate ACK 24
+71	Sender: receiving ACK 24
+71	Sender: ignoring duplicate ACK 24
+71	Sender: sending packet 26
+71	Sender: sending packet 25
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Receiver: sending ACK 24
+71	Receiver: sending ACK 24
+71	Receiver: sending ACK 24
+71	Receiver: sending ACK 24
+71	Receiver: sending ACK 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Sender: sending packet 24
+71	Channel: dropping packet 24 isACK:False
+71	Channel: dropping packet 24 isACK:False
+71	Channel: dropping packet 24 isACK:False
+72	Sender: timeout, base = 25
+72	Sender: packeting segment 25
+72	Sender: packeting segment 26
+72	Sender: packeting segment 27
+72	Sender: packeting segment 28
+72	Sender: packeting segment 29
+72	Receiver: receiving packet 20
+72	Receiver: discarding packet 20
+72	Sender: receiving ACK 19
+72	Sender: ignoring duplicate ACK 19
+72	Sender: receiving ACK 19
+72	Sender: ignoring duplicate ACK 19
+72	Receiver: receiving packet 24
+72	Receiver: discarding packet 24
+72	Receiver: receiving packet 24
+72	Receiver: discarding packet 24
+72	Receiver: receiving packet 23
+72	Receiver: discarding packet 23
+72	Receiver: receiving packet 23
+72	Receiver: discarding packet 23
+72	Receiver: receiving packet 22
+72	Receiver: discarding packet 22
+72	Sender: receiving ACK 24
+72	Sender: ignoring duplicate ACK 24
+72	Sender: receiving ACK 24
+72	Sender: ignoring duplicate ACK 24
+72	Sender: receiving ACK 24
+72	Sender: ignoring duplicate ACK 24
+72	Sender: sending packet 26
+72	Sender: sending packet 25
+72	Sender: sending packet 25
+72	Sender: sending packet 25
+72	Sender: sending packet 25
+72	Sender: sending packet 25
+72	Sender: sending packet 25
+72	Sender: sending packet 25
+72	Receiver: sending ACK 24
+72	Receiver: sending ACK 24
+72	Receiver: sending ACK 24
+72	Receiver: sending ACK 24
+72	Receiver: sending ACK 24
+72	Receiver: sending ACK 24
+72	Channel: dropping packet 24 isACK:True
+73	Sender: timeout, base = 25
+73	Sender: packeting segment 25
+73	Sender: packeting segment 26
+73	Sender: packeting segment 27
+73	Sender: packeting segment 28
+73	Sender: packeting segment 29
+73	Receiver: receiving packet 25
+73	Receiver: delivering segment 25
+73	Receiver: receiving packet 24
+73	Receiver: discarding packet 24
+73	Receiver: receiving packet 24
+73	Receiver: discarding packet 24
+73	Receiver: receiving packet 23
+73	Receiver: discarding packet 23
+73	Receiver: receiving packet 22
+73	Receiver: discarding packet 22
+73	Sender: receiving ACK 24
+73	Sender: ignoring duplicate ACK 24
+73	Sender: receiving ACK 24
+73	Sender: ignoring duplicate ACK 24
+73	Sender: sending packet 26
+73	Sender: sending packet 26
+73	Sender: sending packet 26
+73	Sender: sending packet 26
+73	Sender: sending packet 26
+73	Sender: sending packet 26
+73	Sender: sending packet 26
+73	Sender: sending packet 25
+73	Receiver: sending ACK 25
+73	Receiver: sending ACK 25
+73	Receiver: sending ACK 25
+73	Receiver: sending ACK 25
+73	Receiver: sending ACK 25
+73	Channel: delaying packet 26 isACK:False
+73	Channel: delaying packet 26 isACK:False
+74	Sender: timeout, base = 25
+74	Sender: packeting segment 25
+74	Sender: packeting segment 26
+74	Sender: packeting segment 27
+74	Sender: packeting segment 28
+74	Sender: packeting segment 29
+74	Sender: receiving ACK 20
+74	Sender: ignoring duplicate ACK 20
+74	Sender: receiving ACK 20
+74	Sender: ignoring duplicate ACK 20
+74	Sender: receiving ACK 20
+74	Sender: ignoring duplicate ACK 20
+74	Receiver: receiving packet 25
+74	Receiver: discarding packet 25
+74	Receiver: receiving packet 24
+74	Receiver: discarding packet 24
+74	Receiver: receiving packet 23
+74	Receiver: discarding packet 23
+74	Receiver: receiving packet 22
+74	Receiver: discarding packet 22
+74	Receiver: receiving packet 22
+74	Receiver: discarding packet 22
+74	Sender: receiving ACK 24
+74	Sender: ignoring duplicate ACK 24
+74	Sender: receiving ACK 24
+74	Sender: ignoring duplicate ACK 24
+74	Receiver: receiving packet 22
+74	Receiver: discarding packet 22
+74	Receiver: receiving packet 22
+74	Receiver: discarding packet 22
+74	Receiver: receiving packet 22
+74	Receiver: discarding packet 22
+74	Receiver: receiving packet 22
+74	Receiver: discarding packet 22
+74	Receiver: receiving packet 22
+74	Receiver: discarding packet 22
+74	Receiver: receiving packet 22
+74	Receiver: discarding packet 22
+74	Sender: sending packet 27
+74	Sender: sending packet 27
+74	Sender: sending packet 27
+74	Sender: sending packet 27
+74	Sender: sending packet 27
+74	Sender: sending packet 26
+74	Sender: sending packet 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Receiver: sending ACK 25
+74	Channel: delaying packet 27 isACK:False
+74	Channel: dropping packet 25 isACK:True
+74	Channel: delaying packet 25 isACK:True
+74	Channel: delaying packet 25 isACK:True
+75	Sender: timeout, base = 25
+75	Sender: packeting segment 25
+75	Sender: packeting segment 26
+75	Sender: packeting segment 27
+75	Sender: packeting segment 28
+75	Sender: packeting segment 29
+75	Sender: receiving ACK 21
+75	Sender: ignoring duplicate ACK 21
+75	Sender: receiving ACK 21
+75	Sender: ignoring duplicate ACK 21
+75	Receiver: receiving packet 26
+75	Receiver: delivering segment 26
+75	Receiver: receiving packet 24
+75	Receiver: discarding packet 24
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Sender: receiving ACK 24
+75	Sender: ignoring duplicate ACK 24
+75	Sender: receiving ACK 24
+75	Sender: ignoring duplicate ACK 24
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Receiver: receiving packet 23
+75	Receiver: discarding packet 23
+75	Sender: receiving ACK 24
+75	Sender: ignoring duplicate ACK 24
+75	Sender: receiving ACK 24
+75	Sender: ignoring duplicate ACK 24
+75	Sender: receiving ACK 24
+75	Sender: ignoring duplicate ACK 24
+75	Sender: sending packet 28
+75	Sender: sending packet 28
+75	Sender: sending packet 28
+75	Sender: sending packet 27
+75	Sender: sending packet 26
+75	Sender: sending packet 25
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Receiver: sending ACK 26
+75	Channel: delaying packet 26 isACK:False
+75	Channel: dropping packet 26 isACK:True
+76	Sender: receiving ACK 21
+76	Sender: ignoring duplicate ACK 21
+76	Receiver: receiving packet 26
+76	Receiver: discarding packet 26
+76	Receiver: receiving packet 25
+76	Receiver: discarding packet 25
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Sender: receiving ACK 24
+76	Sender: ignoring duplicate ACK 24
+76	Sender: receiving ACK 24
+76	Sender: ignoring duplicate ACK 24
+76	Sender: receiving ACK 24
+76	Sender: ignoring duplicate ACK 24
+76	Sender: receiving ACK 24
+76	Sender: ignoring duplicate ACK 24
+76	Sender: receiving ACK 24
+76	Sender: ignoring duplicate ACK 24
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Receiver: receiving packet 24
+76	Receiver: discarding packet 24
+76	Sender: sending packet 29
+76	Sender: sending packet 28
+76	Sender: sending packet 27
+76	Sender: sending packet 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Receiver: sending ACK 26
+76	Channel: dropping packet 26 isACK:True
+76	Channel: dropping packet 26 isACK:True
+77	Receiver: receiving packet 26
+77	Receiver: discarding packet 26
+77	Receiver: receiving packet 25
+77	Receiver: discarding packet 25
+77	Receiver: receiving packet 25
+77	Receiver: discarding packet 25
+77	Receiver: receiving packet 25
+77	Receiver: discarding packet 25
+77	Receiver: receiving packet 25
+77	Receiver: discarding packet 25
+77	Receiver: receiving packet 25
+77	Receiver: discarding packet 25
+77	Receiver: receiving packet 25
+77	Receiver: discarding packet 25
+77	Receiver: receiving packet 25
+77	Receiver: discarding packet 25
+77	Sender: receiving ACK 24
+77	Sender: ignoring duplicate ACK 24
+77	Sender: receiving ACK 24
+77	Sender: ignoring duplicate ACK 24
+77	Sender: receiving ACK 24
+77	Sender: ignoring duplicate ACK 24
+77	Sender: receiving ACK 24
+77	Sender: ignoring duplicate ACK 24
+77	Sender: receiving ACK 24
+77	Sender: ignoring duplicate ACK 24
+77	Sender: sending packet 29
+77	Sender: sending packet 28
+77	Sender: sending packet 27
+77	Receiver: sending ACK 26
+77	Receiver: sending ACK 26
+77	Receiver: sending ACK 26
+77	Receiver: sending ACK 26
+77	Receiver: sending ACK 26
+77	Receiver: sending ACK 26
+77	Receiver: sending ACK 26
+77	Receiver: sending ACK 26
+77	Channel: delaying packet 27 isACK:False
+77	Channel: dropping packet 26 isACK:True
+78	Sender: timeout, base = 25
+78	Sender: packeting segment 25
+78	Sender: packeting segment 26
+78	Sender: packeting segment 27
+78	Sender: packeting segment 28
+78	Sender: packeting segment 29
+78	Receiver: receiving packet 26
+78	Receiver: discarding packet 26
+78	Receiver: receiving packet 26
+78	Receiver: discarding packet 26
+78	Receiver: receiving packet 26
+78	Receiver: discarding packet 26
+78	Receiver: receiving packet 26
+78	Receiver: discarding packet 26
+78	Receiver: receiving packet 26
+78	Receiver: discarding packet 26
+78	Receiver: receiving packet 25
+78	Receiver: discarding packet 25
+78	Sender: receiving ACK 25
+78	Sender: packeting segment 25
+78	Sender: packeting segment 25
+78	Sender: packeting segment 25
+78	Sender: packeting segment 25
+78	Sender: packeting segment 25
+78	Sender: packeting segment 25
+78	Sender: receiving ACK 25
+78	Sender: ignoring duplicate ACK 25
+78	Sender: receiving ACK 25
+78	Sender: ignoring duplicate ACK 25
+78	Sender: receiving ACK 25
+78	Sender: ignoring duplicate ACK 25
+78	Sender: receiving ACK 25
+78	Sender: ignoring duplicate ACK 25
+78	Sender: sending packet 29
+78	Sender: sending packet 28
+78	Sender: sending packet 25
+78	Receiver: sending ACK 26
+78	Receiver: sending ACK 26
+78	Receiver: sending ACK 26
+78	Receiver: sending ACK 26
+78	Receiver: sending ACK 26
+78	Receiver: sending ACK 26
+78	Sender: sending packet 25
+78	Sender: sending packet 25
+78	Sender: sending packet 25
+78	Sender: sending packet 25
+78	Sender: sending packet 25
+78	Sender: sending packet 25
+78	Channel: delaying packet 26 isACK:True
+78	Channel: dropping packet 26 isACK:True
+78	Channel: dropping packet 25 isACK:False
+79	Sender: timeout, base = 26
+79	Sender: packeting segment 26
+79	Sender: packeting segment 27
+79	Sender: packeting segment 28
+79	Sender: packeting segment 29
+79	Sender: packeting segment 30
+79	Sender: receiving ACK 22
+79	Sender: ignoring duplicate ACK 22
+79	Sender: receiving ACK 22
+79	Sender: ignoring duplicate ACK 22
+79	Sender: receiving ACK 22
+79	Sender: ignoring duplicate ACK 22
+79	Receiver: receiving packet 27
+79	Receiver: delivering segment 27
+79	Receiver: receiving packet 27
+79	Receiver: discarding packet 27
+79	Receiver: receiving packet 27
+79	Receiver: discarding packet 27
+79	Receiver: receiving packet 27
+79	Receiver: discarding packet 27
+79	Receiver: receiving packet 26
+79	Receiver: discarding packet 26
+79	Receiver: receiving packet 25
+79	Receiver: discarding packet 25
+79	Sender: receiving ACK 25
+79	Sender: ignoring duplicate ACK 25
+79	Sender: receiving ACK 25
+79	Sender: ignoring duplicate ACK 25
+79	Sender: receiving ACK 25
+79	Sender: ignoring duplicate ACK 25
+79	Sender: receiving ACK 25
+79	Sender: ignoring duplicate ACK 25
+79	Sender: receiving ACK 25
+79	Sender: ignoring duplicate ACK 25
+79	Sender: receiving ACK 25
+79	Sender: ignoring duplicate ACK 25
+79	Sender: receiving ACK 25
+79	Sender: ignoring duplicate ACK 25
+79	Sender: receiving ACK 25
+79	Sender: ignoring duplicate ACK 25
+79	Sender: sending packet 29
+79	Sender: sending packet 26
+79	Sender: sending packet 26
+79	Receiver: sending ACK 27
+79	Receiver: sending ACK 27
+79	Receiver: sending ACK 27
+79	Receiver: sending ACK 27
+79	Receiver: sending ACK 27
+79	Receiver: sending ACK 27
+79	Channel: dropping packet 27 isACK:True
+79	Channel: delaying packet 27 isACK:True
+80	Sender: timeout, base = 26
+80	Sender: packeting segment 26
+80	Sender: packeting segment 27
+80	Sender: packeting segment 28
+80	Sender: packeting segment 29
+80	Sender: packeting segment 30
+80	Sender: timeout, base = 26
+80	Sender: packeting segment 26
+80	Sender: packeting segment 27
+80	Sender: packeting segment 28
+80	Sender: packeting segment 29
+80	Sender: packeting segment 30
+80	Receiver: receiving packet 28
+80	Receiver: delivering segment 28
+80	Receiver: receiving packet 28
+80	Receiver: discarding packet 28
+80	Receiver: receiving packet 28
+80	Receiver: discarding packet 28
+80	Receiver: receiving packet 27
+80	Receiver: discarding packet 27
+80	Receiver: receiving packet 25
+80	Receiver: discarding packet 25
+80	Sender: receiving ACK 26
+80	Sender: packeting segment 26
+80	Sender: packeting segment 26
+80	Sender: packeting segment 26
+80	Sender: packeting segment 26
+80	Sender: packeting segment 26
+80	Sender: packeting segment 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: receiving ACK 26
+80	Sender: ignoring duplicate ACK 26
+80	Sender: sending packet 27
+80	Sender: sending packet 27
+80	Sender: sending packet 26
+80	Sender: sending packet 26
+80	Receiver: sending ACK 28
+80	Receiver: sending ACK 28
+80	Receiver: sending ACK 28
+80	Receiver: sending ACK 28
+80	Receiver: sending ACK 28
+80	Sender: sending packet 26
+80	Sender: sending packet 26
+80	Sender: sending packet 26
+80	Sender: sending packet 26
+80	Sender: sending packet 26
+80	Sender: sending packet 26
+80	Channel: dropping packet 26 isACK:False
+80	Channel: dropping packet 28 isACK:True
+80	Channel: dropping packet 26 isACK:False
+81	Sender: timeout, base = 27
+81	Sender: packeting segment 27
+81	Sender: packeting segment 28
+81	Sender: packeting segment 29
+81	Sender: packeting segment 30
+81	Sender: packeting segment 31
+81	Receiver: receiving packet 29
+81	Receiver: delivering segment 29
+81	Receiver: receiving packet 28
+81	Receiver: discarding packet 28
+81	Receiver: receiving packet 27
+81	Receiver: discarding packet 27
+81	Receiver: receiving packet 26
+81	Receiver: discarding packet 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: receiving ACK 26
+81	Sender: ignoring duplicate ACK 26
+81	Sender: sending packet 28
+81	Sender: sending packet 28
+81	Sender: sending packet 27
+81	Sender: sending packet 27
+81	Sender: sending packet 27
+81	Receiver: sending ACK 29
+81	Receiver: sending ACK 29
+81	Receiver: sending ACK 29
+81	Receiver: sending ACK 29
+81	Channel: delaying packet 28 isACK:False
+81	Channel: dropping packet 29 isACK:True
+82	Sender: timeout, base = 27
+82	Sender: packeting segment 27
+82	Sender: packeting segment 28
+82	Sender: packeting segment 29
+82	Sender: packeting segment 30
+82	Sender: packeting segment 31
+82	Receiver: receiving packet 29
+82	Receiver: discarding packet 29
+82	Receiver: receiving packet 28
+82	Receiver: discarding packet 28
+82	Sender: receiving ACK 26
+82	Sender: ignoring duplicate ACK 26
+82	Sender: receiving ACK 26
+82	Sender: ignoring duplicate ACK 26
+82	Sender: receiving ACK 26
+82	Sender: ignoring duplicate ACK 26
+82	Sender: receiving ACK 26
+82	Sender: ignoring duplicate ACK 26
+82	Sender: receiving ACK 26
+82	Sender: ignoring duplicate ACK 26
+82	Sender: receiving ACK 26
+82	Sender: ignoring duplicate ACK 26
+82	Sender: receiving ACK 26
+82	Sender: ignoring duplicate ACK 26
+82	Sender: sending packet 29
+82	Sender: sending packet 29
+82	Sender: sending packet 28
+82	Sender: sending packet 28
+82	Sender: sending packet 28
+82	Sender: sending packet 27
+82	Receiver: sending ACK 29
+82	Receiver: sending ACK 29
+82	Channel: dropping packet 28 isACK:False
+82	Channel: dropping packet 28 isACK:False
+82	Channel: dropping packet 28 isACK:False
+82	Channel: dropping packet 29 isACK:True
+83	Sender: timeout, base = 27
+83	Sender: packeting segment 27
+83	Sender: packeting segment 28
+83	Sender: packeting segment 29
+83	Sender: packeting segment 30
+83	Sender: packeting segment 31
+83	Receiver: receiving packet 25
+83	Receiver: discarding packet 25
+83	Receiver: receiving packet 29
+83	Receiver: discarding packet 29
+83	Receiver: receiving packet 28
+83	Receiver: discarding packet 28
+83	Receiver: receiving packet 25
+83	Receiver: discarding packet 25
+83	Sender: receiving ACK 26
+83	Sender: ignoring duplicate ACK 26
+83	Sender: receiving ACK 26
+83	Sender: ignoring duplicate ACK 26
+83	Sender: receiving ACK 26
+83	Sender: ignoring duplicate ACK 26
+83	Sender: receiving ACK 26
+83	Sender: ignoring duplicate ACK 26
+83	Receiver: receiving packet 25
+83	Receiver: discarding packet 25
+83	Receiver: receiving packet 25
+83	Receiver: discarding packet 25
+83	Receiver: receiving packet 25
+83	Receiver: discarding packet 25
+83	Receiver: receiving packet 25
+83	Receiver: discarding packet 25
+83	Receiver: receiving packet 25
+83	Receiver: discarding packet 25
+83	Sender: sending packet 30
+83	Sender: sending packet 29
+83	Sender: sending packet 29
+83	Sender: sending packet 29
+83	Sender: sending packet 28
+83	Sender: sending packet 27
+83	Receiver: sending ACK 29
+83	Receiver: sending ACK 29
+83	Receiver: sending ACK 29
+83	Receiver: sending ACK 29
+83	Receiver: sending ACK 29
+83	Receiver: sending ACK 29
+83	Receiver: sending ACK 29
+83	Receiver: sending ACK 29
+83	Receiver: sending ACK 29
+83	Channel: dropping packet 29 isACK:False
+83	Channel: delaying packet 29 isACK:False
+83	Channel: delaying packet 28 isACK:False
+83	Channel: dropping packet 27 isACK:False
+83	Channel: delaying packet 29 isACK:True
+84	Sender: timeout, base = 27
+84	Sender: packeting segment 27
+84	Sender: packeting segment 28
+84	Sender: packeting segment 29
+84	Sender: packeting segment 30
+84	Sender: packeting segment 31
+84	Sender: timeout, base = 27
+84	Sender: packeting segment 27
+84	Sender: packeting segment 28
+84	Sender: packeting segment 29
+84	Sender: packeting segment 30
+84	Sender: packeting segment 31
+84	Sender: receiving ACK 24
+84	Sender: ignoring duplicate ACK 24
+84	Receiver: receiving packet 29
+84	Receiver: discarding packet 29
+84	Receiver: receiving packet 26
+84	Receiver: discarding packet 26
+84	Receiver: receiving packet 26
+84	Receiver: discarding packet 26
+84	Sender: receiving ACK 27
+84	Sender: packeting segment 27
+84	Sender: packeting segment 27
+84	Sender: packeting segment 27
+84	Sender: packeting segment 27
+84	Sender: packeting segment 27
+84	Sender: packeting segment 27
+84	Sender: receiving ACK 27
+84	Sender: ignoring duplicate ACK 27
+84	Sender: receiving ACK 27
+84	Sender: ignoring duplicate ACK 27
+84	Sender: receiving ACK 27
+84	Sender: ignoring duplicate ACK 27
+84	Sender: sending packet 30
+84	Sender: sending packet 30
+84	Sender: sending packet 30
+84	Sender: sending packet 29
+84	Sender: sending packet 28
+84	Sender: sending packet 27
+84	Sender: sending packet 27
+84	Receiver: sending ACK 29
+84	Receiver: sending ACK 29
+84	Receiver: sending ACK 29
+84	Sender: sending packet 27
+84	Sender: sending packet 27
+84	Sender: sending packet 27
+84	Sender: sending packet 27
+84	Sender: sending packet 27
+84	Sender: sending packet 27
+84	Channel: delaying packet 30 isACK:False
+84	Channel: delaying packet 29 isACK:False
+84	Channel: dropping packet 27 isACK:False
+84	Channel: delaying packet 27 isACK:False
+84	Channel: dropping packet 27 isACK:False
+84	Channel: delaying packet 27 isACK:False
+85	Sender: timeout, base = 28
+85	Sender: packeting segment 28
+85	Sender: packeting segment 29
+85	Sender: packeting segment 30
+85	Sender: packeting segment 31
+85	Sender: packeting segment 32
+85	Sender: timeout, base = 28
+85	Sender: packeting segment 28
+85	Sender: packeting segment 29
+85	Sender: packeting segment 30
+85	Sender: packeting segment 31
+85	Sender: packeting segment 32
+85	Sender: receiving ACK 24
+85	Sender: ignoring duplicate ACK 24
+85	Sender: receiving ACK 24
+85	Sender: ignoring duplicate ACK 24
+85	Sender: receiving ACK 24
+85	Sender: ignoring duplicate ACK 24
+85	Receiver: receiving packet 27
+85	Receiver: discarding packet 27
+85	Receiver: receiving packet 27
+85	Receiver: discarding packet 27
+85	Receiver: receiving packet 26
+85	Receiver: discarding packet 26
+85	Sender: receiving ACK 28
+85	Sender: packeting segment 28
+85	Sender: packeting segment 28
+85	Sender: packeting segment 28
+85	Sender: packeting segment 28
+85	Sender: packeting segment 28
+85	Sender: packeting segment 28
+85	Sender: receiving ACK 28
+85	Sender: ignoring duplicate ACK 28
+85	Sender: receiving ACK 28
+85	Sender: ignoring duplicate ACK 28
+85	Sender: receiving ACK 28
+85	Sender: ignoring duplicate ACK 28
+85	Receiver: receiving packet 26
+85	Receiver: discarding packet 26
+85	Receiver: receiving packet 26
+85	Receiver: discarding packet 26
+85	Receiver: receiving packet 26
+85	Receiver: discarding packet 26
+85	Receiver: receiving packet 26
+85	Receiver: discarding packet 26
+85	Receiver: receiving packet 26
+85	Receiver: discarding packet 26
+85	Sender: sending packet 31
+85	Sender: sending packet 30
+85	Sender: sending packet 29
+85	Sender: sending packet 28
+85	Sender: sending packet 28
+85	Sender: sending packet 28
+85	Sender: sending packet 28
+85	Receiver: sending ACK 29
+85	Receiver: sending ACK 29
+85	Receiver: sending ACK 29
+85	Sender: sending packet 28
+85	Sender: sending packet 28
+85	Sender: sending packet 28
+85	Sender: sending packet 28
+85	Sender: sending packet 28
+85	Sender: sending packet 28
+85	Receiver: sending ACK 29
+85	Receiver: sending ACK 29
+85	Receiver: sending ACK 29
+85	Receiver: sending ACK 29
+85	Receiver: sending ACK 29
+85	Channel: dropping packet 30 isACK:False
+85	Channel: dropping packet 28 isACK:False
+85	Channel: dropping packet 28 isACK:False
+85	Channel: dropping packet 28 isACK:False
+85	Channel: delaying packet 29 isACK:True
+86	Sender: timeout, base = 29
+86	Sender: packeting segment 29
+86	Sender: packeting segment 30
+86	Sender: packeting segment 31
+86	Sender: packeting segment 32
+86	Sender: packeting segment 33
+86	Sender: timeout, base = 29
+86	Sender: packeting segment 29
+86	Sender: packeting segment 30
+86	Sender: packeting segment 31
+86	Sender: packeting segment 32
+86	Sender: packeting segment 33
+86	Receiver: receiving packet 28
+86	Receiver: discarding packet 28
+86	Receiver: receiving packet 27
+86	Receiver: discarding packet 27
+86	Receiver: receiving packet 27
+86	Receiver: discarding packet 27
+86	Receiver: receiving packet 27
+86	Receiver: discarding packet 27
+86	Sender: receiving ACK 29
+86	Sender: packeting segment 29
+86	Sender: packeting segment 29
+86	Sender: packeting segment 29
+86	Sender: packeting segment 29
+86	Sender: packeting segment 29
+86	Sender: packeting segment 29
+86	Sender: receiving ACK 29
+86	Sender: ignoring duplicate ACK 29
+86	Sender: receiving ACK 29
+86	Sender: ignoring duplicate ACK 29
+86	Sender: sending packet 31
+86	Sender: sending packet 30
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Receiver: sending ACK 29
+86	Receiver: sending ACK 29
+86	Receiver: sending ACK 29
+86	Receiver: sending ACK 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Sender: sending packet 29
+86	Channel: dropping packet 29 isACK:False
+86	Channel: dropping packet 29 isACK:False
+87	Sender: timeout, base = 30
+87	Sender: packeting segment 30
+87	Sender: packeting segment 31
+87	Sender: packeting segment 32
+87	Sender: packeting segment 33
+87	Sender: packeting segment 34
+87	Receiver: receiving packet 29
+87	Receiver: discarding packet 29
+87	Receiver: receiving packet 29
+87	Receiver: discarding packet 29
+87	Receiver: receiving packet 27
+87	Receiver: discarding packet 27
+87	Sender: receiving ACK 29
+87	Sender: ignoring duplicate ACK 29
+87	Sender: sending packet 31
+87	Sender: sending packet 30
+87	Sender: sending packet 30
+87	Sender: sending packet 30
+87	Sender: sending packet 30
+87	Sender: sending packet 30
+87	Sender: sending packet 30
+87	Sender: sending packet 30
+87	Receiver: sending ACK 29
+87	Receiver: sending ACK 29
+87	Receiver: sending ACK 29
+87	Channel: delaying packet 31 isACK:False
+87	Channel: dropping packet 29 isACK:True
+88	Sender: timeout, base = 30
+88	Sender: packeting segment 30
+88	Sender: packeting segment 31
+88	Sender: packeting segment 32
+88	Sender: packeting segment 33
+88	Sender: packeting segment 34
+88	Receiver: receiving packet 26
+88	Receiver: discarding packet 26
+88	Receiver: receiving packet 26
+88	Receiver: discarding packet 26
+88	Receiver: receiving packet 30
+88	Receiver: delivering segment 30
+88	Receiver: receiving packet 29
+88	Receiver: discarding packet 29
+88	Sender: receiving ACK 29
+88	Sender: ignoring duplicate ACK 29
+88	Sender: receiving ACK 29
+88	Sender: ignoring duplicate ACK 29
+88	Sender: receiving ACK 29
+88	Sender: ignoring duplicate ACK 29
+88	Sender: receiving ACK 29
+88	Sender: ignoring duplicate ACK 29
+88	Sender: receiving ACK 29
+88	Sender: ignoring duplicate ACK 29
+88	Sender: receiving ACK 29
+88	Sender: ignoring duplicate ACK 29
+88	Sender: receiving ACK 29
+88	Sender: ignoring duplicate ACK 29
+88	Sender: receiving ACK 29
+88	Sender: ignoring duplicate ACK 29
+88	Sender: sending packet 31
+88	Sender: sending packet 31
+88	Sender: sending packet 31
+88	Sender: sending packet 31
+88	Sender: sending packet 31
+88	Sender: sending packet 31
+88	Sender: sending packet 31
+88	Sender: sending packet 30
+88	Receiver: sending ACK 29
+88	Receiver: sending ACK 29
+88	Receiver: sending ACK 30
+88	Receiver: sending ACK 30
+88	Channel: delaying packet 31 isACK:False
+89	Sender: timeout, base = 30
+89	Sender: packeting segment 30
+89	Sender: packeting segment 31
+89	Sender: packeting segment 32
+89	Sender: packeting segment 33
+89	Sender: packeting segment 34
+89	Receiver: receiving packet 27
+89	Receiver: discarding packet 27
+89	Sender: receiving ACK 25
+89	Sender: ignoring duplicate ACK 25
+89	Sender: receiving ACK 25
+89	Sender: ignoring duplicate ACK 25
+89	Receiver: receiving packet 30
+89	Receiver: discarding packet 30
+89	Receiver: receiving packet 30
+89	Receiver: discarding packet 30
+89	Receiver: receiving packet 28
+89	Receiver: discarding packet 28
+89	Receiver: receiving packet 27
+89	Receiver: discarding packet 27
+89	Sender: receiving ACK 29
+89	Sender: ignoring duplicate ACK 29
+89	Sender: receiving ACK 29
+89	Sender: ignoring duplicate ACK 29
+89	Sender: receiving ACK 29
+89	Sender: ignoring duplicate ACK 29
+89	Receiver: receiving packet 27
+89	Receiver: discarding packet 27
+89	Receiver: receiving packet 27
+89	Receiver: discarding packet 27
+89	Receiver: receiving packet 27
+89	Receiver: discarding packet 27
+89	Sender: sending packet 32
+89	Sender: sending packet 32
+89	Sender: sending packet 32
+89	Sender: sending packet 32
+89	Sender: sending packet 32
+89	Sender: sending packet 31
+89	Sender: sending packet 30
+89	Receiver: sending ACK 30
+89	Receiver: sending ACK 30
+89	Receiver: sending ACK 30
+89	Receiver: sending ACK 30
+89	Receiver: sending ACK 30
+89	Receiver: sending ACK 30
+89	Receiver: sending ACK 30
+89	Receiver: sending ACK 30
+89	Channel: dropping packet 32 isACK:False
+89	Channel: delaying packet 30 isACK:False
+89	Channel: dropping packet 30 isACK:True
+90	Sender: timeout, base = 30
+90	Sender: packeting segment 30
+90	Sender: packeting segment 31
+90	Sender: packeting segment 32
+90	Sender: packeting segment 33
+90	Sender: packeting segment 34
+90	Receiver: receiving packet 26
+90	Receiver: discarding packet 26
+90	Receiver: receiving packet 31
+90	Receiver: delivering segment 31
+90	Receiver: receiving packet 29
+90	Receiver: discarding packet 29
+90	Receiver: receiving packet 28
+90	Receiver: discarding packet 28
+90	Receiver: receiving packet 28
+90	Receiver: discarding packet 28
+90	Receiver: receiving packet 28
+90	Receiver: discarding packet 28
+90	Sender: receiving ACK 29
+90	Sender: ignoring duplicate ACK 29
+90	Sender: receiving ACK 29
+90	Sender: ignoring duplicate ACK 29
+90	Sender: receiving ACK 29
+90	Sender: ignoring duplicate ACK 29
+90	Receiver: receiving packet 28
+90	Receiver: discarding packet 28
+90	Receiver: receiving packet 28
+90	Receiver: discarding packet 28
+90	Receiver: receiving packet 28
+90	Receiver: discarding packet 28
+90	Receiver: receiving packet 28
+90	Receiver: discarding packet 28
+90	Sender: receiving ACK 29
+90	Sender: ignoring duplicate ACK 29
+90	Sender: receiving ACK 29
+90	Sender: ignoring duplicate ACK 29
+90	Sender: receiving ACK 29
+90	Sender: ignoring duplicate ACK 29
+90	Sender: receiving ACK 29
+90	Sender: ignoring duplicate ACK 29
+90	Sender: sending packet 33
+90	Sender: sending packet 33
+90	Sender: sending packet 33
+90	Sender: sending packet 32
+90	Sender: sending packet 31
+90	Sender: sending packet 30
+90	Receiver: sending ACK 30
+90	Receiver: sending ACK 31
+90	Receiver: sending ACK 31
+90	Receiver: sending ACK 31
+90	Receiver: sending ACK 31
+90	Receiver: sending ACK 31
+90	Receiver: sending ACK 31
+90	Receiver: sending ACK 31
+90	Receiver: sending ACK 31
+90	Receiver: sending ACK 31
+90	Channel: dropping packet 31 isACK:False
+90	Channel: dropping packet 31 isACK:True
+90	Channel: dropping packet 31 isACK:True
+90	Channel: delaying packet 31 isACK:True
+91	Receiver: receiving packet 31
+91	Receiver: discarding packet 31
+91	Receiver: receiving packet 30
+91	Receiver: discarding packet 30
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Sender: receiving ACK 29
+91	Sender: ignoring duplicate ACK 29
+91	Sender: receiving ACK 29
+91	Sender: ignoring duplicate ACK 29
+91	Sender: receiving ACK 29
+91	Sender: ignoring duplicate ACK 29
+91	Sender: receiving ACK 29
+91	Sender: ignoring duplicate ACK 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Receiver: receiving packet 29
+91	Receiver: discarding packet 29
+91	Sender: sending packet 34
+91	Sender: sending packet 33
+91	Sender: sending packet 32
+91	Sender: sending packet 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Receiver: sending ACK 31
+91	Channel: delaying packet 32 isACK:False
+91	Channel: delaying packet 31 isACK:True
+91	Channel: delaying packet 31 isACK:True
+91	Channel: dropping packet 31 isACK:True
+92	Receiver: receiving packet 27
+92	Receiver: discarding packet 27
+92	Receiver: receiving packet 30
+92	Receiver: discarding packet 30
+92	Receiver: receiving packet 30
+92	Receiver: discarding packet 30
+92	Receiver: receiving packet 30
+92	Receiver: discarding packet 30
+92	Receiver: receiving packet 30
+92	Receiver: discarding packet 30
+92	Receiver: receiving packet 30
+92	Receiver: discarding packet 30
+92	Receiver: receiving packet 30
+92	Receiver: discarding packet 30
+92	Receiver: receiving packet 30
+92	Receiver: discarding packet 30
+92	Sender: receiving ACK 29
+92	Sender: ignoring duplicate ACK 29
+92	Sender: receiving ACK 29
+92	Sender: ignoring duplicate ACK 29
+92	Sender: sending packet 34
+92	Sender: sending packet 33
+92	Sender: sending packet 32
+92	Receiver: sending ACK 31
+92	Receiver: sending ACK 31
+92	Receiver: sending ACK 31
+92	Receiver: sending ACK 31
+92	Receiver: sending ACK 31
+92	Receiver: sending ACK 31
+92	Receiver: sending ACK 31
+92	Receiver: sending ACK 31
+92	Channel: delaying packet 32 isACK:False
+92	Channel: delaying packet 31 isACK:True
+92	Channel: delaying packet 31 isACK:True
+92	Channel: delaying packet 31 isACK:True
+92	Channel: delaying packet 31 isACK:True
+93	Sender: timeout, base = 30
+93	Sender: packeting segment 30
+93	Sender: packeting segment 31
+93	Sender: packeting segment 32
+93	Sender: packeting segment 33
+93	Sender: packeting segment 34
+93	Sender: timeout, base = 30
+93	Sender: packeting segment 30
+93	Sender: packeting segment 31
+93	Sender: packeting segment 32
+93	Sender: packeting segment 33
+93	Sender: packeting segment 34
+93	Sender: receiving ACK 26
+93	Sender: ignoring duplicate ACK 26
+93	Receiver: receiving packet 31
+93	Receiver: discarding packet 31
+93	Receiver: receiving packet 31
+93	Receiver: discarding packet 31
+93	Receiver: receiving packet 31
+93	Receiver: discarding packet 31
+93	Receiver: receiving packet 31
+93	Receiver: discarding packet 31
+93	Receiver: receiving packet 31
+93	Receiver: discarding packet 31
+93	Receiver: receiving packet 31
+93	Receiver: discarding packet 31
+93	Receiver: receiving packet 30
+93	Receiver: discarding packet 30
+93	Sender: receiving ACK 29
+93	Sender: ignoring duplicate ACK 29
+93	Sender: receiving ACK 29
+93	Sender: ignoring duplicate ACK 29
+93	Sender: receiving ACK 30
+93	Sender: packeting segment 30
+93	Sender: packeting segment 30
+93	Sender: packeting segment 30
+93	Sender: packeting segment 30
+93	Sender: packeting segment 30
+93	Sender: receiving ACK 30
+93	Sender: ignoring duplicate ACK 30
+93	Sender: sending packet 34
+93	Sender: sending packet 33
+93	Sender: sending packet 30
+93	Sender: sending packet 30
+93	Receiver: sending ACK 31
+93	Receiver: sending ACK 31
+93	Receiver: sending ACK 31
+93	Receiver: sending ACK 31
+93	Receiver: sending ACK 31
+93	Receiver: sending ACK 31
+93	Receiver: sending ACK 31
+93	Sender: sending packet 30
+93	Sender: sending packet 30
+93	Sender: sending packet 30
+93	Sender: sending packet 30
+93	Sender: sending packet 30
+93	Channel: dropping packet 30 isACK:False
+93	Channel: delaying packet 30 isACK:False
+94	Sender: timeout, base = 31
+94	Sender: packeting segment 31
+94	Sender: packeting segment 32
+94	Sender: packeting segment 33
+94	Sender: packeting segment 34
+94	Sender: receiving ACK 27
+94	Sender: ignoring duplicate ACK 27
+94	Receiver: receiving packet 32
+94	Receiver: delivering segment 32
+94	Receiver: receiving packet 32
+94	Receiver: discarding packet 32
+94	Receiver: receiving packet 32
+94	Receiver: discarding packet 32
+94	Receiver: receiving packet 32
+94	Receiver: discarding packet 32
+94	Receiver: receiving packet 31
+94	Receiver: discarding packet 31
+94	Sender: receiving ACK 30
+94	Sender: ignoring duplicate ACK 30
+94	Sender: receiving ACK 30
+94	Sender: ignoring duplicate ACK 30
+94	Sender: receiving ACK 30
+94	Sender: ignoring duplicate ACK 30
+94	Sender: receiving ACK 30
+94	Sender: ignoring duplicate ACK 30
+94	Sender: receiving ACK 30
+94	Sender: ignoring duplicate ACK 30
+94	Sender: receiving ACK 30
+94	Sender: ignoring duplicate ACK 30
+94	Sender: receiving ACK 30
+94	Sender: ignoring duplicate ACK 30
+94	Sender: sending packet 34
+94	Sender: sending packet 31
+94	Sender: sending packet 31
+94	Sender: sending packet 31
+94	Receiver: sending ACK 32
+94	Receiver: sending ACK 32
+94	Receiver: sending ACK 32
+94	Receiver: sending ACK 32
+94	Receiver: sending ACK 32
+94	Channel: dropping packet 31 isACK:False
+95	Sender: timeout, base = 31
+95	Sender: packeting segment 31
+95	Sender: packeting segment 32
+95	Sender: packeting segment 33
+95	Sender: packeting segment 34
+95	Sender: timeout, base = 31
+95	Sender: packeting segment 31
+95	Sender: packeting segment 32
+95	Sender: packeting segment 33
+95	Sender: packeting segment 34
+95	Receiver: receiving packet 33
+95	Receiver: delivering segment 33
+95	Receiver: receiving packet 33
+95	Receiver: discarding packet 33
+95	Receiver: receiving packet 33
+95	Receiver: discarding packet 33
+95	Receiver: receiving packet 32
+95	Receiver: discarding packet 32
+95	Receiver: receiving packet 30
+95	Receiver: discarding packet 30
+95	Sender: receiving ACK 30
+95	Sender: ignoring duplicate ACK 30
+95	Sender: receiving ACK 31
+95	Sender: packeting segment 31
+95	Sender: packeting segment 31
+95	Sender: packeting segment 31
+95	Sender: packeting segment 31
+95	Sender: receiving ACK 31
+95	Sender: ignoring duplicate ACK 31
+95	Sender: receiving ACK 31
+95	Sender: ignoring duplicate ACK 31
+95	Sender: receiving ACK 31
+95	Sender: ignoring duplicate ACK 31
+95	Sender: receiving ACK 31
+95	Sender: ignoring duplicate ACK 31
+95	Sender: receiving ACK 31
+95	Sender: ignoring duplicate ACK 31
+95	Sender: sending packet 32
+95	Sender: sending packet 32
+95	Sender: sending packet 32
+95	Sender: sending packet 31
+95	Sender: sending packet 31
+95	Receiver: sending ACK 33
+95	Receiver: sending ACK 33
+95	Receiver: sending ACK 33
+95	Receiver: sending ACK 33
+95	Receiver: sending ACK 33
+95	Sender: sending packet 31
+95	Sender: sending packet 31
+95	Sender: sending packet 31
+95	Sender: sending packet 31
+95	Channel: dropping packet 32 isACK:False
+95	Channel: dropping packet 33 isACK:True
+95	Channel: delaying packet 31 isACK:False
+95	Channel: delaying packet 31 isACK:False
+96	Sender: timeout, base = 32
+96	Sender: packeting segment 32
+96	Sender: packeting segment 33
+96	Sender: packeting segment 34
+96	Receiver: receiving packet 28
+96	Receiver: discarding packet 28
+96	Receiver: receiving packet 34
+96	Receiver: delivering segment 34
+96	Receiver: receiving packet 33
+96	Receiver: discarding packet 33
+96	Receiver: receiving packet 31
+96	Receiver: discarding packet 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: receiving ACK 31
+96	Sender: ignoring duplicate ACK 31
+96	Sender: sending packet 33
+96	Sender: sending packet 33
+96	Sender: sending packet 33
+96	Sender: sending packet 32
+96	Sender: sending packet 32
+96	Sender: sending packet 32
+96	Receiver: sending ACK 33
+96	Receiver: sending ACK 34
+96	Receiver: sending ACK 34
+96	Receiver: sending ACK 34
+96	Channel: dropping packet 33 isACK:True
+96	Channel: dropping packet 34 isACK:True
+97	Sender: timeout, base = 32
+97	Sender: packeting segment 32
+97	Sender: packeting segment 33
+97	Sender: packeting segment 34
+97	Receiver: receiving packet 34
+97	Receiver: discarding packet 34
+97	Receiver: receiving packet 33
+97	Receiver: discarding packet 33
+97	Sender: receiving ACK 31
+97	Sender: ignoring duplicate ACK 31
+97	Sender: receiving ACK 31
+97	Sender: ignoring duplicate ACK 31
+97	Sender: receiving ACK 31
+97	Sender: ignoring duplicate ACK 31
+97	Sender: receiving ACK 31
+97	Sender: ignoring duplicate ACK 31
+97	Sender: sending packet 34
+97	Sender: sending packet 34
+97	Sender: sending packet 34
+97	Sender: sending packet 33
+97	Sender: sending packet 33
+97	Sender: sending packet 33
+97	Sender: sending packet 32
+97	Receiver: sending ACK 34
+97	Receiver: sending ACK 34
+97	Channel: delaying packet 34 isACK:False
+97	Channel: dropping packet 33 isACK:False
+97	Channel: dropping packet 33 isACK:False
+97	Channel: dropping packet 32 isACK:False
+98	Sender: timeout, base = 32
+98	Sender: packeting segment 32
+98	Sender: packeting segment 33
+98	Sender: packeting segment 34
+98	Receiver: receiving packet 29
+98	Receiver: discarding packet 29
+98	Receiver: receiving packet 28
+98	Receiver: discarding packet 28
+98	Sender: receiving ACK 29
+98	Sender: ignoring duplicate ACK 29
+98	Receiver: receiving packet 34
+98	Receiver: discarding packet 34
+98	Receiver: receiving packet 33
+98	Receiver: discarding packet 33
+98	Receiver: receiving packet 30
+98	Receiver: discarding packet 30
+98	Sender: receiving ACK 31
+98	Sender: ignoring duplicate ACK 31
+98	Sender: receiving ACK 31
+98	Sender: ignoring duplicate ACK 31
+98	Sender: receiving ACK 31
+98	Sender: ignoring duplicate ACK 31
+98	Sender: receiving ACK 31
+98	Sender: ignoring duplicate ACK 31
+98	Sender: receiving ACK 31
+98	Sender: ignoring duplicate ACK 31
+98	Sender: receiving ACK 31
+98	Sender: ignoring duplicate ACK 31
+98	Sender: receiving ACK 31
+98	Sender: ignoring duplicate ACK 31
+98	Receiver: receiving packet 30
+98	Receiver: discarding packet 30
+98	Receiver: receiving packet 30
+98	Receiver: discarding packet 30
+98	Receiver: receiving packet 30
+98	Receiver: discarding packet 30
+98	Receiver: receiving packet 30
+98	Receiver: discarding packet 30
+98	Sender: sending packet 34
+98	Sender: sending packet 34
+98	Sender: sending packet 34
+98	Sender: sending packet 33
+98	Sender: sending packet 32
+98	Receiver: sending ACK 34
+98	Receiver: sending ACK 34
+98	Receiver: sending ACK 34
+98	Receiver: sending ACK 34
+98	Receiver: sending ACK 34
+98	Receiver: sending ACK 34
+98	Receiver: sending ACK 34
+98	Receiver: sending ACK 34
+98	Receiver: sending ACK 34
+98	Channel: delaying packet 34 isACK:True
+99	Sender: timeout, base = 32
+99	Sender: packeting segment 32
+99	Sender: packeting segment 33
+99	Sender: packeting segment 34
+99	Sender: timeout, base = 32
+99	Sender: packeting segment 32
+99	Sender: packeting segment 33
+99	Sender: packeting segment 34
+99	Receiver: receiving packet 30
+99	Receiver: discarding packet 30
+99	Receiver: receiving packet 29
+99	Receiver: discarding packet 29
+99	Receiver: receiving packet 27
+99	Receiver: discarding packet 27
+99	Receiver: receiving packet 27
+99	Receiver: discarding packet 27
+99	Receiver: receiving packet 34
+99	Receiver: discarding packet 34
+99	Receiver: receiving packet 31
+99	Receiver: discarding packet 31
+99	Receiver: receiving packet 31
+99	Receiver: discarding packet 31
+99	Sender: receiving ACK 32
+99	Sender: packeting segment 32
+99	Sender: packeting segment 32
+99	Sender: packeting segment 32
+99	Sender: receiving ACK 32
+99	Sender: ignoring duplicate ACK 32
+99	Sender: receiving ACK 32
+99	Sender: ignoring duplicate ACK 32
+99	Sender: receiving ACK 32
+99	Sender: ignoring duplicate ACK 32
+99	Sender: receiving ACK 32
+99	Sender: ignoring duplicate ACK 32
+99	Sender: sending packet 34
+99	Sender: sending packet 33
+99	Sender: sending packet 32
+99	Sender: sending packet 32
+99	Receiver: sending ACK 34
+99	Receiver: sending ACK 34
+99	Receiver: sending ACK 34
+99	Receiver: sending ACK 34
+99	Receiver: sending ACK 34
+99	Receiver: sending ACK 34
+99	Receiver: sending ACK 34
+99	Sender: sending packet 32
+99	Sender: sending packet 32
+99	Sender: sending packet 32
+99	Channel: delaying packet 33 isACK:False
+99	Channel: delaying packet 34 isACK:True
+99	Channel: delaying packet 32 isACK:False
+100	Sender: timeout, base = 33
+100	Sender: packeting segment 33
+100	Sender: packeting segment 34
+100	Sender: timeout, base = 33
+100	Sender: packeting segment 33
+100	Sender: packeting segment 34
+100	Sender: receiving ACK 29
+100	Sender: ignoring duplicate ACK 29
+100	Receiver: receiving packet 32
+100	Receiver: discarding packet 32
+100	Receiver: receiving packet 32
+100	Receiver: discarding packet 32
+100	Receiver: receiving packet 31
+100	Receiver: discarding packet 31
+100	Receiver: receiving packet 31
+100	Receiver: discarding packet 31
+100	Sender: receiving ACK 33
+100	Sender: packeting segment 33
+100	Sender: packeting segment 33
+100	Sender: receiving ACK 33
+100	Sender: ignoring duplicate ACK 33
+100	Sender: receiving ACK 33
+100	Sender: ignoring duplicate ACK 33
+100	Sender: receiving ACK 33
+100	Sender: ignoring duplicate ACK 33
+100	Receiver: receiving packet 31
+100	Receiver: discarding packet 31
+100	Receiver: receiving packet 31
+100	Receiver: discarding packet 31
+100	Sender: sending packet 34
+100	Sender: sending packet 33
+100	Sender: sending packet 33
+100	Sender: sending packet 33
+100	Sender: sending packet 33
+100	Receiver: sending ACK 34
+100	Receiver: sending ACK 34
+100	Receiver: sending ACK 34
+100	Receiver: sending ACK 34
+100	Sender: sending packet 33
+100	Sender: sending packet 33
+100	Receiver: sending ACK 34
+100	Receiver: sending ACK 34
+100	Channel: dropping packet 33 isACK:False
+100	Channel: delaying packet 34 isACK:True
+100	Channel: dropping packet 34 isACK:True
+100	Channel: delaying packet 34 isACK:True
+100	Channel: dropping packet 34 isACK:True
+101	Sender: timeout, base = 34
+101	Sender: packeting segment 34
+101	Sender: timeout, base = 34
+101	Sender: packeting segment 34
+101	Receiver: receiving packet 33
+101	Receiver: discarding packet 33
+101	Receiver: receiving packet 33
+101	Receiver: discarding packet 33
+101	Receiver: receiving packet 33
+101	Receiver: discarding packet 33
+101	Receiver: receiving packet 32
+101	Receiver: discarding packet 32
+101	Receiver: receiving packet 32
+101	Receiver: discarding packet 32
+101	Receiver: receiving packet 32
+101	Receiver: discarding packet 32
+101	Sender: receiving ACK 34
+101	Sender: packeting segment 34
+101	Sender: receiving ACK 34
+101	Sender: ignoring duplicate ACK 34
+101	Sender: sending packet 34
+101	Sender: sending packet 34
+101	Sender: sending packet 34
+101	Sender: sending packet 34
+101	Sender: sending packet 34
+101	Sender: sending packet 34
+101	Receiver: sending ACK 34
+101	Receiver: sending ACK 34
+101	Receiver: sending ACK 34
+101	Receiver: sending ACK 34
+101	Receiver: sending ACK 34
+101	Receiver: sending ACK 34
+101	Sender: sending packet 34
+101	Channel: dropping packet 34 isACK:True
+101	Channel: delaying packet 34 isACK:False
+102	Sender: timeout, base = 35
+102	Receiver: receiving packet 31
+102	Receiver: discarding packet 31
+102	Receiver: receiving packet 34
+102	Receiver: discarding packet 34
+102	Receiver: receiving packet 34
+102	Receiver: discarding packet 34
+102	Receiver: receiving packet 33
+102	Receiver: discarding packet 33
+102	Sender: receiving ACK 34
+102	Sender: ignoring duplicate ACK 34
+102	Sender: receiving ACK 34
+102	Sender: ignoring duplicate ACK 34
+102	Receiver: sending ACK 34
+102	Receiver: sending ACK 34
+102	Receiver: sending ACK 34
+102	Receiver: sending ACK 34
+102	Channel: dropping packet 34 isACK:True
+103	Sender: timeout, base = 35
+103	Receiver: receiving packet 31
+103	Receiver: discarding packet 31
+103	Receiver: receiving packet 34
+103	Receiver: discarding packet 34
+103	Receiver: receiving packet 34
+103	Receiver: discarding packet 34
+103	Receiver: receiving packet 34
+103	Receiver: discarding packet 34
+103	Receiver: receiving packet 33
+103	Receiver: discarding packet 33
+103	Receiver: receiving packet 32
+103	Receiver: discarding packet 32
+103	Sender: receiving ACK 34
+103	Sender: ignoring duplicate ACK 34
+103	Sender: receiving ACK 34
+103	Sender: ignoring duplicate ACK 34
+103	Sender: receiving ACK 34
+103	Sender: ignoring duplicate ACK 34
+103	Sender: receiving ACK 34
+103	Sender: ignoring duplicate ACK 34
+103	Sender: receiving ACK 34
+103	Sender: ignoring duplicate ACK 34
+103	Sender: receiving ACK 34
+103	Sender: ignoring duplicate ACK 34
+103	Sender: receiving ACK 34
+103	Sender: ignoring duplicate ACK 34
+103	Sender: receiving ACK 34
+103	Sender: ignoring duplicate ACK 34
+103	Receiver: sending ACK 34
+103	Receiver: sending ACK 34
+103	Receiver: sending ACK 34
+103	Receiver: sending ACK 34
+103	Receiver: sending ACK 34
+103	Receiver: sending ACK 34
+103	Channel: dropping packet 34 isACK:True
+104	Sender: timeout, base = 35
+104	Receiver: receiving packet 30
+104	Receiver: discarding packet 30
+104	Receiver: receiving packet 34
+104	Receiver: discarding packet 34
+104	Receiver: receiving packet 32
+104	Receiver: discarding packet 32
+104	Receiver: receiving packet 32
+104	Receiver: discarding packet 32
+104	Sender: receiving ACK 34
+104	Sender: ignoring duplicate ACK 34
+104	Sender: receiving ACK 34
+104	Sender: ignoring duplicate ACK 34
+104	Sender: receiving ACK 34
+104	Sender: ignoring duplicate ACK 34
+104	Sender: receiving ACK 34
+104	Sender: ignoring duplicate ACK 34
+104	Sender: receiving ACK 34
+104	Sender: ignoring duplicate ACK 34
+104	Sender: receiving ACK 34
+104	Sender: ignoring duplicate ACK 34
+104	Receiver: receiving packet 32
+104	Receiver: discarding packet 32
+104	Receiver: receiving packet 32
+104	Receiver: discarding packet 32
+104	Receiver: sending ACK 34
+104	Receiver: sending ACK 34
+104	Receiver: sending ACK 34
+104	Receiver: sending ACK 34
+104	Receiver: sending ACK 34
+104	Receiver: sending ACK 34
+104	Channel: dropping packet 34 isACK:True
+105	Sender: timeout, base = 35
+105	Sender: receiving ACK 31
+105	Sender: ignoring duplicate ACK 31
+105	Receiver: receiving packet 34
+105	Receiver: discarding packet 34
+105	Receiver: receiving packet 33
+105	Receiver: discarding packet 33
+105	Receiver: receiving packet 33
+105	Receiver: discarding packet 33
+105	Receiver: receiving packet 33
+105	Receiver: discarding packet 33
+105	Sender: receiving ACK 34
+105	Sender: ignoring duplicate ACK 34
+105	Receiver: receiving packet 33
+105	Receiver: discarding packet 33
+105	Receiver: receiving packet 33
+105	Receiver: discarding packet 33
+105	Sender: receiving ACK 34
+105	Sender: ignoring duplicate ACK 34
+105	Receiver: sending ACK 34
+105	Receiver: sending ACK 34
+105	Receiver: sending ACK 34
+105	Receiver: sending ACK 34
+105	Receiver: sending ACK 34
+105	Receiver: sending ACK 34
+105	Channel: dropping packet 34 isACK:True
+105	Channel: dropping packet 34 isACK:True
+105	Channel: dropping packet 34 isACK:True
+105	Channel: delaying packet 34 isACK:True
+106	Receiver: receiving packet 32
+106	Receiver: discarding packet 32
+106	Sender: receiving ACK 31
+106	Sender: ignoring duplicate ACK 31
+106	Sender: receiving ACK 31
+106	Sender: ignoring duplicate ACK 31
+106	Receiver: receiving packet 34
+106	Receiver: discarding packet 34
+106	Receiver: receiving packet 34
+106	Receiver: discarding packet 34
+106	Receiver: receiving packet 34
+106	Receiver: discarding packet 34
+106	Receiver: receiving packet 34
+106	Receiver: discarding packet 34
+106	Receiver: receiving packet 34
+106	Receiver: discarding packet 34
+106	Receiver: receiving packet 34
+106	Receiver: discarding packet 34
+106	Sender: receiving ACK 34
+106	Sender: ignoring duplicate ACK 34
+106	Sender: receiving ACK 34
+106	Sender: ignoring duplicate ACK 34
+106	Sender: receiving ACK 34
+106	Sender: ignoring duplicate ACK 34
+106	Sender: receiving ACK 34
+106	Sender: ignoring duplicate ACK 34
+106	Sender: receiving ACK 34
+106	Sender: ignoring duplicate ACK 34
+106	Receiver: sending ACK 34
+106	Receiver: sending ACK 34
+106	Receiver: sending ACK 34
+106	Receiver: sending ACK 34
+106	Receiver: sending ACK 34
+106	Receiver: sending ACK 34
+106	Receiver: sending ACK 34
+106	Channel: dropping packet 34 isACK:True
+107	Receiver: receiving packet 32
+107	Receiver: discarding packet 32
+107	Sender: receiving ACK 31
+107	Sender: ignoring duplicate ACK 31
+107	Sender: receiving ACK 31
+107	Sender: ignoring duplicate ACK 31
+107	Sender: receiving ACK 31
+107	Sender: ignoring duplicate ACK 31
+107	Sender: receiving ACK 31
+107	Sender: ignoring duplicate ACK 31
+107	Sender: receiving ACK 34
+107	Sender: ignoring duplicate ACK 34
+107	Sender: receiving ACK 34
+107	Sender: ignoring duplicate ACK 34
+107	Sender: receiving ACK 34
+107	Sender: ignoring duplicate ACK 34
+107	Receiver: sending ACK 34
+108	Sender: timeout, base = 35
+108	Sender: timeout, base = 35
+108	Receiver: receiving packet 30
+108	Receiver: discarding packet 30
+108	Sender: receiving ACK 34
+108	Sender: ignoring duplicate ACK 34
+108	Sender: receiving ACK 34
+108	Sender: ignoring duplicate ACK 34
+108	Sender: receiving ACK 34
+108	Sender: ignoring duplicate ACK 34
+108	Sender: receiving ACK 34
+108	Sender: ignoring duplicate ACK 34
+108	Sender: receiving ACK 34
+108	Sender: ignoring duplicate ACK 34
+108	Receiver: sending ACK 34
+108	Channel: dropping packet 34 isACK:True
+109	Sender: timeout, base = 35
+109	Sender: receiving ACK 34
+109	Sender: ignoring duplicate ACK 34
+109	Sender: receiving ACK 34
+109	Sender: ignoring duplicate ACK 34
+109	Sender: receiving ACK 34
+109	Sender: ignoring duplicate ACK 34
+109	Sender: receiving ACK 34
+109	Sender: ignoring duplicate ACK 34
+109	Sender: receiving ACK 34
+109	Sender: ignoring duplicate ACK 34
+110	Sender: timeout, base = 35
+110	Sender: timeout, base = 35
+110	Receiver: receiving packet 31
+110	Receiver: discarding packet 31
+110	Receiver: receiving packet 31
+110	Receiver: discarding packet 31
+110	Sender: receiving ACK 34
+110	Sender: ignoring duplicate ACK 34
+110	Sender: receiving ACK 34
+110	Sender: ignoring duplicate ACK 34
+110	Receiver: sending ACK 34
+110	Receiver: sending ACK 34
+111	Sender: timeout, base = 35
+111	Sender: receiving ACK 34
+111	Sender: ignoring duplicate ACK 34
+111	Sender: receiving ACK 34
+111	Sender: ignoring duplicate ACK 34
+111	Sender: receiving ACK 34
+111	Sender: ignoring duplicate ACK 34
+111	Sender: receiving ACK 34
+111	Sender: ignoring duplicate ACK 34
+111	Sender: receiving ACK 34
+111	Sender: ignoring duplicate ACK 34
+111	Sender: receiving ACK 34
+111	Sender: ignoring duplicate ACK 34
+112	Sender: timeout, base = 35
+112	Receiver: receiving packet 34
+112	Receiver: discarding packet 34
+112	Sender: receiving ACK 34
+112	Sender: ignoring duplicate ACK 34
+112	Receiver: sending ACK 34
+113	Sender: timeout, base = 35
+113	Sender: receiving ACK 34
+113	Sender: ignoring duplicate ACK 34
+114	Sender: timeout, base = 35
+114	Sender: timeout, base = 35
+114	Receiver: receiving packet 33
+114	Receiver: discarding packet 33
+114	Sender: receiving ACK 34
+114	Sender: ignoring duplicate ACK 34
+114	Receiver: receiving packet 32
+114	Receiver: discarding packet 32
+114	Receiver: sending ACK 34
+114	Receiver: sending ACK 34
+115	Sender: timeout, base = 35
+115	Sender: timeout, base = 35
+115	Sender: receiving ACK 34
+115	Sender: ignoring duplicate ACK 34
+115	Sender: receiving ACK 34
+115	Sender: ignoring duplicate ACK 34
+115	Sender: receiving ACK 34
+115	Sender: ignoring duplicate ACK 34
+115	Sender: receiving ACK 34
+115	Sender: ignoring duplicate ACK 34
+116	Sender: timeout, base = 35
+116	Sender: timeout, base = 35
+116	Receiver: receiving packet 34
+116	Receiver: discarding packet 34
+116	Receiver: sending ACK 34
+116	Channel: dropping packet 34 isACK:True
+117	Sender: receiving ACK 34
+117	Sender: ignoring duplicate ACK 34
+119	Sender: receiving ACK 34
+119	Sender: ignoring duplicate ACK 34
+119	Sender: receiving ACK 34
+119	Sender: ignoring duplicate ACK 34
+120	Sender: receiving ACK 34
+120	Sender: ignoring duplicate ACK 34
