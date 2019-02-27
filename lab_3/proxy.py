@@ -5,7 +5,7 @@ import sys
 
 TCP_IP = '127.0.0.1'
 TCP_Port = 62
-Buffer_Size = 1024
+Buffer_Size = 4096*16
 get_http_format_0 = "GET / HTTP/1.0\r\nHost: "
 get_http_format_1 = "\r\nConnection: close\r\n\r\n"
 
@@ -21,26 +21,36 @@ class Proxy_server:
         while(True):
             try:
                 data = conn.recv(Buffer_Size).decode("utf-8")
-                print("Get Data From " + data)
+                #print("Get Data From " + data)
                 data_tuple = (data, 80)
-                self.main_logic(data_tuple)
+                self.main_logic(data_tuple, conn)
             except:
                 print("No data")
                 conn.send("No Data".encode())
                 
-    def main_logic(self, data_tuple):
+    def main_logic(self, data_tuple, conn):
 
         while(True):
-            #print("Inside proxy main_logic function")
+            now = time.time()
+            for key in self.cache:
+                old_html, save_time = self.get_cache((key, 80))
+                if(now - save_time > 60):
+                    new_html = self.get_HTML((key, 80))
+                    self.update_cache(new_html, (key, 80), time.time())
+
+
+            
             if not self.check_cache(data_tuple):
-                print("adding new cache")
+                print("Get HTML")
                 html_data = self.get_HTML(data_tuple)
                 self.add_cache(html_data, data_tuple, time.time())
-                conn.send(self.get_HTML(data_tuple).encode())
+
+            conn.send(str.encode(self.get_cache(data_tuple)[0]))
+            break
         
     def get_HTML(self, data_tuple):
 
-        host, port = input_tuple
+        host, port = data_tuple
 
         clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         clientSocket.settimeout(1.0)
@@ -56,7 +66,7 @@ class Proxy_server:
 
         try:
             z = clientSocket.send(str.encode(http_get_request))
-            print("successfully sent" + str(z) + "bytes to port" + str(port))
+            print("successfully sent " + str(z) + " bytes to port " + str(port))
         except:
             print("Cannot send data to port " + str(port))
 
@@ -76,10 +86,10 @@ class Proxy_server:
         self.cache[data_tuple[0]] = (html, intro_time)
 
     def check_cache(self, data_tuple):
-        print(data_tuple[0] in self.cache)
         return data_tuple[0] in self.cache
 
     def update_cache(self, html, data_tuple, intro_time):
+        print("\n update cacha")
         temp = {data_tuple[0]: (html, intro_time)}
         self.cache.update(temp)
 
