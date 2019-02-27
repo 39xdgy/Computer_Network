@@ -4,7 +4,7 @@ import time
 import sys
 
 TCP_IP = '127.0.0.1'
-TCP_Port = 80
+TCP_Port = 62
 Buffer_Size = 1024
 get_http_format_0 = "GET / HTTP/1.0\r\nHost: "
 get_http_format_1 = "\r\nConnection: close\r\n\r\n"
@@ -20,21 +20,23 @@ class Proxy_server:
         print('Connection address:', addr)
         while(True):
             try:
-                data = conn.recv(Buffer_size)
-                print("Get Data From %s" %data)
+                data = conn.recv(Buffer_Size).decode("utf-8")
+                print("Get Data From " + data)
                 data_tuple = (data, 80)
                 self.main_logic(data_tuple)
             except:
                 print("No data")
+                conn.send("No Data".encode())
                 
     def main_logic(self, data_tuple):
 
         while(True):
-            if self.check_cache(data_tuple):
-                print(self.get_cache(data_tuple))
-            else:
+            #print("Inside proxy main_logic function")
+            if not self.check_cache(data_tuple):
+                print("adding new cache")
                 html_data = self.get_HTML(data_tuple)
                 self.add_cache(html_data, data_tuple, time.time())
+                conn.send(self.get_HTML(data_tuple).encode())
         
     def get_HTML(self, data_tuple):
 
@@ -71,17 +73,18 @@ class Proxy_server:
         return result
 
     def add_cache(self, html, data_tuple, intro_time):
-        self.cache[data_tuple] = (html, intro_time)
+        self.cache[data_tuple[0]] = (html, intro_time)
 
     def check_cache(self, data_tuple):
-        return data_tuple in self.cache
+        print(data_tuple[0] in self.cache)
+        return data_tuple[0] in self.cache
 
     def update_cache(self, html, data_tuple, intro_time):
-        temp = {data_tuple: (html, intro_time)}
+        temp = {data_tuple[0]: (html, intro_time)}
         self.cache.update(temp)
 
     def get_cache(self, data_tuple):
-        return self.cache[data_tuple]
+        return self.cache[data_tuple[0]]
 
 
     
