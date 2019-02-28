@@ -34,7 +34,7 @@ class Proxy_server:
         now = time.time()
         for key in self.cache:
             old_html, save_time = self.get_cache((key, 80))
-            if(now - save_time > 60):
+            if(now - save_time >= 60):
                 new_html = self.get_HTML((key, 80))
                 self.update_cache(new_html, (key, 80), time.time())
 
