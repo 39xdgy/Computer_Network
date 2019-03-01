@@ -36,9 +36,7 @@ class client:
         self.Log_in.destroy()
 
 
-
-
-
+    
 
         
     def send_message(self, message):

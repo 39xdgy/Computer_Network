@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import tkinter as Tkinter
 from tkinter import filedialog
+import client
 
 root = Tkinter.Tk()
 
