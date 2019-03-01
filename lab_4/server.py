@@ -4,7 +4,7 @@ import socket
 
 class server:
     def __init__(self):
-        self.Port = 62
+        self.Port = 75
         self.Buffer_size = 1024
         self.client_list = {}
         self.s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
