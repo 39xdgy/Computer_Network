@@ -1,6 +1,6 @@
 import socket
 import json
-
+import time
 file_list = []
 
 def recv_message(s):
@@ -43,6 +43,10 @@ if __name__ == "__main__":
 
         s_list.append(ss)
 
+
+    before = time.time()
+
+    
     while file_index != len(file_list):
         for i in range(len(s_list)):
             now_s = s_list[i]
@@ -66,3 +70,5 @@ if __name__ == "__main__":
             
             
         
+    now = time.time()
+    print("It takes", now - before, "seconds. ")

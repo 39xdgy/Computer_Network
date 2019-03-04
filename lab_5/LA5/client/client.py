@@ -1,6 +1,7 @@
 # author: Sikder Huq
 import socket
 import json
+import time
 fileList = []
 
 
@@ -26,7 +27,7 @@ if __name__ == '__main__':
     host = '127.0.0.1'
  
     # Define the port on which you want to connect
-    port = 12345 
+    port = 3939
     s = socket.socket(socket.AF_INET,socket.SOCK_STREAM) 
  
     # connect to server on local computer
@@ -47,7 +48,7 @@ if __name__ == '__main__':
     # extract filenames from the message received
     fileList = json.loads(dataReceived)
     print (str(len(fileList)) + ' files available')
-
+    before = time.time()
     #download files
     for i in range(len(fileList)):
         fileName = fileList[i]
@@ -67,3 +68,7 @@ if __name__ == '__main__':
         
     # close the connection
     s.close()
+
+    now = time.time()
+
+    print("It takes", now-before, "seconds. ")
