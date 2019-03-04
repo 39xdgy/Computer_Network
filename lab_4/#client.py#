@@ -74,11 +74,12 @@ class client:
         while(True):
             response, Addr = self.s.recvfrom(1024)
             response = response.decode("utf-8")
+            response, ack = response.split("\n")
             response = "\n" + response
             print(response)
             
-            #ack_message = "ACK: " + 
-            #self.s.sendto("ACK:")
+            ack_message = "ACK: " + ack
+            self.s.sendto(ack_message.encode(), (self.server, self.port))
             '''
             messageText.configure(state = 'normal')
             messageText.insert(tkinter.END, response)
